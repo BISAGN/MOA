@@ -1,0 +1,404 @@
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<script type="text/javascript" src="js/AES_ENC_DEC/lib/aes.js"></script>
+<script type="text/javascript" src="js/AES_ENC_DEC/lib/pbkdf2.js"></script>
+<script type="text/javascript" src="js/AES_ENC_DEC/AesUtil.js"></script>
+<!-- <script type="text/javascript" src="js/amin_module/rbac/jquery-1.12.3.js"></script> -->
+<!-- datatable style and js start-->
+<link rel="stylesheet" href="assets/vendor/datatable_InfiniteScroll/css/custom_datatable.css">
+<link rel="stylesheet" href="assets/vendor/datatable_InfiniteScroll/css/datatables.min.css">
+<script type="text/javascript" src="assets/vendor/datatable_InfiniteScroll/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="assets/vendor/datatable_InfiniteScroll/js/jquery.mockjax.js"></script>
+<!-- datatable style and js end-->
+<script type="text/javascript" src="js\watermark\common.js"></script>
+
+<section class="dashboard-page">
+	<div class="container-fluid">
+		<div class="title-wrapper pt-30">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="title mb-30">
+						<h2>Link System Degree Profession Term Master</h2>
+					</div>
+				</div>
+				<!-- end col -->
+				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="breadcrumb-wrapper mb-30">
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="commonDashboard">Dashboard</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Link System Degree Profession Term
+									Master</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+				<!-- end col -->
+			</div>
+			<!-- end row -->
+		</div>
+
+		<div class="form-elements-wrapper">
+			<div class="row">
+				<div class="col-12">
+					<!-- input style start -->
+					<form:form name="Sys_Deg_prod_term_link" id="Sys_Deg_prod_term_link" action="Link_Sys_Deg_prod_termAction"
+						method="post" class="form-horizontal" modelAttribute="Link_Sys_Deg_prod_termCMD">
+						<div class="card-style mb-30">
+							<h6 class="mb-25">Link System Degree Profession Term Master</h6>
+							<div class="row">
+								<div class="col-12 col-sm-12 col-md-6 col-lg-4">
+									<div class="input-style-2">
+										<label>System<span class="mandatory">*</span></label> 
+										<div class="select-position">
+											<select name="system_id" id="system_id" class="singleselect form-control form-control-lg">
+												<option value="0">--Select--</option>
+												<c:forEach var="item" items="${getSystemList}"
+													varStatus="num">
+													<option value="${item.id}" name="${item.system_name}">${item.system_name}</option>
+												</c:forEach>
+											</select>
+										</div>
+										
+									</div>
+									<!-- end input -->
+								</div>
+								
+								<div class="col-12 col-sm-12 col-md-6 col-lg-4">
+									<div class="input-style-2">
+										<label>Degree<span class="mandatory">*</span></label> 
+											<div class="select-position">
+											<select name="degree_id" id="degree_id" class="singleselect form-control form-control-lg">
+													<option value="0">--Select--</option>
+											</select>
+										</div>
+									</div>
+									<!-- end input -->
+								</div>
+                               <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+									<div class="input-style-2">
+										<label>Profession<span class="mandatory">*</span></label> 
+											<div class="select-position">
+											<select name="prof" id="prof" class="singleselect form-control form-control-lg">
+											<option value="0">--Select--</option>
+												<c:forEach var="item" items="${getprofessionalList}"
+													varStatus="num">
+													<option value="${item.id}" name="${item.professional}">${item.professional}</option>
+												</c:forEach>
+											</select>
+										</div>
+									</div>
+									<!-- end input -->
+								</div>
+
+								<div class="col-12 col-sm-12 col-md-6 col-lg-4">
+									<div class="input-style-2">
+										<label>Term<span class="mandatory">*</span></label> 
+											<div class="select-position">
+											<select name="term" id="term" class="singleselect form-control form-control-lg">
+											<option value="0">--Select--</option>
+												<c:forEach var="item" items="${geti3_termList}"
+													varStatus="num">
+													<option value="${item.id}" name="${item.term}">${item.term}</option>
+												</c:forEach>
+											</select>
+										</div>
+									</div>
+									<!-- end input -->
+								</div>
+								<div class="col-12 col-sm-12 col-md-6 col-lg-4">
+									<div class="select-style-1">
+										<label for="username">Status<span class="mandatory">*</span></label>
+										<div class="select-position">
+											<select name="status" id="status" class="singleselect form-control form-control-lg">
+												<c:forEach var="item" items="${ActiveInActiveList}"
+													varStatus="num">
+													<option value="${item[0]}" name="${item[1]}">${item[1]}</option>
+												</c:forEach>
+											</select>
+										</div>
+									</div>
+									<div class="input-style-2 mt-3">
+										<input type="hidden" id="id" name="id" value="0"
+											autocomplete="off" />
+									</div>
+
+									<!-- end select -->
+								</div>
+
+							</div>
+
+							<ul class="buttons-group mainbtn">
+
+								<li><a id="btn-reload"
+									class="main-btn secondary-btn btn-hover btn-iconic-icon"
+									type="button"><i class="lni lni-search-alt"></i>Search</a></li>
+								<li><input id="btn-save"
+									class="main-btn info-btn btn-hover" type="submit" value="Save" />
+								</li>
+								<li><input id="btn-update"
+									class="main-btn info-btn btn-hover" type="submit" value="Update" />
+								</li>
+								<li><a href="link_sys_deg_prof_term_Url"
+									class="main-btn dark-btn n btn-hover" type="button">Reset</a></li>
+							</ul>
+						</div>
+						<!-- end card -->
+					</form:form>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-12">
+				<div class="card-style mb-30">
+					<div class="table-wrapper table-responsive custom-datatable-p">
+						<table class="table" id="search_link_sys_deg_prof_term">
+							<thead>
+								<tr>
+									<th><h6>Ser No</h6></th>
+									<th id="${item.id}"><h6>System</h6></th>
+									<th id="${item.id}"><h6>Degree</h6></th>
+									<th id="${item.id}"><h6>Profession</h6></th>
+									<th id="${item.id}"><h6>Term</h6></th>
+									<th><h6>Action</h6></th>
+								</tr>
+								<!-- 						end table row -->
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<!-- 				end table -->
+					</div>
+				</div>
+				<!-- 		end card -->
+			</div>
+			<!-- 	end col -->
+		</div>
+	</div>
+</section>
+
+<c:url value="getSearch_System_Master" var="searchUrl" />
+<form:form action="${searchUrl}" method="post" id="searchForm"
+	name="searchForm" modelAttribute="System_name1">
+	<input type="hidden" name="System_name1" id="System_name1" />
+	<input type="hidden" name="status1" id="status1" value="0" />
+</form:form>
+
+<c:url value="edit_link_sys_deg_prof_term_Url" var="Edit_Url" />
+<form:form action="${Edit_Url}" method="post" id="updateForm"
+	name="updateForm" modelAttribute="id2">
+	<input type="hidden" name="id2" id="id2">
+</form:form>
+
+<c:url value="delete_link_sys_deg_prof_term_Url" var="deleteUrl" />
+<form:form action="${deleteUrl}" method="post" id="deleteForm"
+	name="deleteForm" modelAttribute="id1">
+	<input type="hidden" name="id1" id="id1" value="0" />
+</form:form>
+
+<c:url value="Systemreport2" var="searchUrl" />
+<form:form action="${searchUrl}" method="post" id="search2"
+	name="search2" modelAttribute="comd1">
+	<input type="hidden" name="typeReport1" id="typeReport1" value="0" />
+</form:form>
+
+<script nonce="${cspNonce}" type="text/javascript">
+	$(document).ready(function() {
+
+		$("#btn-update").hide();
+		
+		mockjax1('search_link_sys_deg_prof_term');
+		table = dataTable('search_link_sys_deg_prof_term');
+		$('#btn-reload').on('click', function() {
+			table.ajax.reload();
+		});
+		$('.UpperClassName').keyup(function() {
+			this.value = this.value.toUpperCase();
+		});
+		
+		if(window.location.href.includes("msg"))
+		{
+			 var url = window.location.href.split("?msg")[0];
+			 window.location = url;
+		}
+	});
+
+	document.addEventListener('DOMContentLoaded', function() {
+		document.getElementById('system_id').onchange = function() {
+			return GetSystemFromDegree();
+		};
+		document.getElementById('btn-save').onclick = function() {
+			return Validation();
+		};
+		document.getElementById('btn-update').onclick = function() {
+			return Validation();
+		};
+	});
+
+	function GetSystemFromDegree() {
+		var system_id = $("select#system_id").val();
+
+		$.post("getSystemlistFromDegree?" + key + "=" + value,
+						{
+							system_id : system_id
+						},
+						function(j) {
+							var options = '<option value="' + "0" + '">'
+									+ "--Select--" + '</option>';
+							for (var i = 0; i < j.length; i++) {
+
+								options += '<option   value="' + j[i][0] + '" name="'+j[i][1]+'" >'
+										+ j[i][1] + '</option>';
+							}
+							$("select#degree_id").html(options);
+						});
+	}
+	
+	function setTimeLoadForTable(){
+		
+		document.querySelectorAll('.ADDSystem').forEach((items, index) => {
+			items.addEventListener('click', event => {
+				
+				var val=parseInt(index)+1;
+				
+				var hid = document.getElementById('editId'+val).value;
+				var hsys = document.getElementById('sysId'+val).value;
+				var hdeg = document.getElementById('degId'+val).value;
+				var hprof = document.getElementById('profId'+val).value;
+				var hterm = document.getElementById('termId'+val).value;
+				
+				if (confirm('Are You Sure You Want to Edit Detail ?')) {
+					editData(hid,hsys,hdeg,hprof,hterm);
+				} else {
+					return false;
+				}
+			})
+		});
+		document.querySelectorAll('.deleteOnclick').forEach((items, index) => {
+			items.addEventListener('click', event => {
+				
+				var val=parseInt(index)+1;
+				
+				var hid = document.getElementById('deleteID'+val).value;
+				
+				if (confirm('Are You Sure You Want to Delete Detail ?')) {
+					deleteData(hid);
+				} else {
+					return false;
+				}
+			})
+		});
+		
+	}
+	
+	function data(search_link_sys_deg_prof_term) {
+		
+		jsondata = [];
+		var table = $('#' + search_link_sys_deg_prof_term).DataTable();
+		var info = table.page.info();
+		var pageLength = info.length;
+		var startPage = info.start;
+		var endPage = info.end;
+		var Search = table.search();
+		var order = table.order();
+		var orderColunm = $(table.column(order[0][0]).header()).html()
+				.toLowerCase();
+		var orderType = order[0][1];
+
+		var system_id = $("#system_id").val();
+		var degree_id = $("#degree_id").val();
+		var prof = $("#prof").val();
+		var term = $("#term").val();
+		var status = $("#status").val();
+
+		$.post("getFilterlink_sys_deg_prof_termdata?" + key + "=" + value, {
+			startPage : startPage,
+			pageLength : pageLength,
+			Search : Search,
+			orderColunm : orderColunm,
+			orderType : orderType,
+			system_id : system_id,
+			degree_id : degree_id,
+			prof : prof,
+			term : term,
+			status : status
+
+		}, function(j) {
+
+			for (var i = 0; i < j.length; i++) {
+				jsondata.push([ j[i].sr_no, j[i].system_name, j[i].degree_name, j[i].professional, j[i].term,j[i].action ]);
+			}
+		});
+		$.post("getTotallink_sys_deg_prof_termdataCount?" + key + "=" + value, {
+			Search : Search,
+			system_id : system_id,
+			degree_id : degree_id,
+			prof : prof,
+			term : term,
+			status : status
+		}, function(j) {
+
+			FilteredRecords = j;
+
+		});
+		setTimeout(setTimeLoadForTable, 1000);
+	}
+
+	
+	function editData(id,sys,deg,prof,term) {
+		$("#id").val(id);
+		$("#system_id").val(sys);
+		$("#system_id").trigger('change');
+		$("#degree_id").val(deg);
+		$("#prof").val(prof);
+		$("#prof").trigger('change');
+		$("#term").val(term);
+		$("#term").trigger('change');
+		$("#btn-save").hide();
+		$("#btn-update").show();
+	}
+
+	function deleteData(id) {
+		$("#id1").val(id);
+		document.getElementById('deleteForm').submit();
+	}
+
+	function Validation() {
+
+		if ($("select#system_id").val() == "0") {
+			alert("Please Select System.");
+			$("select#system_id").focus();
+			return false;
+		}
+		if ($("select#degree_id").val() == "0") {
+			alert("Please Select Degree.");
+			$("select#degree_id").focus();
+			return false;
+		}
+		if ($("select#prof").val() == "0") {
+			alert("Please Select Profession.");
+			$("select#prof").focus();
+			return false;
+		}
+		if ($("select#term").val() == "0") {
+			alert("Please Select Term.");
+			$("select#term").focus();
+			return false;
+		}
+		if ($("select#status").val() == "0") {
+			alert("Please Select Status.");
+			$("select#status").focus();
+			return false;
+		}
+		if ($("select#status").val() == "2") {
+			alert("Only Select Active Status.");
+			$("select#status").focus();
+			return false;
+		}
+		return true;
+	}
+	
+
+</Script>

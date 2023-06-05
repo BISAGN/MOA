@@ -1,0 +1,308 @@
+:root{	
+	--primary-color-dark: #2f3546;	
+	--secondary-color-dark: #262d3f;	
+	--border-color-dark: #2f3546;
+	--border-color-dark2: #505050;
+	--theme-fonts-white: #ffffff;
+	--theme-fonts-offwhite: #f0f0f0;
+	--theme-fonts-light: #7A7A7A;	
+	--theme-input-bg: #282c38;
+	--theme-input-border:#545967;	
+	--theme-input-readonly: #464646; /* also use in disable, readonly */
+	--theme-darker-bg: #374250;
+	--theme-card-bg: #393939;
+	--theme-blue-bg: #cfe2ff;
+}
+
+body.db-dark-mode{
+	color: var(--theme-fonts-white);
+    background-color: var(--primary-color-dark);    
+}
+
+.db-dark-mode h1, .db-dark-mode h2, .db-dark-mode h3, .db-dark-mode h4, .db-dark-mode h5, .db-dark-mode h6,
+.db-dark-mode .h1, .db-dark-mode .h2, .db-dark-mode .h3, .db-dark-mode .h4, .db-dark-mode .h5, .db-dark-mode .h6,
+.db-dark-mode .custom-accord-menu .custom-link,
+.db-dark-mode .custom-accord-menu ::marker,
+.db-dark-mode .custom-accord-menu .uvp-list .video-list>li:before,
+.db-dark-mode .custom-tour-list ::marker{
+	color: var(--theme-fonts-white) !important;		
+}
+
+/* sidebar style start */
+.db-dark-mode .db_theme_default .sidebar-nav-wrapper,
+.db-dark-mode .db_theme_default .dropdown-menu{
+	background: var(--secondary-color-dark);	
+}
+/* .db-dark-mode .sidebar-nav-wrapper, */
+.db-dark-mode .db_theme_default .sidebar-nav-wrapper, 
+.db-dark-mode .db_theme_default .dropdown-menu,
+.db-dark-mode .db_theme_default .card-style,
+.db-dark-mode .card-style,
+.db-dark-mode .card-style-2{
+    background: var(--secondary-color-dark);
+}
+.db-dark-mode .sidebar-nav-wrapper,
+.db-dark-mode .settings-panel{
+	-webkit-box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1);
+  	-moz-box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1);
+ 	 box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1);
+}
+.db-dark-mode .db_theme_default .sidebar-nav-wrapper,
+.db-dark-mode .db_theme_default .card-style,
+.db-dark-mode .card-style{
+	-webkit-box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+  	-moz-box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+ 	 box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+}
+.db-dark-mode .db_theme_default .card-style,
+.db-dark-mode .card-style,
+.db-dark-mode .header .header-right .dropdown-menu,
+.db-dark-mode .col-two, .db-dark-mode .badges-groups,
+.db-dark-mode .icon-card,
+.db-dark-mode .header .header-right .dropdown-menu li,
+.db-dark-mode .card-style-2{
+	border-color: var(--border-color-dark);    
+}
+/* sidebar style end */
+
+/* input style combo start */
+.db-dark-mode .input-style-1 input, 
+.db-dark-mode .input-style-1 textarea,
+.db-dark-mode .input-style-2 input, 
+.db-dark-mode .input-style-2 textarea,
+.db-dark-mode .select-style-1 .select-position select,
+.db-dark-mode .custom-datatable-p .dataTables_length select,
+.db-dark-mode .dataTables_wrapper .dataTables_filter input,
+.db-dark-mode .select-style-2 .select-position select,
+.db-dark-mode .accordion-itemflush,
+.db-dark-mode .accordion-item,
+.db-dark-mode .select2-container .select2-selection--single .select2-selection__rendered,
+.db-dark-mode .select2-dropdown,
+.db-dark-mode .select2-container--default .select2-search--dropdown .select2-search__field,
+.db-dark-mode .multiselect,
+.db-dark-mode .select2-container--default .select2-selection--multiple{
+	background: var(--theme-input-bg) !important;
+	border-color: var(--theme-input-border) !important;
+}
+
+.db-dark-mode .form-check-input{
+	background-color: var(--theme-input-bg) !important;
+	border-color: var(--theme-input-border) !important;
+}
+
+.db-dark-mode .input-style-1 input[disabled], .db-dark-mode .input-style-1 select[disabled], .db-dark-mode .input-style-1 textarea[disabled], .db-dark-mode .input-style-1 input[readonly], .db-dark-mode .input-style-1 select[readonly], .db-dark-mode .input-style-1 textarea[readonly],
+.db-dark-mode .input-style-2 input[disabled], .db-dark-mode .input-style-2 select[disabled], .db-dark-mode .input-style-2 textarea[disabled], .db-dark-mode .input-style-2 input[readonly], .db-dark-mode .input-style-2 select[readonly], .db-dark-mode .input-style-2 textarea[readonly],
+.db-dark-mode .input-style-3 input[disabled], .db-dark-mode .input-style-3 select[disabled], .db-dark-mode .input-style-3 textarea[disabled], .db-dark-mode .input-style-3 input[readonly], .db-dark-mode .input-style-3 select[readonly], .db-dark-mode .input-style-3 textarea[readonly],
+.db-dark-mode .select-style-1 input[disabled], .db-dark-mode .select-style-1 select[disabled], .db-dark-mode .select-style-1 textarea[disabled], .db-dark-mode .select-style-1 input[readonly], .db-dark-mode .select-style-1 select[readonly], .db-dark-mode .select-style-1 textarea[readonly]{
+    background-color: var(--theme-input-readonly);
+    cursor: not-allowed;
+}
+.db-dark-mode .input-style-1 label,
+.db-dark-mode .input-style-2 label,
+.db-dark-mode .input-style-3 label,
+.db-dark-mode .select-style-1 label,
+.db-dark-mode .input-style-form-check label,
+.db-dark-mode .input-style-form-check_block label,
+.db-dark-mode .buttonmerge,
+.db-dark-mode .inst_block .inst_list li,
+.db-dark-mode label{
+	color: var(--theme-fonts-offwhite);
+}
+.db-dark-mode p,
+.db-dark-mode .breadcrumb-wrapper .breadcrumb li a,
+.db-dark-mode.db_theme_default .header-g .primary-btn,
+.db-dark-mode.db_theme_default .breadcrumb-wrapper .breadcrumb li,
+.db-dark-mode .card-style-2 .card-content a.read-more,
+.db-dark-mode .custom-link,
+.db-dark-mode a.custom-link:hover,
+.db-dark-mode .tg-text-heighlight,
+.db-dark-mode .popover-tour .tour-exit:before,
+.db-dark-mode .header .header-right .dropdown-menu li a .content span,
+.db-dark-mode.db_theme_default .header .header-right .dropdown-menu li a{
+	color: var(--theme-fonts-offwhite) !important;
+}
+.db-dark-mode.db_theme_default .breadcrumb-item.active{
+	color: var(--theme-fonts-white);
+}
+.db-dark-mode .breadcrumb-wrapper .breadcrumb li a:hover{
+    color: var(--theme-fonts-light);
+}
+.db-dark-mode .header-g .primary-btn,
+.db-dark-mode .header-g .header-right .notification-box button.dropdown-toggle, 
+.db-dark-mode .header-g .header-right .header-message-box button.dropdown-toggle{
+	background: var(--primary-color-dark);
+}
+.db-dark-mode .header-g .header-right .notification-box button.dropdown-toggle, 
+.db-dark-mode .header-g .header-right .header-message-box button.dropdown-toggle{
+    border-color: var(--border-color-dark);
+    color: var(--theme-fonts-offwhite); 
+}
+
+.db-dark-mode .input-style-1 input,
+.db-dark-mode .input-style-1 textarea,
+.db-dark-mode .input-style-2 input,
+.db-dark-mode .input-style-2 textarea,
+.db-dark-mode .input-style-3 input,
+.db-dark-mode .input-style-3 textarea,
+.db-dark-mode .input-style-1 input::placeholder,
+.db-dark-mode .input-style-2 input::placeholder,
+.db-dark-mode .input-style-3 input::placeholder,
+.db-dark-mode .input-style-1 textarea::placeholder,
+.db-dark-mode .input-style-2 textarea::placeholder,
+.db-dark-mode .input-style-3 textarea::placeholder, 
+.db-dark-mode .select-style-1 .select-position select option,
+.db-dark-mode .select-style-1 .select-position select,
+.db-dark-mode .select-style-2 .select-position select,
+.db-dark-mode .input-style-1 input[type="file"],
+.db-dark-mode .input-style-2 input[type="file"],
+.db-dark-mode select,
+.db-dark-mode .select2-container--default .select2-selection--single .select2-selection__rendered,
+.db-dark-mode .select2-container--default.select2-container--below .select2-selection--single .select2-selection__rendered,
+.db-dark-mode .select2-container--default .select2-search--dropdown .select2-search__field,
+.db-dark-mode .multiselect,
+.db-dark-mode input::placeholder{
+	color: var(--theme-fonts-offwhite) !important; 
+}
+
+
+.db-dark-mode .input-style-1 .form-control,
+.db-dark-mode .input-style-2 .form-control{
+	color: var(--theme-fonts-offwhite) !important;
+}
+.db-dark-mode .input-style-1 input:-ms-input-placeholder,
+.db-dark-mode .input-style-2 input:-ms-input-placeholder,
+.db-dark-mode .input-style-3 input:-ms-input-placeholder,
+.db-dark-mode .input-style-1 textarea:-ms-input-placeholder,
+.db-dark-mode .input-style-2 textarea:-ms-input-placeholder,
+.db-dark-mode .input-style-3 textarea:-ms-input-placeholder{ 
+  color: var(--theme-fonts-offwhite)!important;
+}
+
+.db-dark-mode .select-style-1 .select-position::after,
+.db-dark-mode .select2:after{
+	border-color: var(--theme-fonts-offwhite);
+}
+.db-dark-mode .input-style-2 .ui-datepicker-trigger,
+.db-dark-mode .input-style-2 .icon{
+	background: var(--theme-fonts-light);
+	color: var(--theme-fonts-offwhite);
+}
+.db-dark-mode .dark-btn-outline{
+	color: var(--theme-fonts-offwhite);
+}
+
+/* input style combo end */
+
+/* datatable, simple table style start */
+
+.db-dark-mode.db_theme_default .custom-datatable-p .dataTables_length,
+.db-dark-mode.db_theme_default .custom-datatable-p .dataTables_filter{
+	background: var(--theme-fonts-light);
+	color: var(--theme-fonts-offwhite);
+}
+.db-dark-mode.db_theme_default .dataTables_wrapper .dataTables_length,
+.db-dark-mode.db_theme_default .dataTables_wrapper .dataTables_filter,
+.db-dark-mode.db_theme_default .dataTables_wrapper .dataTables_info,
+.db-dark-mode.db_theme_default .dataTables_wrapper .dataTables_processing,
+.db-dark-mode.db_theme_default .dataTables_wrapper .dataTables_paginate{
+	color: var(--theme-fonts-offwhite);
+}
+.db-dark-mode table.dataTable tbody tr {
+    background-color: var(--theme-darker-bg);
+    color: var(--theme-fonts-offwhite);
+}
+.db-dark-mode.db_theme_default table.dataTable tr:nth-child(even) {
+    background-color: var(--theme-fonts-light);
+}
+.db-dark-mode.db_theme_default .custom-datatable-p table.dataTable tbody tr:hover {
+    background-color: #474747;
+}
+.db-dark-mode .custom-table table,
+.db-dark-mode .custom-table td,
+.db-dark-mode .custom-table th,
+.db-dark-mode .simple-table table,
+.db-dark-mode .simple-table td,
+.db-dark-mode .simple-table th,
+.db-dark-mode .b-top,
+.db-dark-mode .custom-table .table tbody tr:last-child>*,
+.db-dark-mode .simple-table .table tbody tr:last-child>*,
+.db-dark-mode.db_theme_default table.dataTable tbody td,
+.db-dark-mode .custom-table, .db-dark-mode .simple-table{
+	border-color: var(--border-color-dark2);
+}
+
+
+.db-dark-mode .custom-table-v2 .table td{
+--bs-table-accent-bg: var(--primary-color-dark);
+}
+/* datatable, simple table style start */
+
+/* accordion dark style start */
+/* .db-dark-mode.db_theme_default .accordion-button{
+	background-color: #ffffff;
+} */
+/* accordion dark style end */
+.db-dark-mode .custom-card.card,
+.db-dark-mode .card{
+	background-color: var(--theme-darker-bg);
+	border-color: var(--border-color-dark);
+}
+.db-dark-mode .filter-title,
+.db-dark-mode .custom-tabs .nav-pills{
+	border-color: var(--border-color-dark2);   
+}
+.db-dark-mode .card-btn-footer{
+	background: var(--theme-input-bg); 
+}
+.db-dark-mode .db_theme_default .card-style,
+.db-dark-mode .content-body,
+.db-dark-mode .db_theme_default .tunnel-form .card-style,
+.db-dark-mode.db_theme_default .tunnel-form .card-style{
+    background: var(--secondary-color-dark);
+}
+.db-dark-mode.db_theme_default .wizard .content>.body {
+    background-color: var(--theme-fonts-light);
+}
+
+/* theme setting sidebar start */
+.db-dark-mode .settings-panel{
+    background: var(--secondary-color-dark);
+    border-color: var(--border-color-dark);
+}
+.db-dark-mode .settings-panel .settings-heading{
+	color: var(--theme-fonts-offwhite);
+	border-color: var(--border-color-dark);
+}
+.db-dark-mode .settings-panel .settings-heading span{
+	color: var(--theme-fonts-light);
+}
+.db-dark-mode .settings-panel .sidebar-bg-options{
+	background: var(--primary-color-dark);
+	color: var(--theme-fonts-offwhite);
+}
+.db-dark-mode .settings-panel .sidebar-bg-options.selected{
+	background: var(--theme-darker-bg);	
+}
+
+/* theme setting sidebar end */
+
+/* modal design start */
+.db-dark-mode .modal-header,
+.db-dark-mode .modal-footer,
+.db-dark-mode .popover-header{
+	border-color: var(--theme-input-border);
+}
+
+.db-dark-mode .custom-modal .modal-content,
+.db-dark-mode .popover.custom-tour,
+.db-dark-mode .custom-notify-dropdown,
+.db-dark-mode .header .header-right .dropdown-menu
+{
+	background: var(--secondary-color-dark) !important;
+}
+.db-dark-mode .btn-close,
+.db-dark-mode .notify-close,
+.db-dark-mode .custom-notify-dropdown li:hover .notify-close{
+	background-color: var(--theme-blue-bg) !important;
+}
+/* modal design end */ 

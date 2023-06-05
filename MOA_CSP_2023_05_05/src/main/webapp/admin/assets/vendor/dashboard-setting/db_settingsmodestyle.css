@@ -1,0 +1,674 @@
+:root{	
+	--theme-dark-col1: #0d3d3a;	/* success */
+	--theme-dark-col2: #452f00; /* warning */
+	--theme-dark-col3: #421915; /* danger */
+	--theme-dark-col4: #00384f; /* info */
+	--theme-dark-col4: #09142b;	/* dark */
+}
+/******************************** theme switch mode button start ********************************/
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+#settings-trigger {
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  height: 45px;
+  width: 45px;
+  background: #1F3BB3;
+  z-index: 99;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-radius: 100%;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  cursor: pointer;
+}
+
+#settings-trigger {
+    animation-name: fadeInUp;
+}
+#settings-trigger i {
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+/* .rtl #settings-trigger {
+  right: auto;
+  left: 30px;
+} */
+.infinite-spin, #settings-trigger i {
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/******************************** theme switch mode button end ********************************/
+
+/******************************** Settings Panel start ********************************/
+.settings-panel {
+  border-left: 1px solid #dee2e6;
+  display: block;
+  position: fixed;
+  top: 115px;
+  right: -300px;
+  bottom: 0;
+  width: 300px;
+  height: 100vh;
+  min-height: 100%;
+  background: #ffffff;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-property: right, box-shadow;
+  -moz-transition-property: right, box-shadow;
+  -o-transition-property: right, box-shadow;
+  transition-property: right, box-shadow;
+  z-index: 9999;
+}
+
+.settings-panel .nav-tabs {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+.settings-panel .nav-tabs .nav-item {
+  border: none;
+}
+
+.settings-panel .nav-tabs .nav-item .nav-link {
+  background: transparent;
+  text-align: center;
+  border: none;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #1F1F1F;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  transition-property: color;
+  -webkit-transition-property: color;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.settings-panel .nav-tabs .nav-item .nav-link.active {
+  background: transparent;
+  color: #1F3BB3;
+}
+
+.settings-panel .tab-content {
+  border: none;
+  padding: 20px 0 0px 0;
+}
+
+.settings-panel .tab-content .tab-pane.scroll-wrapper {
+  position: relative;
+  max-height: 100vh;
+  height: 100%;
+  padding-bottom: 180px;
+}
+
+.settings-panel .settings-heading {
+  padding: 10px 15px;
+  font-size: 0.812rem;  
+  font-weight: 500;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.9);
+  opacity: 0.9;
+  margin-bottom: 0;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  margin: 0 0 5px 0;
+}
+.settings-panel .settings-heading span{
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	color: #5d657b;
+	margin-top: 3px;
+}
+
+.theme-customizer-inner {
+    overflow-y: auto;
+    height: 100%;
+}
+
+/* .rtl .settings-panel .settings-heading {
+  padding: 16px 35px 13px 0;
+  text-align: right;
+}
+
+.rtl .settings-panel small.settings-heading, .rtl .settings-panel .settings-heading.small {
+  padding: 16px 0 13px 12px;
+} */
+
+.settings-panel .sidebar-bg-options {
+  padding: 8px 15px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  font-weight: 500;
+  color: #595959;
+  background: #ffffff;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  margin-bottom: 5px;
+}
+
+.settings-panel .sidebar-bg-options.selected{	
+  background: #f9f9f9;  
+  color: #1F3BB3;
+}
+.settings-panel .sidebar-bg-options.selected .img-ss{
+	border-color: #56acff;
+	border-width: 4px;
+}
+
+.settings-panel .color-tiles {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 5px 15px;
+  padding-top: 5px;
+}
+
+.settings-panel .color-tiles .tiles,
+.settings-panel .color-tiles .tiles1,
+.settings-panel .color-tiles .tiles2{
+  margin: 8px 18px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border: 1px solid #e2e4e7;
+}
+.settings-panel .color-tiles .tiles.selected,
+.settings-panel .color-tiles .tiles1.selected,
+.settings-panel .color-tiles .tiles2.selected{
+	border-color: #222222 !important;
+}
+
+.settings-panel .color-tiles .tiles:before,
+.settings-panel .color-tiles.sidebar-tiles .tiles1:before,
+.settings-panel .color-tiles.nav-sidebar-mixer .tiles2:before {
+  content: "\ea5b";
+  font-family: "LineIcons";
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  background: #1F3BB3;  
+  border: 1px solid #a0b2ff;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: bold;
+  text-align:center;
+  color: #f0f0f0;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  border-radius: 100%;  
+}
+
+.settings-panel .color-tiles .tiles.selected:before,
+.settings-panel .color-tiles.sidebar-tiles .tiles1.selected:before,
+.settings-panel .color-tiles.nav-sidebar-mixer .tiles2.selected:before{  
+  opacity: 1;  
+}
+
+.settings-panel .chat-list {
+  padding-left: 0;
+}
+
+.settings-panel .chat-list .list {
+  padding: 0.4rem 0.8rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.settings-panel .chat-list .list:last-child {
+  border-bottom: none;
+}
+
+.settings-panel .chat-list .list .profile {
+  position: relative;
+  margin-right: 1rem;
+}
+
+.settings-panel .chat-list .list .profile img {
+  width: 2.50rem;
+  height: 2.50rem;
+  border-radius: 100%;
+}
+
+.settings-panel .chat-list .list .profile span {
+  height: 0.75rem;
+  width: 0.75rem;
+  position: absolute;
+  bottom: 0.34rem;
+  right: 0;
+  border: 0.13rem solid #ffffff;
+  border-radius: 100%;
+}
+
+.settings-panel .chat-list .list .profile span.online {
+  background: #34B1AA;
+}
+
+.settings-panel .chat-list .list .profile span.offline {
+  background: #ffaf00;
+}
+
+.settings-panel .chat-list .list .info {
+  margin-right: auto;
+}
+
+.settings-panel .chat-list .list .info p {
+  display: block;
+  margin-bottom: 0;
+}
+
+.settings-panel .chat-list .list .info p:last-child {
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
+/* .rtl .settings-panel .chat-list .list .info p:last-child {
+  text-align: right;
+} */
+
+.settings-panel .chat-list .list.active {
+  background: #fbfbfb;
+}
+
+.settings-panel.open {
+  right: 0;
+}
+
+.settings-panel .settings-close {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  color: #ffffff;
+  background: #1F3BB3;
+  border-radius: 50px;
+  padding: 4px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  z-index: 999;
+  width: 30px;
+  height: 30px;
+  text-align: center;  
+  font-size: 12px;
+  line-height: 22px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+  box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+}
+
+/* .rtl .settings-panel .settings-close {
+  right: unset;
+  left: 10px;
+} */
+
+.settings-panel .events p {  
+  font-weight: 400;
+}
+
+/* .rtl .settings-panel .events p {
+  text-align: right;
+}
+
+.rtl .settings-panel {
+  right: unset;
+  left: -300px;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+}
+
+.rtl .settings-panel .chat-list {
+  padding-right: 0;
+}
+
+.rtl .settings-panel .chat-list .list .profile {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+.rtl .settings-panel .chat-list .list .info {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.rtl .settings-panel .chat-list .list .info .badge {
+  margin-right: 10px;
+}
+
+.rtl .settings-panel.open {
+  left: 0;
+  right: unset;
+} */
+
+#theme-settings .settings-close {
+  top: 15px;  
+}
+#theme-settings.settings-panel .settings-close:hover {  
+  background: #27272E;
+}
+
+@media (max-width: 991px) {
+  #settings-trigger {
+    display: none;
+  }
+}
+
+/******************************** Settings Panel end ********************************/
+
+/******************************** Utilities start********************************/
+.img-ss, .settings-panel .color-tiles .tiles,
+.settings-panel .color-tiles.sidebar-tiles .tiles1,
+.settings-panel .color-tiles.nav-sidebar-mixer .tiles2 {
+  width: 30px;
+  height: 30px;  
+  cursor: pointer;
+  position: relative;
+}
+
+.img-ss{
+	border: 1px solid #cccccc;
+}
+
+.bg-primary, .settings-panel .color-tiles .tiles.primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-secondary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-success, .swal2-modal .swal2-buttonswrapper .swal2-styled.swal2-confirm,
+.settings-panel .color-tiles .tiles.success{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+.settings-panel .color-tiles .tiles1.success{
+  --bs-bg-opacity: 1;  
+  background: linear-gradient(90deg, #34B1AA 20%, #002926 20%);
+}
+.settings-panel .color-tiles .tiles2.success{
+	--bs-bg-opacity: 1;
+	background: linear-gradient(120deg, #34B1AA 50%, #002926 50%);
+}
+
+.bg-info,
+.settings-panel .color-tiles .tiles.info{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+}
+.settings-panel .color-tiles .tiles1.info{
+	--bs-bg-opacity: 1;  
+  background: linear-gradient(90deg, #52CDFF 20%, #003449 20%);
+}
+.settings-panel .color-tiles .tiles2.info{
+	--bs-bg-opacity: 1;
+	background: linear-gradient(120deg, #52CDFF 50%, #003449 50%);
+}
+
+
+.bg-warning,
+.settings-panel .color-tiles .tiles.warning{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+}
+.settings-panel .color-tiles .tiles1.warning{
+	--bs-bg-opacity: 1;
+	background: linear-gradient(90deg, #ffaf00 20%, #322200 20%);
+}
+.settings-panel .color-tiles .tiles2.warning{
+	--bs-bg-opacity: 1;
+	background: linear-gradient(120deg, #ffaf00 50%, #322200 50%);
+}
+
+.bg-danger,
+.settings-panel .color-tiles .tiles.danger{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.settings-panel .color-tiles .tiles1.danger{
+	--bs-bg-opacity: 1;
+  background: linear-gradient(90deg, #F95F53 20%, #454545 20%);
+}
+
+.settings-panel .color-tiles .tiles2.danger{
+	--bs-bg-opacity: 1;
+	background: linear-gradient(120deg, #F95F53 50%, #454545 50%);
+}
+
+.bg-light, .settings-panel .color-tiles .tiles.light,
+.settings-panel .color-tiles .tiles.default{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.settings-panel .color-tiles .tiles1.default {
+	--bs-bg-opacity: 1;
+	background: linear-gradient(90deg, #f1f5f9 20%, #394049 20%);
+}
+
+.settings-panel .color-tiles .tiles2.default{
+	--bs-bg-opacity: 1;
+	background: linear-gradient(120deg, #f1f5f9 50%, #394049 50%);
+}
+.default-tag {	
+    font-size: 12px;
+    line-height: normal;
+    position: absolute;
+    bottom: -18px;   
+}
+
+.bg-dark,
+.settings-panel .color-tiles .tiles.dark{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+.settings-panel .color-tiles.sidebar-tiles .tiles1.dark{
+	--bs-bg-opacity: 1;
+	background: linear-gradient(90deg, #1E283D 20%, #1c1d21 20%);
+}
+.settings-panel .color-tiles .tiles2.dark{
+	--bs-bg-opacity: 1;
+	background: linear-gradient(120deg, #1E283D 50%, #1c1d21 50%);
+}
+
+.bg-black {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-white {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-body {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-transparent {
+  --bs-bg-opacity: 1;
+  background-color: transparent !important;
+}
+/******************************** Utilities end ********************************/
+
+/******************************** header, sidebar skins start ********************************/
+/* header skins start */
+.header.navbar-dark{
+    background: #1E283D;
+}
+.header.navbar-danger{
+  background: #F95F53;
+}
+.header.navbar-light{
+  background: #ffffff;
+  border-left: 1px solid #dee2e6;
+}
+.header.navbar-warning{
+  background: #ffaf00;
+}
+.header.navbar-success{
+    background: #34B1AA;
+}
+.header.navbar-info{
+    background: #52CDFF;
+}
+/* header skins end */
+
+
+/* sidebar skins start */
+.sidebar-nav-wrapper.navbar-dark1{
+    background: #1c1d21;
+}
+.sidebar-nav-wrapper.navbar-danger1{
+  background: #454545;
+}
+.sidebar-nav-wrapper.navbar-light1{
+  background: #ffffff;
+  border-left: 1px solid #dee2e6;
+}
+.sidebar-nav-wrapper.navbar-warning1{
+  background: #322200;
+}
+.sidebar-nav-wrapper.navbar-success1{
+    background: #002926;       
+}
+.sidebar-nav-wrapper.navbar-info1{
+    background: #003449;
+}
+/* sidebar skins end */
+
+/* Navigation + sidebar skin mixer start */
+.header.navbar-success-n2{
+    background: #34B1AA;
+}
+.sidebar-nav-wrapper.navbar-success-s2 {
+    background: #002926;
+}
+
+.header.navbar-warning-n2{
+    background: #ffaf00;
+}
+.sidebar-nav-wrapper.navbar-warning-s2 {
+    background: #322200;
+}
+
+.header.navbar-danger-n2{
+    background: #F95F53;
+}
+.sidebar-nav-wrapper.navbar-danger-s2 {
+    background: #454545;
+}
+
+.header.navbar-info-n2{
+    background: #52CDFF;
+}
+.sidebar-nav-wrapper.navbar-info-s2 {
+    background: #003449;
+}
+
+.header.navbar-dark-n2{
+    background: #1E283D;
+}
+.sidebar-nav-wrapper.navbar-dark-s2 {
+    background: #1c1d21;
+}
+
+
+/* Navigation + sidebar skin mixer end */
+
+
+/******************************** header, sidebar skins end ********************************/
+
+
+

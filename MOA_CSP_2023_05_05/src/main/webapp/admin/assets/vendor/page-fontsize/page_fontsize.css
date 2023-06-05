@@ -1,0 +1,64 @@
+/* landing pages css start*/
+
+.header .input-group .btn {
+	padding: 0px;
+	width: 25px;
+	height: 24px;
+	text-align: center;
+	font-size: 13px;
+	line-height: inherit;
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
+}
+
+.header .input-group .btn:hover {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	transition: all 0.4s ease-in-out;
+}
+
+.header .input-group {
+	position: absolute;
+	display: flex;
+	justify-content: end;
+	right: 34px;
+}
+/* landing pages css end*/
+
+/* dashboard pages css start*/
+.head-top .page-fontsize .btn {
+	padding: 0px;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	font-size: 12px;
+	line-height: inherit;
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
+	margin: 0px 3px;
+}
+
+.head-top .page-fontsize .btn:hover {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.head-top .page-fontsize .btn:focus {
+	box-shadow: none;
+}
+
+.head-top .page-fontsize .btn:hover {
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
+}
+
+.head-top .page-fontsize {
+	align-items: center;
+	display: flex;	
+}
+/* dashboard pages css end*/

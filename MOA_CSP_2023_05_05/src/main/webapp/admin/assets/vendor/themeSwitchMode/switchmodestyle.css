@@ -1,0 +1,76 @@
+/*************************************** Switch mode button style ***************************************/
+.switch-mode{
+	/* position: fixed;
+	top: 230px; */
+	position: relative;
+	top: auto;
+	left: 0;
+	background-color: #e1bb00;
+	border-radius: 4px 4px 30px 30px;
+	padding: 4px !important;
+	z-index: 5;
+	-webkit-box-shadow: 0px 4px 6px 0px rgba(66,66,66,1);
+	-moz-box-shadow: 0px 4px 6px 0px rgba(66,66,66,1);
+	box-shadow: 0px 4px 6px 0px rgba(66,66,66,1);
+	margin-right: 10px;
+}
+.switch-mode:hover{
+	    -webkit-box-shadow: 0px 4px 6px 0px rgb(124 124 124);
+    -moz-box-shadow: 0px 4px 6px 0px rgb(124 124 124);
+    box-shadow: 0px 4px 6px 0px rgb(124 124 124);
+    
+}
+.switch-mode .switch-btn-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.switch-mode .switch-btn-list .switch-btn {
+	margin: 0;
+}
+.switch-btn .sbtn {
+	text-align: center;
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 22px;	
+	height: 30px;
+	width: 30px;	
+	border: 1px solid transparent;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	background: transparent;
+	padding: 2px;
+  	-moz-transform: perspective(1px) translateZ(0);
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -moz-animation-name: hvr-pulse;
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;        
+}
+.light-mode .switch-btn .light-btn{
+	display: none;
+}
+.light-mode .switch-mode{
+	background-color: #262d3f;
+}
+.dark-mode .switch-btn .dark-btn{
+	display: none;
+}
+
+
+

@@ -1,0 +1,71 @@
+/* practioner signup style */
+.radiostyle {
+	margin: 5px 10px 0px 10px;
+}
+
+.signup-form-group {
+	text-align: center;
+}
+
+.box-border-p {
+	border: 1px solid #ced4da;
+	border-radius: 0.3rem;
+	padding: 15px 0px 0px 0px;
+	margin-bottom: 25px;
+}
+
+.footer-btn {
+	margin-top: 20px;
+}
+.footer-btn-list{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: center;
+    -ms-flex-pack: justify;
+	justify-content: center;
+	margin: 0 -10px;
+}
+.footer-btn-list .f-btn{
+	padding: 0 10px;
+}
+
+.mt-150 {
+	margin-top: 150px;
+}
+
+/* signup style end */
+
+/* open api platform page start */
+.app-block {
+	padding: 10px;
+	text-align: center;
+}
+
+.app-icon {
+	width: 100px;
+	height: 100px;
+	background: #2eca6a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	margin: 0 auto 15px auto;
+}
+
+.app-icon i {
+	color: #ffffff;
+	font-size: 50px;
+}
+
+/* open api platform page end */

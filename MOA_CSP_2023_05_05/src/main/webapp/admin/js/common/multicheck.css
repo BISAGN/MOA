@@ -1,0 +1,77 @@
+.selectBox {
+	position: relative;
+}
+element.style {
+    width: 70%;
+}
+
+span.subspan {
+	padding: 5px;
+	background-color: #79cece54;
+	border-radius: 20px;
+	margin: 3px;
+	display: block;
+	width: fit-content;
+}
+
+.selectBox select {
+	width: 100%;
+	font-weight: bold;
+}
+
+.overSelect {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.checkboxes,#show_list {
+	
+	
+	height: 245px;
+	 overflow: auto;
+}
+
+.checkboxes label {
+	margin-left: 10px;
+	text-align: left;
+	display: block;
+}
+
+.checkboxes label:hover {
+	background-color: #1e90ff;
+}
+
+.col-md-6.chkdiv {
+    border: 2px solid #990000;
+    height: 300px;
+    padding: 0;
+}
+.chkdivhead{
+	 border-bottom: 2px solid #990000;
+}
+div#checkboxes,div#show_list {
+    display: block;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+

@@ -1,0 +1,1205 @@
+.timetable {
+  display: grid;
+  grid-template-areas: ". week" "time content";
+  grid-template-columns: 120px;
+  grid-template-rows: 60px;
+  width: fit-content;
+/*   height: 100vh; */
+}
+
+/* timetable gradient block */
+.timetable .accent-pink-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ee8ebc, #eea08e);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .accent-pink-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(238, 142, 188, 0.3);
+  transform: scale(1.05);
+}
+.timetable .accent-orange-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #eec08e, #dcee8e);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .accent-orange-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(238, 192, 142, 0.3);
+  transform: scale(1.05);
+}
+.timetable .accent-green-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #bcee8e, #8eeea0);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .accent-green-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(188, 238, 142, 0.3);
+  transform: scale(1.05);
+}
+.timetable .accent-cyan-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #8eeec0, #8edcee);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .accent-cyan-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(142, 238, 192, 0.3);
+  transform: scale(1.05);
+}
+.timetable .accent-blue-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #8ebcee, #a08eee);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .accent-blue-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(142, 188, 238, 0.3);
+  transform: scale(1.05);
+}
+.timetable .accent-purple-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #c08eee, #ee8edc);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .accent-purple-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(192, 142, 238, 0.3);
+  transform: scale(1.05);
+}
+.timetable .accent-red-gradient {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #dc3545c2, #fd7e146e);
+    transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .accent-red-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(226, 156, 136, 0.3);
+  transform: scale(1.05);
+}
+/* timetable gradient block */
+
+
+.timetable .weekend {
+  background: #f7f7f7;
+  color: #87a1ad;
+}
+.timetable .week-names {
+  grid-area: week;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ee8ebc, #eea08e);
+  transition: 0.2s ease box-shadow;
+  color:white;
+}
+.timetable .week-names > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*   width: 100%; */
+/*   height: 100%; */
+  box-shadow: inset 1px 0 0 #ECEFF1;
+}
+.timetable .time-interval {
+  grid-area: time;
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  font-size: 14px;
+  background: linear-gradient(135deg, #8eeec0, #8edcee);
+}
+.timetable .time-interval > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*   width: 100%; */
+/*   height: 100%; */
+  box-shadow: inset 0 1px 0 0 #ECEFF1;
+}
+.timetable .content {
+  grid-area: content;
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+}
+.timetable .content > div {
+  box-shadow: inset 1px 0 0 #ECEFF1, inset 0 1px 0 0 #ECEFF1;
+     display: flex; 
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;  
+}
+.db_theme_default .card-style {
+/*     background: #ffffff; */
+}
+
+.tab-group {
+    list-style: none;
+    padding: 0;
+/*     margin: 0 0 40px 0; */
+}
+.tab-group .active a {
+    background: #60925c;
+    color: #ffffff;
+}
+.tab-group .active a:hover{
+    color: #ffffff;
+}
+.tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+    margin-bottom: 30px;
+}
+.choose_field {
+    padding: 0.275rem 0.55rem;
+    color: #000;
+    background-color: #8ee9cc;
+     border-color: #8ee9cc; 
+}
+.choose_field:hover ,.choose_field:active ,.choose_field:focus {
+    color: #fff;
+    background-color: #ee8eba;
+    border-color: #ee8fba;
+}
+
+/* .fatch_value { */
+/*     display: none; */
+/* } */
+.fatch_value span{
+    display: block;
+}
+.time-interval > div 
+{
+width:120px;
+height:auto;
+}
+.week-names > div 
+{
+width:194px;
+/* height:150px; */
+}
+.content > div{
+width:194px;
+/* height:180px; */
+}
+
+.create_tt .option-group {
+  width: 100%;
+  max-width: 400px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.25em;
+  font-size: 4rem;
+  margin: 0.1em auto;
+  transform: translateZ(0);
+}
+.create_tt .option-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 120%;
+  height: 100%;
+  margin: 0 -10%;
+}
+.create_tt .option {
+  overflow: hidden;
+  flex: 1;
+  display: block;
+  padding: 0.5em;
+  background: #FFF;
+  position: relative;
+  margin: 0em;
+  margin-right: 0.2em;
+  border-radius: 0.25em;
+  display: flex;
+/*   justify-content: flex-end; */
+  align-items: flex-start;
+  flex-direction: column;
+  cursor: pointer;
+  opacity: 0.5;
+  transition-duration: 0.8s, 0.6s;
+  transition-property: transform, opacity;
+  transition-timing-function: cubic-bezier(0.98, 0, 0.22, 0.98), linear;
+  will-change: transform, opacity;
+}
+.create_tt .option:last-child {
+  margin-right: 0;
+}
+.create_tt .option__indicator {
+  display: block;
+  transform-origin: left bottom;
+  transition: inherit;
+  will-change: transform;
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  left: 0.5em;
+}
+.create_tt .option__indicator:before,
+.create_tt .option__indicator:after {
+    content: '';
+    display: block;
+    border: solid 2px #60925c;
+    border-radius: 50%;
+    width: 0.15em;
+    height: 0.15em;
+    position: absolute;
+    top: -15px;
+    right: 0;
+}
+.create_tt .option__indicator:after {
+  background: #60925c;
+  transform: scale(0);
+  transition: inherit;
+  will-change: transform;
+}
+.create_tt .option-input {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  visibility: hidden;
+}
+.create_tt .option__label {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  transform-origin: left bottom;
+  transform: translateX(20%) scale(0.7);
+  transition: inherit;
+  will-change: transform;
+}
+.create_tt .option__label sub {
+  margin-left: 0.25em;
+  font-size: 10px;
+  display: inline-block;
+  vertical-align: 0.3em;
+}
+.create_tt .option__label:after {
+  content: '';
+  display: block;
+  border: solid 2px #60925c;
+  width: 100%;
+  transform-origin: 0 0;
+  transform: scaleX(0.2);
+  transition: inherit;
+  will-change: transform;
+}
+.create_tt .option:last-child .option__label {
+  transform: translateX(0%) scale(0.7);
+}
+.create_tt .option:last-child .option__indicator {
+  transform: translateX(-20%);
+}
+.create_tt .option-input:checked ~ .option {
+  transform: translateX(-20%) translateX(0.2em);
+}
+.create_tt .option-input:checked ~ .option .option__indicator {
+  transform: translateX(0%);
+}
+.create_tt .option-input:checked ~ .option .option__label {
+  transform: translateX(40%) scale(0.7);
+}
+.create_tt .option-input:first-child:checked ~ .option {
+  transform: translateX(20%) translateX(-0.2em);
+}
+.create_tt .option-input:first-child:checked ~ .option .option__indicator {
+  transform: translateX(-40%);
+}
+.create_tt .option-input:first-child:checked ~ .option .option__label {
+  transform: translateX(0%) scale(0.7);
+}
+.create_tt .option-input:nth-child(1):checked ~ .option:nth-of-type(1),
+.create_tt .option-input:nth-child(2):checked ~ .option:nth-of-type(2) {
+  opacity: 1;
+}
+.create_tt .option-input:nth-child(1):checked ~ .option:nth-of-type(1) .option__indicator,
+.create_tt .option-input:nth-child(2):checked ~ .option:nth-of-type(2) .option__indicator {
+  transform: translateX(0);
+}
+.create_tt .option-input:nth-child(1):checked ~ .option:nth-of-type(1) .option__indicator::after,
+.create_tt .option-input:nth-child(2):checked ~ .option:nth-of-type(2) .option__indicator::after {
+  transform: scale(1);
+}
+.create_tt .option-input:nth-child(1):checked ~ .option:nth-of-type(1) .option__label,
+.create_tt .option-input:nth-child(2):checked ~ .option:nth-of-type(2) .option__label,
+.create_tt .option-input:nth-child(1):checked ~ .option:nth-of-type(1) .option__label::after,
+.create_tt .option-input:nth-child(2):checked ~ .option:nth-of-type(2) .option__label::after {
+  transform: scale(1);
+}
+
+.choose_section {
+    background: linear-gradient(to bottom, #60925c, #1a2e29);
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+  
+  .timetable.day .content {
+    grid-area: content;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.timetable.day .content > div {
+    width: 100%;
+    height: 180px;
+}
+.timetable.day .week-names {
+    grid-template-columns: repeat(1, 1fr);
+}
+.timetable.day .week-names > div {
+    width: 100%;
+}
+ul.select_days {
+    display: flex;
+    justify-content: center;
+    margin: 11px auto;
+}
+ul.select_days li {
+    background: #60925c;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 300ms linear;
+    min-width:140px;
+    text-align:center;
+}
+ul.select_days li:hover , ul.select_days li.active{
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    background: #21382e;
+}
+.show_tt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.show_tt i.bi.bi-eye{
+	display:none;
+	color: #7f8fa6;
+}
+.show_tt:hover{
+    background: #e7eceb;
+    font-size: 22px;
+    
+}
+.show_tt:hover span{
+	display:none;
+}
+.show_tt:hover i.bi.bi-eye{
+	display:block;
+}
+html.modal-active, body.modal-active {
+  overflow: hidden;
+}
+
+#ttview {
+  position: fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  z-index: 10000000;
+}
+#ttview.one {
+  transform: scaleY(0.01) scaleX(0);
+  animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#ttview.one .modal-background .modal {
+  transform: scale(0);
+  animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#ttview.one.out {
+  transform: scale(1);
+  animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#ttview.one.out .modal-background .modal {
+  animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#ttview .modal-background {
+  display: table-cell;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  vertical-align: middle;
+}
+#ttview .modal-background .modal {
+  background: white;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 300;
+  position: relative;
+  width: fit-content;
+  height:fit-content;
+  overflow: auto;
+
+}
+#ttview .modal-background .modal h2 {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+#ttview .modal-background .modal p {
+  font-size: 18px;
+  line-height: 22px;
+}
+#ttview .modal-background .modal .modal-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+#ttview .modal-background .modal .modal-svg rect {
+  stroke: #fff;
+  stroke-width: 2px;
+  stroke-dasharray: 778;
+  stroke-dashoffset: 778;
+}
+
+@keyframes unfoldIn {
+  0% {
+    transform: scaleY(0.005) scaleX(0);
+  }
+  50% {
+    transform: scaleY(0.005) scaleX(1);
+  }
+  100% {
+    transform: scaleY(1) scaleX(1);
+  }
+}
+@keyframes unfoldOut {
+  0% {
+    transform: scaleY(1) scaleX(1);
+  }
+  50% {
+    transform: scaleY(0.005) scaleX(1);
+  }
+  100% {
+    transform: scaleY(0.005) scaleX(0);
+  }
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes modalFadeIn {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: white;
+  }
+}
+@keyframes modalFadeOut {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+@keyframes modalContentFadeIn {
+  0% {
+    opacity: 0;
+    top: -20px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+@keyframes modalContentFadeOut {
+  0% {
+    opacity: 1;
+    top: 0px;
+  }
+  100% {
+    opacity: 0;
+    top: -20px;
+  }
+}
+#ttview .timetable {
+  display: grid;
+  grid-template-areas: ". week" "time content";
+  grid-template-columns: 120px;
+  grid-template-rows: 60px;
+/*   width: 70vw;   */
+/*   height: 70vh;   */
+}
+#ttview .timetable .accent-pink-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ee8ebc, #eea08e);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+#ttview .timetable .accent-pink-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(238, 142, 188, 0.3);
+  transform: scale(1.05);
+}
+#ttview .timetable .accent-orange-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #eec08e, #dcee8e);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+#ttview .timetable .accent-orange-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(238, 192, 142, 0.3);
+  transform: scale(1.05);
+}
+#ttview .timetable .accent-green-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #bcee8e, #8eeea0);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+#ttview .timetable .accent-green-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(188, 238, 142, 0.3);
+  transform: scale(1.05);
+}
+#ttview .timetable .accent-cyan-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #8eeec0, #8edcee);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+#ttview .timetable .accent-cyan-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(142, 238, 192, 0.3);
+  transform: scale(1.05);
+}
+#ttview .timetable .accent-blue-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #8ebcee, #a08eee);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+#ttview .timetable .accent-blue-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(142, 188, 238, 0.3);
+  transform: scale(1.05);
+}
+#ttview .timetable .accent-purple-gradient {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #c08eee, #ee8edc);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+#ttview .timetable .accent-purple-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(192, 142, 238, 0.3);
+  transform: scale(1.05);
+}
+#ttview .timetable .accent-red-gradient {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #dc3545c2, #fd7e146e);
+    transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+#ttview .timetable .accent-red-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(226, 156, 136, 0.3);
+  transform: scale(1.05);
+}
+#ttview .timetable .weekend {
+  background: #f7f7f7;
+  color: #87a1ad;
+}
+#ttview .timetable .week-names {
+  grid-area: week;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ee8ebc, #eea08e);
+  transition: 0.2s ease box-shadow;
+  color:white;
+}
+#ttview .timetable .week-names > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  min-width:150px;  
+  height: 100%; 
+  box-shadow: inset 1px 0 0 #ECEFF1;
+}
+#ttview .timetable .time-interval {
+  grid-area: time;
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  font-size: 14px;
+  background: linear-gradient(135deg, #8eeec0, #8edcee);
+}
+#ttview .timetable .time-interval > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  height: 100%; 
+  box-shadow: inset 0 1px 0 0 #ECEFF1;
+}
+#ttview .timetable .content {
+  grid-area: content;
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+}
+#ttview .timetable .content > div {
+  box-shadow: inset 1px 0 0 #ECEFF1, inset 0 1px 0 0 #ECEFF1;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;  
+}
+#ttview .content > div {
+    width: 100%;
+    height: 100%;
+}
+#ttview .weekly .content > div {
+    width: 100%;
+    min-width:150px;  
+    height: 100%;
+}
+#ttview .fatch_value {
+display:block !important;
+}
+.ttheading {
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+}
+
+
+#ttview .timetable.day .content {
+    grid-area: content;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#ttview .timetable.day .content > div {
+    width: 100%;
+    height: 100%;
+}
+#ttview .timetable.day .week-names {
+    grid-template-columns: repeat(1, 1fr);
+}
+#ttview .timetable.day .week-names > div {
+    width: 100%;
+}
+
+.nextpre-week {
+	
+	justify-content: center;
+}
+.nextpre-week > li{
+	
+	padding:0px !important;
+}
+
+.nextpre-week .main-btn.pre{
+	border-radius: 4px 0 0 4px !important;
+}
+
+.nextpre-week .main-btn.next{
+	border-radius: 0 4px 4px 0 !important;
+}
+
+.nextpre-week > .input-style-2{	
+	margin:0px !important;
+	margin-bottom: 20px;	
+}
+
+.nextpre-week .input-style-2 input{	
+	   border: 1px solid #ee9a9e !important;
+	   height: 46px;
+	   color: #d7575d !important;
+       font-weight: bold;
+       text-align: center;
+       
+}
+.nextpre-week .form-control:disabled, .nextpre-week .form-control[readonly] {
+    background-color: #ee9a9c38 !important;
+    opacity: 1;
+}
+.main-btn i {
+    font-weight: bold;
+}
+.nextpre-week .main-btn{
+    color: #ffffff  !important;
+    border-color: #ee999e  !important;
+    background: linear-gradient(135deg, #ee8ebc, #eea08e)  !important;
+}
+.info-text{
+    display:none;
+}
+.tt-date label{
+   margin:0px;
+   margin-right:10px;
+   color: white !important;
+   white-space: nowrap;
+}
+.tt-date {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background: aliceblue;
+    background: linear-gradient(135deg, #ee8ebc, #eea08e);
+    border-radius: 4px;
+}
+.tt-date input{
+    color: #d7575d !important;
+    background: #fff  !important;
+    height: 46px;
+}
+.tt-date .icon {
+    position: absolute !important;
+    right: 4px !important;
+    bottom: 5px !important;
+    background: #f7f7f700;
+    color: #d7575d !important;
+    
+}
+.db_theme_default .tt-date .input-style-2 input:focus {
+    border-color: #ee9aa0 !important;
+}
+
+.select-style-1.ttselect .select-position select{
+    background-color: #ee9a9c38 !important;
+    border: 1px solid #ee9a9e !important;
+    color: #d7575d !important;
+    height: 46px;
+}
+.select-style-1.ttselect .select-position::after {
+    color: #d7575d !important;
+    border-bottom: 1px solid #d7575d;
+    border-right: 1px solid #d7575d;
+}
+.select-style-1.ttselect .select-position select option{
+    background-color: #fff !important;
+} 
+
+.ui-widget.ui-widget-content {
+    z-index: 10000011 !important;
+}
+.ui-datepicker .ui-widget-header {
+    background: linear-gradient(135deg, #ee8ebc, #eea08e) !important;
+}
+
+
+.extra_class{
+    color: black;
+    background: linear-gradient(135deg, #8eeec0, #8edcee);
+    width: 194px;
+}
+.modal-background .modal button.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 18px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 4px grey;
+    padding: 8px;
+}
+
+/* <span class="Extra_class_lable">value</span> */
+span.Extra_class_lable {
+    color: #1f3bb3;
+}
+.db-dark-mode span.Extra_class_lable {
+    color: #cbe1ff;
+}
+.create_tt .choose_field {
+    margin-bottom: 10px;
+}
+
+/* ----------------start 19-01-23-changes------------------- */
+.timetable .content .main-btn {
+    padding: 2px 8px;
+    margin: 6px 5px;
+}
+.timetable .content .main-btn i {
+        margin: 0;
+}
+.timetable .content {
+    background: #fff;
+}
+.db-dark-mode .timetable .content {
+    background: #ffffff00;
+}
+.db-dark-mode .create_tt .option {
+    background: #000;
+}
+.db-dark-mode .timetable .weekend {
+    background: #000000;
+    color: #ffffff;
+}
+
+
+.table-responsive {
+    max-height: 500px;
+}
+.tab-group li a {
+    background: rgb(127 143 166 / 18%);
+}
+.tab-group .active a {
+    background: #7f8fa6;
+    /* background: #487eb0; */
+    /* background: #40739e; */
+/*     background: #60a3bc; */
+    /* background: #38ada9; */
+    /* background: #58b19f; */
+}
+.choose_section {
+/*     background: linear-gradient(to bottom, #7f8fa6, #dce4ef); */
+    background: linear-gradient(to bottom, #7f8fa6, #000);
+}
+.create_tt .option__label:after {
+    content: '';
+    display: block;
+    border: solid 2px #7f8fa6;
+}
+.create_tt .option__indicator:after {
+    background: #7f8fa6;
+}
+.create_tt .option__indicator:before, .create_tt .option__indicator:after {
+    content: '';
+    display: block;
+    border: solid 2px #7f8fa6;
+}
+ul.select_days li {
+    background: #7f8fa6;
+}
+ ul.select_days li:hover,  ul.select_days li.active {
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    background: #000000;
+}
+
+.week-names {
+    position: sticky;
+    top: 0;
+    z-index:10;
+}
+.time-interval {
+    position: sticky;
+    left: 0;
+    z-index:10;
+}
+.show_tt {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index:11;
+    background: #f7f7f7;
+}
+.db-dark-mode .show_tt {
+    background: #000;
+}
+
+.timetable .week-names ,#ttview .timetable .week-names{
+    background: linear-gradient(135deg, #7f8fa6, #273344);
+}
+.timetable .time-interval , #ttview .timetable .time-interval{
+    background: linear-gradient(135deg, #7f8fa6, #273344);
+    color:white;
+}
+.timetable .weekend ,#ttview .timetable .weekend {
+    background: #f7f7f7;
+    color: #7f8fa6;
+}
+.db-dark-mode  #ttview .timetable .weekend {
+    background: #000;
+    color: #fff;
+}
+
+.db-dark-mode #ttview .modal-background .modal {
+/*     background: #222222; */
+    background: var(--secondary-color-dark);
+}
+.db-dark-mode #ttview .ttheading {
+    color: white;
+}
+.db-dark-mode .tt-date input {
+    background: var(--theme-input-bg) !important;
+    border-color: var(--theme-input-border) !important;
+}
+
+.nextpre-week .main-btn {
+    color: #ffffff !important;
+    border-color: #7f8fa6 !important;
+    background: linear-gradient(135deg, #7f8fa6, #273344) !important;
+}
+.nextpre-week .form-control:disabled, .nextpre-week .form-control[readonly] {
+    background-color: #7f8fa6 !important;
+}
+.nextpre-week .input-style-2 input {
+    border: 1px solid #7f8fa6 !important;
+    color: #ffffff !important;
+}
+
+#ttview .timetable .week-names {
+    position: sticky !important;
+    top: 0 !important;
+}
+#ttview .timetable .time-interval {
+    position: sticky !important;
+    left: 0 !important;
+}
+/* ----------------end 19-01-23-changes------------------- */
+
+
+#ttview .modal-background .modal{
+    max-width: 70%;
+    margin: auto;
+    min-width: 50%;
+}
+#ttview .table-responsive {
+    max-height: 70vh;
+}
+.timetable.day {
+    width: 100%;
+}
+.tt-date {
+    background: linear-gradient(135deg, #7f8fa6, #273344);
+    width: 50%;
+    margin: 0 auto 20px;
+}
+#ttview .timetable.day .content > div ,#ttview .timetable .content > div{
+    min-height: 50px;
+}
+.tt-date input {
+    color: #273344 !important;
+}
+.tt-date .icon {
+    background: #f7f7f700;
+    color: #273344 !important;
+}
+.ui-datepicker .ui-widget-header {
+    background: linear-gradient(135deg, #7f8fa6, #273344) !important;
+}
+ .ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+	border: 1px solid #999999;
+	background: #fff !important;
+	font-weight: normal;
+	color: #000 !important;
+}
+.input-style-2 .ui-datepicker-trigger .icon, .input-style-1 .ui-datepicker-trigger .icon, .form-group .ui-datepicker-trigger .icon {
+    padding: 7px 14px;
+}
+.view_timetable .nextpre-week {
+    margin: 0;
+    flex-wrap: nowrap;
+}
+.view_timetable .nextpre-week .pre-li , .view_timetable .nextpre-week .next-li{
+	width:15%;
+	min-width:15%;
+}
+.view_timetable .nextpre-week .pre-li a, .view_timetable .nextpre-week .next-li a{
+	width:100%;
+	min-width:100%;
+}
+.view_timetable .nextpre-week .main-btn.pre , .view_timetable .nextpre-week .main-btn.next{
+    width: 100%;
+}
+.view_timetable .nextpre-week .weekrange-li {
+	width:70%;
+	min-width:70%;
+}
+.view_timetable .nextpre-week .weekrange-li a{
+	width:100%;
+	min-width:100%;
+}
+.db-dark-mode .input-style-1 input[disabled], .db-dark-mode .input-style-1 select[disabled], .db-dark-mode .input-style-1 textarea[disabled], .db-dark-mode .input-style-1 input[readonly], .db-dark-mode .input-style-1 select[readonly], .db-dark-mode .input-style-1 textarea[readonly], .db-dark-mode .input-style-2 input[disabled], .db-dark-mode .input-style-2 select[disabled], .db-dark-mode .input-style-2 textarea[disabled], .db-dark-mode .input-style-2 input[readonly], .db-dark-mode .input-style-2 select[readonly], .db-dark-mode .input-style-2 textarea[readonly], .db-dark-mode .input-style-3 input[disabled], .db-dark-mode .input-style-3 select[disabled], .db-dark-mode .input-style-3 textarea[disabled], .db-dark-mode .input-style-3 input[readonly], .db-dark-mode .input-style-3 select[readonly], .db-dark-mode .input-style-3 textarea[readonly], .db-dark-mode .select-style-1 input[disabled], .db-dark-mode .select-style-1 select[disabled], .db-dark-mode .select-style-1 textarea[disabled], .db-dark-mode .select-style-1 input[readonly], .db-dark-mode .select-style-1 select[readonly], .db-dark-mode .select-style-1 textarea[readonly] {
+    background-color: var(--theme-input-readonly) !important;
+    cursor: not-allowed;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+   color: black !important;
+}
+
+.timetable-page .choose_section label.option {
+    font-size: inherit !important;
+}
+.timetable-page .content .lni {
+    vertical-align: middle;
+}
+
+@media (max-width: 1399px) {
+ul.select_days {
+    display: inline-block;
+}	
+ul.select_days li {
+    float:left;
+    margin-bottom:10px;
+}	
+}
+
+@media (max-width: 1199px) {
+#ttview .modal-background .modal {
+    max-width: 95%;
+    margin: 0 auto 0;
+    position: absolute;
+    left: 2.5%;
+    transform: translateY(-50%) !important;
+    top: 50%;
+    min-width: 95%;
+}
+#ttview.one .modal-background .modal {
+    transform: scale(0);
+    animation: none;
+}
+#ttview.one.out .modal-background .modal {
+    animation: none;
+}
+.tt-date {
+    width: 40%;
+}
+}	
+
+@media (max-width: 991px) {
+.modal-background .modal button.btn-close {
+    font-size: 16px;
+    padding: 5px;
+}
+}
+
+@media (max-width: 767px) {
+	
+.tab-group li a {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.create_tt .option-group {
+    max-width: 300px;
+    height: 70px;
+}
+.create_tt .option__label {
+    font-size: 14px;
+}
+.create_tt .option__label sub {
+    font-size: 8px;
+}
+.create_tt .option__indicator:before, .create_tt .option__indicator:after {
+    width: 0.12em;
+    height: 0.12em;
+}
+.tt-date {
+    width: 60%;
+}
+}
+
+@media (max-width: 575px) {
+#ttview .timetable {
+/*     height: 55vh; */
+}
+.tab-group li a {
+    padding: 10px 20px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nextpre-week {
+    flex-wrap: nowrap;
+    margin: auto;
+}
+.nextpre-week .main-btn {
+    padding: 10px 15px;
+     width: auto !important;
+}
+.tt-date {
+    width: 100%;
+}
+.view_timetable .nextpre-week .pre-li , .view_timetable .nextpre-week .next-li{
+	width:10%;
+	min-width:10%;
+}
+.view_timetable .nextpre-week .weekrange-li {
+	width:80%;
+	min-width:80%;
+}	
+.view_timetable .nextpre-week .main-btn {
+    padding: 10px 5px;
+    width: auto !important;
+}	
+}
+
+
+@media (max-width:399px){
+.choose_section {
+    padding: 1px;
+}
+.create_tt .option-group {
+    height: 60px;
+}
+.create_tt .option {
+    margin-right: 0.1em;
+    padding: 0.4em 0.25em;
+}
+}
+
+
+

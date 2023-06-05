@@ -1,0 +1,298 @@
+.progress {
+	background-color: #5d657b;
+}
+
+.bs-wizard {
+	/* margin-top: 25px; */
+}
+
+/*Form Wizard*/
+.custom-bs-wizard {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.bs-wizard {
+	/* border-bottom: solid 1px #e0e0e0; */
+	padding: 0 0 10px 0;
+	margin-left: 0; 
+	justify-content: center;
+	padding: 2rem 1rem;
+	display: flex;
+}
+
+.bs-wizard>.bs-wizard-step {
+	padding: 0;
+	position: relative;
+	width: 20%;
+	text-align: center;
+}
+
+.bs-wizard>.bs-wizard-step+.bs-wizard-step {
+	
+}
+
+.bs-wizard>.bs-wizard-step .bs-wizard-stepnum {
+	color: #5d657b;
+	font-size: 12px;
+	margin-bottom: 5px;
+	/* transform: rotate(-30deg); */
+	transform-origin: 3% 10%;
+	font-weight: 700;
+}
+
+.bs-wizard>.bs-wizard-step .bs-wizard-info {
+	color: #999;
+	font-size: 14px;
+}
+
+.bs-wizard>.bs-wizard-step>.bs-wizard-dot {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: #5d657b;
+	top: 45px;
+	margin-top: -19px;
+	margin-left: -15px;
+	border-radius: 50%;
+	left: 50%;
+}
+
+.bs-wizard>.bs-wizard-step>.bs-wizard-dot:after {
+	content: ' ';
+	width: 14px;
+	height: 14px;
+	background: #fff;
+	border-radius: 50px;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+.bs-wizard>.bs-wizard-step>.progress {
+	position: relative;
+	border-radius: 0px;
+	height: 5px;
+	box-shadow: none;
+	margin: 20px 0;
+	left: 50%;
+}
+
+.bs-wizard>.bs-wizard-step>.progress>.progress-bar {
+	width: 0px;
+	box-shadow: none;
+	background: #fbbd19;
+}
+
+.bs-wizard>.bs-wizard-step.complete>.progress>.progress-bar {
+	width: 100%;
+}
+
+.bs-wizard>.bs-wizard-step.active>.progress>.progress-bar {
+	width: 0%;
+}
+
+.bs-wizard>.bs-wizard-step:first-child.active>.progress>.progress-bar {
+	width: 0%;
+}
+
+.bs-wizard>.bs-wizard-step:last-child.active>.progress>.progress-bar {
+	width: 100%;
+}
+
+.bs-wizard>.bs-wizard-step.disabled>.bs-wizard-dot {
+	background-color: #f5f5f5;
+}
+
+.bs-wizard>.bs-wizard-step.disabled>.bs-wizard-dot:after {
+	opacity: 0;
+}
+
+.bs-wizard>.bs-wizard-step:first-child>.progress {
+	width: 100%;
+}
+
+.bs-wizard>.bs-wizard-step:last-child>.progress {
+	width: 0%;
+}
+
+.bs-wizard>.bs-wizard-step.disabled a.bs-wizard-dot {
+	pointer-events: none;
+}
+
+a.step-1 {
+	background: #fbbd19 !important;
+}
+
+a.step-1:after {
+	background: #fbbd19 !important;
+}
+
+a.step-2 {
+	background: #007bff !important;
+}
+
+a.step-2:after {
+	background: #007bff !important;
+}
+
+a.step-3 {
+	background: #da0013 !important;
+}
+
+a.step-3:after {
+	background: #da0013 !important;
+}
+
+a.step-4 {
+	background: #d68a31 !important;
+}
+
+a.step-4:after {
+	background: #d68a31 !important;
+}
+
+a.step-5 {
+	
+	
+	
+	background: green !important;
+}
+
+a.step-5:after {
+/* 	background: #d68a31 !important; */
+	
+	
+	background: green !important;
+}
+
+a.step-6 {
+	background: #a419fb !important;
+}
+
+a.step-6:after {
+	background: #a419fb !important;
+}
+
+.bs-wizard>.bs-wizard-step.active>.bs-wizard-dot {
+	width: 38px;
+	height: 38px;
+	margin-top: -18px;
+/* 	margin-left: -18px; */
+	top: 39px;
+}
+
+.bi-check:before {
+	position: absolute;
+	top: 3px;
+	left: 2px;
+	color: white;
+	font-size: 33px;
+}
+
+.bs-wizard>.bs-wizard-step.active>.bs-wizard-dot:after {
+	position: initial;
+}
+
+.round {
+	width: 38px;
+	height: 38px;
+	border-radius: 52px;
+	position: absolute;
+	top: 10px;
+	left: 8px;
+}
+
+p.bs-text {
+	font-weight: 500;
+	position: absolute;
+	top: 16px;
+	left: 55px;
+}
+
+.stepnum-active1 {
+	color: #fbbd19 !important;
+}
+.stepnum-active2 {
+	color: #007bff !important;
+}
+.stepnum-active3 {
+	color: #da0013 !important;
+}
+.stepnum-active4 {
+	color: #d68a31 !important;
+}
+.stepnum-active5 {
+	color: green !important;
+}
+
+@media screen and (max-width: 1400px) {
+	.bs-wizard>.bs-wizard-step .bs-wizard-stepnum {
+		font-size: 10px;
+	}
+	.bs-wizard>.bs-wizard-step>.bs-wizard-dot {
+		margin-top: -21px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.bs-wizard>.bs-wizard-step .bs-wizard-stepnum {
+		font-size: 8px;
+	}
+	.bs-wizard>.bs-wizard-step>.bs-wizard-dot {
+		margin-top: -24px;
+	}
+}
+
+.bs-wizard>.bs-wizard-step.active.step-2>.progress {
+	background-color: #007bff;
+}
+
+.bs-wizard>.bs-wizard-step.active.step-3>.progress {
+	background-color: #da0013;
+}
+
+.bs-wizard>.bs-wizard-step.active.step-4>.progress {
+background-color: #d68a31 ;
+	
+}
+ .bs-wizard>.bs-wizard-step.active.step-5>.progress { 
+ background-color: green;
+ 	 
+ } 
+ @media screen and (max-width: 600px) {
+ 
+ .bs-wizard > .bs-wizard-step{
+ width: 25%;
+ line-height: 18px;
+ }
+ .bs-wizard > .bs-wizard-step .bs-wizard-stepnum{
+  line-height: 12px;
+ }
+ .bs-wizard > .bs-wizard-step > .progress{
+ margin: 24px 0;
+ }
+ .bs-wizard > .bs-wizard-step.active > .bs-wizard-dot{
+ margin-top: -7px;
+ }
+ .bs-wizard > .bs-wizard-step.active > .bs-wizard-dot{
+ top: 32px;
+ }
+ .bi-check::before {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  color: white;
+  font-size: 24px;
+}
+.bs-wizard > .bs-wizard-step.active > .bs-wizard-dot {
+  width: 28px;
+  height: 28px;
+ 
+}
+ }
+/* .bs-wizard>.bs-wizard-step.active.step-6>.progress { */
+/* 	background-color: #a419fb; */
+/* } */
+/*END Form Wizard*/

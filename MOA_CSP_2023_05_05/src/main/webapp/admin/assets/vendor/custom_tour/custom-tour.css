@@ -1,0 +1,246 @@
+.tour-active-element {
+  position: relative;
+/*   background: white; */
+/*   border: 3px solid black; */
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+body.tour-active-element {
+  border: none;
+}
+
+.popover-tour {
+  padding: 10px;
+  min-width: 290px;
+  width: 290px;
+  max-width: 100%;
+  font-size: 14px;
+  z-index: 99999;
+  text-align: justify;
+  font-family: "Inter", sans-serif !important;
+  border-radius: 4px;
+}
+
+.popover-tour.popover-tour-center {
+  inset: 50% auto auto 50% !important;
+  position: fixed !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+}
+
+.popover-tour .hidden {
+  display: none;
+}
+
+.popover-tour .tour-exit:before {
+    content: "X";
+    position: absolute;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;    
+    top: 6px;
+    right: 10px;
+    padding: 2px;
+    color: #222222;    
+}
+
+.popover-tour .popover-header {
+  background: none;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.popover-tour .popover-body {
+  padding: 20px 0 10px;
+}
+
+.popover-tour .popover-body .tour-tabs > div {
+  display: none;
+}
+
+.popover-tour .popover-body .tour-tabs > div.active {
+  display: block;
+}
+
+.popover-tour .popover-body .tour-tab-links {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.popover-tour .popover-body .tour-tab-links li {
+  display: inline-block;
+}
+
+.popover-tour .popover-body .tour-tab-links li a {
+  padding: 4px;
+  margin: 0 2px;
+  background: #ced4da;
+  font-size: 1px;
+  border-radius: 4px;
+}
+
+.popover-tour .popover-body .tour-tab-links li a.active {
+  padding: 4px 10px;
+  background: #adb5bd;
+}
+
+/* .custom-tour .btn.tour-exit {
+    float: right;
+} */
+
+ul.tour-tab-links {
+    display: none;
+}
+
+/*# sourceMappingURL=bs5-intro-tour.css.map */
+
+
+/*# custom-tour css start */
+.custom-tour {
+    background: #ffffff url('../../img/tour-bg.png') no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+.popover-tour .popover-footer {  
+  margin: 0 -4px;
+  padding: 5px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-tour .popover-footer .btn{
+	font-size:14px;
+	line-height: 16px;
+	text-transform: capitalize;
+	background:#4a4a4a;
+	color: #ffffff;
+	margin: 3px 4px;
+	border:none;
+	border-radius: 4px;
+	padding: 0.6rem;
+}
+
+.custom-tour .popover-footer .btn.tour-finish{
+	background: #97ca31;
+}
+
+.custom-tour .popover-footer .btn.custom-tour-exit,
+.custom-tour .popover-footer .btn:hover {
+	background: #4a6cf7;
+}
+
+.custom-tour .popover-footer .btn.tour-prev,
+.custom-tour .popover-footer .btn.tour-next,
+.custom-tour .popover-footer .btn.tour-finish{
+	width: 80px;
+}
+
+.custom-tour .popover-footer .btn.custom-tour-exit:hover{
+	background: #4a4a4a;
+}
+
+.custom-tour .popover-body {
+  padding: 10px 0;
+}
+
+.custom-tour .popover-body p{
+	font-size:15px;
+	line-height: 20px;
+	color: #676767;
+}
+
+.popover-tour .tour-exit:before{
+	top: 10px;
+}
+
+.custom-tour .tour-finish{
+	background-color:#97ca31;
+	color:#fff;
+}
+
+.custom-tour .popover-header{
+	font-size:18px;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.tg-text-heighlight{
+	 font-weight: 600;
+	 color: #3c3c3c;
+}
+ul.custom-tour-list{
+	padding-left: 1rem;
+    list-style-type: disc;
+}
+.custom-tour-list li,
+.custom-tour-list p{
+	font-size:12px;
+}
+/*# custom-tour css end */
+
+/*# custom-tour icon css start */
+.custom-setting-icons {
+  position:fixed;
+  top:61%;
+  right:0;
+  z-index:9999;  
+}
+
+.custom-setting-icons .custom-setting-link {
+	width: 34px;
+	height: auto;		
+	padding: 10px;	
+	color: #fff;
+	border-radius: 5px 0px 0px 5px;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+	cursor: pointer;
+}
+.custom-setting-icons .custom-setting-link i{
+	animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.custom-setting-icons .custom-setting-link:hover i{
+	animation:none;
+}
+
+.custom-setting-icons .custom-setting-link:hover {
+	width: 100px;
+	padding-left: 20px;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;	
+}
+
+.custom-setting-icons .custom-setting-link:hover i {
+	padding-right:6px;
+}
+
+.custom-setting-icons .custom-setting-link{
+	background: #1F3BB3;
+	display: flex;
+}
+
+.custom-setting-link .custom-setting-text {
+	transform: translateX(300%);
+	-webkit-transition: 0.6s ease-in-out;
+	-moz-transition: 0.6s ease-in-out;
+	-o-transition: 0.6s ease-in-out;
+	-ms-transition: 0.6s ease-in-out;
+	transition: 0.6s ease-in-out;
+}
+
+.custom-setting-link:hover .custom-setting-text {
+  transform: translateX(0);
+}
+
+/*# custom-tour icon css end */

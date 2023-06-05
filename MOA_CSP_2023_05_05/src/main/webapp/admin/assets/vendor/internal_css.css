@@ -1,0 +1,3601 @@
+/* <!-- INTERNAL REMOVE START (NEED TO ADD IN PARTICULAR JSP)-->
+			<link rel="stylesheet" href="assets/vendor/internal_css.css">
+<!-- INTERNAL REMOVE END--> */
+
+/*===========================
+		START RIDDHI- CURRICULUM - link_graduate_attribute_and_system.jsp and link_program_outcome_and_system_and_degree.jsp
+===========================*/
+.btnmerge {
+    width: auto;
+    
+}
+
+.btnmerge .buttons-group li{
+margin:0px 4px;
+}
+
+.btnmerge-groupadd {
+    display: flex;
+}
+.lgradsystem {
+    font-size: small;
+    
+}
+
+/*===========================
+		END RIDDHI- CURRICULUM - link_graduate_attribute_and_system.jsp and link_program_outcome_and_system_and_degree.jsp	
+===========================*/
+
+/*===========================
+		START RIDDHI- CURRICULUM - TeachingHours_Summary.jsp
+===========================*/
+.simple-table .table thead th:first-child, .simple-table .table tbody td:first-child {
+     width: auto !important; 
+     min-width: auto !important; 
+     max-width: auto !important; 
+     text-align: center !important; 
+}
+
+.d-content{
+    display: contents;
+    }
+
+/*===========================
+		END RIDDHI- CURRICULUM - TeachingHours_Summary.jsp
+===========================*/
+
+
+/*===========================
+		START POOJA 
+===========================*/
+
+/* -----------START COMMON DASHBOARD - commonDashboard.jsp---------------  */
+div#chartdiv {
+    height: 50vh;
+}
+div#chartdiv2 {
+    height: 50vh;
+}
+
+/* -----------END COMMON DASHBOARD - commonDashboard.jsp---------------  */
+
+/* -----------START HEADER - header.jsp---------------  */
+/* #appnoti{
+	background-color:#fff; 
+} */
+/* -----------END HEADER - header.jsp---------------  */
+
+/* -----------START NCH LANDING PAGE - nchlanding.jsp---------------  */
+.nch-img1{
+background-image: url('../img/nchbannerimage.jpg');
+}
+.nch-img2{
+background-image: url('../img/nch.jpg');
+}
+.nch-img3{
+background-image: url('../img/nch-banner-1.jpg');
+}
+.nch-ayushabout1{
+background: url('../img/ayushknowledge.jpg');
+}
+.nch-ayushabout2{
+background: url('../img/terminology.jpg');
+}
+.nch-ayushabout3{
+background: url('../img/ayushprakriti.jpg');
+}
+.card-box-c {
+visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;
+}
+
+/* .tilt-bg-shape-left{
+transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;
+}
+.tilt-bg-shape-left-below{
+	transform: translate3d(24.5px, -33.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;
+} */
+
+
+/* -----------END NCH LANDING PAGE - nchlanding.jsp---------------  */
+
+/* -----------START NCISM LANDING PAGE - ncismlanding.jsp---------------  */
+.ncism-img1{
+background-image: url('../img/ncism-banner1.jpg');
+}
+.ncism-img2{
+background-image: url('../img/ncism-banner2.jpg');
+}
+.ncism-img3{
+background-image: url('../img/ncism-banner3.jpg');
+}
+.ncism-ayushabout1{
+background: url('../img/ayushknowledge.jpg');
+}
+.ncism-ayushabout2{
+background: url('../img/terminology.jpg');
+}
+.ncism-ayushabout3{
+background: url('../img/ayushprakriti.jpg');
+}
+
+/* -----------END NCISM LANDING PAGE - ncismlanding.jsp---------------  */
+
+/* -----------START LANDING PAGE - landingpage.jsp---------------  */
+
+.portal-img1{
+background-image: url('../img/banner-3.jpg');
+}
+.portal-img2{
+background-image: url('../img/banner-21.jpg');
+}
+.portal-img3{
+background-image: url('../img/portal-banner.jpg');
+}
+.card-box-c {
+visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;
+}
+.portal-ayushabout1{
+background: url('../img/ayushknowledge.jpg');
+}
+.portal-ayushabout2{
+background: url('../img/terminology.jpg');
+}
+.portal-ayushabout3{
+background: url('../img/ayushprakriti.jpg');
+}
+.svgicon svg{
+enable-background:new 0 0 99.21 99.21;
+}
+
+
+/* -----------END LANDING PAGE - landingpage.jsp---------------  */
+
+
+
+/*===========================
+		END POOJA
+===========================*/
+
+/*===========================
+		START PARTH RATHOD
+===========================*/
+/* ------------------Start Attendance_Exp_Excel.jsp --------------------- */
+.custom_attend_exp_excl {
+	color: rgb(0, 0, 0);
+}
+/* ------------------End Attendance_Exp_Excel.jsp --------------------- */
+
+
+/*------------------Start Staff_Attendance_Report.jsp ---------------------*/
+.custom_attend_staff_atnd_rprt_th_ser_no{
+	width: 5%;
+}
+.custom_attend_staff_atnd_rprt_th_name{
+	width: 15%;
+}
+.custom_attend_staff_atnd_rprt_th_tchr_code{
+	width: 15%;
+}
+.custom_attend_staff_atnd_rprt_th{
+	width: 2%;
+}
+.custom_attend_staff_atnd_rprt_th_pre_day{
+	width: 5%;
+}
+.custom_attend_staff_atnd_rprt_td_dt_nt_aval{
+	font-size: 15px;
+	text-align: center;
+	color: red;
+}
+.custom_attend_staff_atnd_rprt_td_ser_no {
+	width: 2%;
+}
+.custom_attend_staff_atnd_rprt_td_name{
+	width: 7%;
+	text-align: left;
+}
+.custom_attend_staff_atnd_rprt_td_tchr_code{
+	width: 7%;
+	text-align: left;
+}
+.custom_attend_staff_atnd_rprt_td{
+	width: 2%;
+}
+.custom_attend_staff_atnd_rprt_td_pre_day{
+	width: 5%;
+}
+.custom_attend_staff_atnd_rprt_mo{
+	width: 84%;
+	display: inline;
+	color: rgb(0, 0, 0);
+}
+/*------------------End Staff_Attendance_Report.jsp ---------------------*/
+
+/*------------------Start Excel_Student_Attendance.jsp ---------------------*/
+
+.custom_excl_stu_attend_date{
+	color: rgb(0, 0, 0);
+}
+/*------------------End Excel_Student_Attendance.jsp ---------------------*/
+
+/*------------------Start Faculty_Attendance_Report.jsp ---------------------*/
+
+.custom_fclt_attend_rprt_th_ser_no{
+	width: 5%;
+}
+.custom_fclt_attend_rprt_th_tchr_code{
+	width: 15%;
+}
+.custom_fclt_attend_rprt_th_name{
+	width: 15%;
+}
+.custom_fclt_attend_rprt_th{
+	width: 2%;
+}
+.custom_fclt_attend_rprt_th_pre_day{
+	width: 5%;
+}
+.custom_fclt_attend_rprt_td_dt_nt_aval{
+	font-size: 15px;
+	text-align: center;
+	color: red;
+}
+.custom_fclt_attend_rprt_td_ser_no{
+	width: 2%;
+}
+.custom_fclt_attend_rprt_td_tchr_code{
+	width: 7%;
+	text-align: left;
+}
+.custom_fclt_attend_rprt_td_name{
+	width: 7%;
+	text-align: left;
+}
+.custom_fclt_attend_rprt_td{
+	width: 2%;
+}
+.custom_fclt_attend_rprt_td_pre_day{
+	width: 5%;
+}
+/*------------------End Faculty_Attendance_Report.jsp ---------------------*/
+
+/*------------------Start Student_Att_Report.jsp ---------------------*/
+
+.custom_stu_att_rprt_th{
+	width: 2%;
+}
+.custom_stu_att_rprt_th_pre_day{
+	width: 5%;
+}
+.custom_stu_att_rprt_td{
+	width: 2%;
+}
+/*------------------End Student_Att_Report.jsp ---------------------*/
+
+/*===========================
+		END PARTH RATHOD
+===========================*/
+
+/*===========================
+		START CHIRAG
+===========================*/
+/* ------------START COLLABRATION  - ViewCollabration.jsp ------------ */
+
+.custom_viewcollab_append_div{
+overflow-y: auto;
+max-height: 475px;
+}
+/* ------------END COLLABRATION  - ViewCollabration.jsp ------------ */
+/*===========================
+		END CHIRAG
+===========================*/
+
+/*===========================
+		START NAYAN
+===========================*/
+
+/*===========================
+		START TIMETABLE - Academic_Schedule.jsp 
+===========================*/
+
+.simple-table .table thead th:first-child, .simple-table .table tbody td:first-child
+	{
+	width: auto !important;
+	min-width: auto !important;
+	max-width: auto !important;
+	text-align: center !important;
+}
+
+table#teaching_hours_summary_report td {
+	border-color: black !important;
+	border: 1px solid black;
+}
+
+.middle-center {
+	vertical-align: middle !important;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*===========================
+		END TIMETABLE - Academic_Schedule.jsp 
+===========================*/
+
+/*===========================
+		END NAYAN
+===========================*/
+
+/*===========================
+		START SHIVALI
+===========================*/
+/* -------------START LMS - LMS/Institute/Stud_Elect_Courses.jsp------------ */
+.custom-card>video
+{
+height:50px;
+}
+/* -------------END LMS - LMS/Institute/Stud_Elect_Courses.jsp------------ */
+
+/* -------------START LMS - /LMS/Institute/Link_Faculty_Course.jsp------------ */
+.col-two  .form-check {
+    width: 48%;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.buttons-group .status-btn.active-btn {
+    width: fit-content;
+    display: inline-block !important;
+} 
+/* -------------END LMS - /LMS/Institute/Link_Faculty_Course.jsp------------ */
+
+/*===========================
+		END SHIVALI
+===========================*/
+
+
+/*===========================START RUTVI- CARICULLM - View_Six_A_Paper_Marks.jsp ===========================*/
+
+.simple-table .table thead th:first-child, .simple-table .table tbody td:first-child {
+     width: auto !important; 
+     min-width: auto !important; 
+     max-width: auto !important; 
+     text-align: center !important; 
+}
+table#teaching_hours_summary_report td {
+    border-color: black !important;
+    border: 1px solid black;
+}
+
+.middle-center{
+	vertical-align: middle !important;
+	text-align: center;
+}
+
+.bold{
+	 font-weight: bold;
+}
+/*===========================END RUTVI- CARICULLM - View_Six_A_Paper_Marks.jsp ===========================*/
+
+/*===========================START RUTVI- CARICULLM - SixF_Distribution_of_Theory_Exam.jsp===========================*/
+
+.simple-table .table thead th:first-child, .simple-table .table tbody td:first-child {
+     width: auto !important; 
+     min-width: auto !important; 
+     max-width: auto !important; 
+     text-align: center !important; 
+}
+table#teaching_hours_summary_report td {
+    border-color: black !important;
+    border: 1px solid black;
+}
+
+.middle-center{
+	vertical-align: middle !important;
+	text-align: center;
+}
+
+.bold{
+	 font-weight: bold;
+}
+/*===========================END RUTVI- CARICULLM - SixF_Distribution_of_Theory_Exam.jsp ===========================*/
+
+/*===========================START RUTVI- CARICULLM - T6_C_ViewCalculation_Method_for_Internal_assessment_Marks.jsp ===========================*/
+.simple-table .table thead th:first-child, .simple-table .table tbody td:first-child {
+     width: auto !important; 
+     min-width: auto !important; 
+     max-width: auto !important; 
+     text-align: center !important; 
+}
+table#teaching_hours_summary_report td {
+    border-color: black !important;
+    border: 1px solid black;
+}
+
+.middle-center{
+	vertical-align: middle !important;
+	text-align: center;
+}
+
+.bold{
+	 font-weight: bold;
+}
+/*===========================END RUTVI- CARICULLM - T6_C_ViewCalculation_Method_for_Internal_assessment_Marks.jsp ===========================*/
+
+/*===========================Start RUTVI- CARICULLM - TeachingHours_Summary_old.jsp ===========================*/
+.simple-table .table thead th:first-child, .simple-table .table tbody td:first-child {
+     width: auto !important; 
+     min-width: auto !important; 
+     max-width: auto !important; 
+     text-align: center !important; 
+}
+table#teaching_hours_summary_report1 td {
+    border-color: inherit;
+    border: 1px solid black;
+}
+table#teaching_hours_summary_report2 td {
+    border-color: inherit;
+    border: 1px solid black;
+}
+
+.middle-center{
+	vertical-align: middle !important;
+	text-align: center;
+}
+
+.bold{
+	 font-weight: bold;
+}
+/*===========================end RUTVI- CARICULLM - TeachingHours_Summary.jsp.jsp ===========================*/
+
+/*===========================Start RUTVI- CARICULLM - TeachingHours_Summary.jsp.jsp ===========================*/
+
+.simple-table .table thead th:first-child, .simple-table .table tbody td:first-child {
+     width: auto !important; 
+     min-width: auto !important; 
+     max-width: auto !important; 
+     text-align: center !important; 
+}
+/* table#search_type_of_content td { */
+/*     border-color: inherit; */
+/*     border: 1px solid black; */
+/* } */
+
+.d-content{
+    display: contents;
+    }
+    
+   /*===========================Start RUTVI- CARICULLM - TeachingHours_Summary.jsp.jsp ===========================*/ 
+   
+/*=========================== START RUTVI- Degree_rec_NCH ===========================*/
+
+.dg-rec-block{
+	display: block;
+}
+.dg-rec-none{
+	display: none;
+}
+
+/*=========================== RUTVI- Degree_rec_NCH --UG_DataTable.jsp /Degree Recognition - UG / Degree_recognition_coucil.jsp /UG_Hospital_Edit.jsp===========================*/
+.Degree_Recognition .hide-action .multi-btn-group {
+   justify-content: center;
+}
+.Degree_Recognition .hide-action ul.buttons-group li{
+    padding: 0 3px;
+}   
+/*=========================== END RUTVI- Degree_rec_NCH ===========================*/
+   
+   
+    /*===========================
+		START KAVITA- EXAMINATION - Add_Marks_of_PA.jsp 
+===========================*/
+#over_sc  {
+   overflow: scroll;
+}
+
+/*===========================
+		END KAVITA- EXAMINATION - Add_Marks_of_PA.jsp 		
+===========================*/
+
+/*===========================
+		START KAVITA- EXAMINATION - View_Internal_assessment_Marks.jsp
+===========================*/
+.simple-table .table thead th:first-child, .simple-table .table tbody td:first-child
+	{
+	width: auto !important;
+	min-width: auto !important;
+	max-width: auto !important;
+	text-align: center !important;
+}
+
+table#teaching_hours_summary_report td {
+	border-color: black !important;
+	border: 1px solid black;
+}
+
+.middle-center {
+	vertical-align: middle !important;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*===========================
+		END KAVITA- EXAMINATION - View_Internal_assessment_Marks.jsp		
+===========================*/
+
+
+
+/*===========================
+		START HARSH - MENTOR MENTEE - Approved_Request.jsp
+===========================*/
+
+.mentor-page .container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.mentor-page .darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.mentor-page .container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mentor-page .container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.mentor-page .container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.mentor-page .time-right {
+  float: right;
+  color: #aaa;
+}
+
+.mentor-page .time-left {
+  float: left;
+  color: #999;
+}
+
+.mentor-page .chatmsgscroll {
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+/*===========================
+		END HARSH - MENTOR MENTEE - Approved_Request.jsp		
+===========================*/
+
+/*===========================
+		START HARSH - MENTOR MENTEE - Mentor_Mentee.jsp		
+===========================*/
+
+/* @import url("https://fonts.googleapis.com/css?family=Muli:300,400,700,900"); */
+.mentor-page .form-tab .search-field .search-placeholder,.mentor-page .form-tab .search-btn {
+  user-select: none;
+}
+
+.mentor-page #dribbble {
+  position: fixed;
+  display: block;
+  right: 70px;
+  bottom: 16px;
+}
+.mentor-page #dribbble svg {
+  display: block;
+  width: 76px;
+  height: 24px;
+  fill: rgba(146, 156, 208, 0.8);
+}
+
+.mentor-page #twitter {
+  position: fixed;
+  display: block;
+  right: 25px;
+  bottom: 11px;
+}
+.mentor-page #twitter svg {
+  width: 24px;
+  height: 24px;
+  fill: rgba(146, 156, 208, 0.8);
+}
+
+.mentor-page :root {
+  --sw: 400px;
+  --sh: 70px;
+  --fs: 1.1em;
+  --i1: 24px;
+  --i2: 18px;
+  --t: 10px;
+  --l: 10px;
+  --mt: 8px;
+}
+
+@media only screen and (max-width: 420px) {
+  .mentor-page :root {
+    --sw: 320px;
+    --fs: .9em;
+    --sh: 60px;
+    --i1: 20px;
+    --i2: 14px;
+    --t: 12px;
+    --l: 12px;
+    --mt: 3px;
+  }
+}
+.mentor-page .form-container,.mentor-page .form-container .form-tab,.mentor-page .form-tab .search-btn,.mentor-page .resoult-tab,.mentor-page .ul-title,.mentor-page .ul .li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .container {
+  width: var(--sw);
+  height: calc(calc(var(--sh) * 4) + 10px);
+  background: transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} */
+
+.mentor-page .form-container {
+  width:100%;
+  height: var(--sh);
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 30px -10px #d5dbed;
+  margin-bottom: 10px;
+}
+.mentor-page .form-container .form-tab {
+  width: 95%;
+  height: calc(var(--sh) - 20px);
+}
+
+.mentor-page .form-tab .search-field {
+  width: 100%;
+  height: calc(var(--sh) - 20px);
+  background: transparent;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #eff4ff;
+}
+.mentor-page .form-tab .search-field .bi.bi-search {
+ /*  position: absolute;
+  top: var(--t);
+  left: var(--l); z-index: 1; */
+ 
+  color: #6e80a5;
+  opacity: .8;
+  width: var(--i1);
+  height: var(--i1);
+  font-size: 20px;
+    
+}
+.mentor-page .form-tab .search-field .search-placeholder {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  z-index: 1;
+  color: #6e80a5;
+  opacity: .8;
+  font-size: calc(var( --fs) / 1.1);
+}
+.mentor-page .form-tab .search-field form {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+.mentor-page .form-tab .search-field form .text-field {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: var(--fs);
+  color: #3f3f3f;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: 5px 5px 5px 43px;
+  caret-color: #79a6ff;
+  line-height: 2em;
+  border:0 !important;
+}
+.mentor-page .form-tab .search-btn {
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: calc(var(--fs) / 1.2);
+  width: 25%;
+  height: 40px;
+  background: transparent;
+  margin-top: 2px;
+}
+.mentor-page .form-tab .search-btn p {
+  cursor: pointer;
+  color: #222;
+}
+
+.mentor-page .resoult-tab {
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 0px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 30px -10px #d5dbed;
+  overflow: hidden;
+  transition: height 359ms cubic-bezier(0.27, 0.7, 0, 0.99);
+  height: auto;
+  align-items: flex-start;
+}
+
+.mentor-page .resoult-tab-active {
+  height: calc(calc(var(--sh) / 2) * 4);
+  transition: height 399ms cubic-bezier(0.27, 0.7, 0, 0.99);
+}
+
+.mentor-page .ul-title {
+  justify-content: flex-start;
+  margin-top: var(--mt);
+  width: 90%;
+  height: 35px;
+  background: transparent;
+  opacity: 0;
+}
+.mentor-page .ul-title p {
+  text-transform: uppercase;
+  font-size: calc(var(--fs) / 1.7);
+  color: #222;
+  opacity: .4;
+}
+
+.mentor-page .ul {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  position: relative;
+  border-radius: 6px;
+}
+.mentor-page .ul .li {
+  box-sizing: border-box;
+  padding: 0 5%;
+  justify-content: flex-start;
+  width: 100%;
+  height: calc(var(--sh) / 2.5);
+  position: relative;
+  overflow: hidden;
+  background: rgba(20, 98, 255, 0);
+  transition: background 399ms ease;
+}
+.mentor-page .ul .li:hover {
+  background: rgba(20, 98, 255, 0.1);
+  transition: background 299ms ease;
+}
+.mentor-page .ul .li .li-icon {
+  margin-right: 8px;
+}
+.mentor-page .ul .li .li-icon .icon {
+  transform: translatey(2px);
+  color: #1462ff;
+  width: var(--i2);
+  height: var(--i2);
+}
+.mentor-page .ul .li .li-text {
+  font-size: calc(var(--fs) / 1.3);
+  color: #222;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.mentor-page .li-active {
+  animation: displayList 699ms cubic-bezier(0.6, 0.18, 0.5, 0.99) forwards;
+  transform: translatey(40px);
+  opacity: 0;
+}
+
+.mentor-page .li-1 {
+  animation-delay: 99.5ms;
+}
+
+.mentor-page .li-2 {
+  animation-delay: 199ms;
+}
+
+.mentor-page .li-3 {
+  animation-delay: 298.5ms;
+}
+
+@keyframes displayList {
+  0% {
+    opacity: 0;
+    transform: translatey(40px);
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0px);
+  }
+}
+
+.mentor-page .resoult-tab li {
+    list-style-type: none;
+    text-align: left !important;
+    padding: 7px 15px;
+    width: 100%;
+}
+.mentor-page .resoult-tab li:hover{
+        background: #adb5bd63;
+}
+
+/*===========================
+		END HARSH - MENTOR MENTEE - Mentor_Mentee.jsp		
+===========================*/
+/*===========================
+		START DHARAK- OUTER PAGES - 
+===========================*/
+.portal-ayu-bgimg{
+	background: url('../img/aurveda.jpg') no-repeat;
+}
+
+.portal-sowa-bgimg{
+	background: url('../img/sowa-righpaa.jpg') no-repeat;
+}
+
+.portal-unani-bgimg{
+	background: url('../img/unani.jpg') no-repeat;
+} 
+
+.portal-siddha-bgimg{
+background: url('../img/siddha.jpg') no-repeat;
+}
+
+.portal-homoe-bgimg{
+background: url('../img/homeopathy.jpg') no-repeat;
+}
+
+.portal-moa-bgimg{
+background: url('../img/banner-4.jpg') no-repeat;
+}
+
+.portal-ncism-bgimg{
+background: url('../img/ncism-banner2.jpg') no-repeat;
+}
+
+.portal-nch-bgimg{
+background: url('../img/nchbannerimage.jpg') no-repeat;
+}
+
+.portal-ayuknow-bgimg{
+background: url('../img/ayushknowledge.jpg') no-repeat;
+}
+
+.portal-ayutermi-bgimg{
+background: url('../img/terminology.jpg') no-repeat;
+}
+/*===========================
+		END DHARAK- OUTER PAGES -
+===========================*/
+
+
+/*===========================
+		START TANVI- PRACTITIONER -clg_provisional_pre_data.jsp		
+===========================*/
+
+
+ .auto-fill-form ::-webkit-scrollbar { 
+     width: 5px; 
+     height:5px; 
+ } 
+ .auto-fill-form .und_text { 
+     display: flex; 
+     text-align: justify; 
+ } 
+ .auto-fill-form .upload_image { 
+     height: 120px; 
+     border: 2px solid #efefef; 
+     width: 120px; 
+     max-width: 100%; 
+     margin-bottom:20px; 
+ } 
+ .auto-fill-form .upload_image img{ 
+     max-width:100%; 
+     height:100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign img{ 
+     max-height: 100%; 
+     max-width: 100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign { 
+     height: 100px; 
+     width: 250px; 
+     border: 2px solid #efefef; 
+ } 
+
+ .auto-fill-form .input-with-value .address { 
+     min-height: 72px; 
+     max-height: 72px; 
+     overflow: auto; 
+     display: block; 
+ } 
+   
+ .auto-fill-form .input-with-value{ 
+     position: relative; 
+     margin-bottom: 20px; 
+     z-index: 1; 
+     padding: 10px 10px; 
+     background: #f1f1f1; 
+     overflow:auto; 
+ } 
+ .auto-fill-form .input-with-value label { 
+     font-size: 14px; 
+     font-weight: 500; 
+     color: #262d3f; 
+     display: inline-block;  
+     margin-bottom: 5px;  
+/*      padding-left: 20px;  */
+ } 
+ .auto-fill-form .input-with-value .auto-fill-value { 
+     font-size: 16px; 
+     color: #6e6e6e; 
+     margin-bottom: 0; 
+     font-weight: 400; 
+/*      padding-left: 20px;  */
+ } 
+.auto-fill-form label::before {
+   display: none;
+}
+
+.np_btn{
+width: 37px !important;
+    height: 42px  !important;
+    margin-bottom: 5px  !important;
+    padding: 6px 10px 3px 8px  !important;
+}
+
+.zoom_controls{
+position: absolute;
+ right: 0;
+ margin-top: 9px;
+ z-index: 1;
+ text-align:right;
+}
+
+.zoomin{
+position: relative;
+ display: inline-block;
+ margin-bottom:-15px;
+}
+
+.zoominbtn{
+position: absolute;
+ left: 11px;
+  cursor: pointer;
+   font-size: 20px;
+    top: 12px;
+     color:white;
+}
+
+.go_next{
+display: inline-block;
+}
+.zoomoutbtn{
+position: absolute;
+ left: 12px;
+  cursor: pointer; 
+  font-size: 20px;
+   top: 12px;
+    color: white;}
+    
+    .closebtn{
+    
+    position: absolute;
+ left: 12px;
+  cursor: pointer; 
+  font-size: 20px;
+   top: 12px;
+    color: white;
+    }
+    
+    .pre_btn{
+    position: absolute;
+     left: 1px;
+      cursor: pointer;
+       font-size: 20px;
+        top:6px;
+         padding: 3px 10px;
+          color: white;
+    }
+    .current_page{
+    width: 60px; margin-top:5px; margin-left: 2px;
+    }
+    
+    .next_btn{
+    position: absolute;
+     left: 2px;
+      cursor: pointer;
+       font-size: 20px;
+        top:6px;
+         padding: 3px 10px;
+          color: white;
+    }
+    
+    .downloadbtn{
+    position: initial;
+     left: 15px;
+       font-size: 25px;
+        top: -12px;
+         padding: 10px 0px 0px 0px;
+          color: #359ade;
+    
+    }
+    
+    
+    .downloadbtnview{
+    position: initial;
+     left: 30px;
+       font-size: 25px; 
+       top: -12px;
+        padding: 10px 0px 0px 0px; 
+        color: #359ade;}
+
+.NCH-theme .accordion-button:focus{
+	    z-index: 3;
+    border-color: #a5433d70;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(165 67 61 / 55%);
+}
+
+.NCH-theme .model-table thead tr:first-child{
+	    background: #a5433d;
+}
+
+.NCH-theme .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.NCH-theme .accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.NCH-theme .form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.NCH-theme .text-heighlight {
+    color: #a5433d;
+}
+
+.NCH-theme .accordion-item  input.secondary-btn {
+    background: #a5433d;
+    color: #fff;
+}
+
+.NCH-theme .accordion-item .input-style-2 input.secondary-btn:focus {
+    border-color: #a5433d;
+    background: #a5433d;
+}
+
+custom-modal-table table th{
+	font-size:14px;
+}
+
+.custom-modal-table .input-style-2{
+	margin-bottom:0px;
+}
+
+.accordion-item .daobtn li {
+	margin-top:5px;
+	
+}
+
+.accordion-item .custom-table table th{
+	font-size:14px;
+}
+
+.accordion-item:first-of-type, .accordion-item  {
+    border-top-left-radius: 0.55rem;
+    border-top-right-radius: 0.55rem;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-item .accordion-button {
+    border-top-left-radius: calc(0.55rem - 1px);
+    border-top-right-radius: calc(0.55rem - 1px);
+}
+
+.auto-input{
+	margin-bottom:4px;
+	background: #f1f1f1; 
+    color: #6e6e6e;
+    border-radius: 0px;
+}
+
+
+/* .secondary-btn {
+    background: #a5433d;
+    color: #fff;
+} */
+
+
+
+#canvas_container {
+	height: 450px;
+	overflow: scroll;
+}
+
+#canvas_container {
+	background: #333;
+	text-align: center;
+	border: solid 3px;
+	position: relative;
+}
+
+/* body { */
+/* 	font-family: Arial, Helvetica, sans-serif; */
+/* } */
+.middle_content{
+	background-color: #fff;
+}
+.pdfbtnzoom {
+	width: 80px;
+	/* background-color: #359ade;
+	border-color: #a1c6ff; */
+	font-weight: bold;
+	 width: 37px !important;
+    height: 42px;
+    margin-bottom:5px;
+}
+
+.pdfbtnpage {
+	width: 80px;
+	background-color: #4a6cf7;
+	border-color: #a1c6ff;
+	font-weight: bold;
+	 width: 37px !important;
+    height: 42px;
+    margin-bottom:5px;
+    border-radius: 4px;
+}
+
+/* .pdfbtnpage:hover {
+	background-color: #051836;
+	border: 1px solid #051836;
+}
+ */
+
+
+
+/* .pdfbtnzoom:hover {
+	background-color: #051836;
+	border: 1px solid #051836;
+} */
+
+/* .content {
+	padding: 0% 2% !important;
+}
+
+.content {
+	padding: 0% 1% !important;
+} */
+
+#closebtn, #opnbtn {
+	position: absolute;
+	top: 85px;
+	background-color: rgb(60, 173, 239);
+	color: white;
+	border: none;
+	z-index: 1;
+	left: 9px;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 3px 30px;
+	box-shadow: 3px 3px 8px 0px #0b285a;
+	font-size: 20px;
+}
+
+.card {
+	margin-top: 3.5rem;
+	border: none;
+	box-shadow: 0px 0px 10px 1px grey;
+}
+
+.card label {
+	color: #838383;
+	font-size: 16px;
+    padding: 5px;
+    word-break: break-all;
+    max-width: 100%
+}
+
+
+.searchhover:hover {
+	background-color: #5ca1e1 !important;
+	border: 2px solid #0b285a !important;
+}
+
+.resethover:hover {
+	background-color: #0b285a !important;
+	border: 2px solid #5ca1e1 !important;
+}
+
+.vl {
+    border-left: 2px solid #234035;
+    height: 92.7%;
+    position: absolute;
+     left: 41.6%; 
+    /* margin-left: -3px; */
+    top: 7.4%;
+}
+
+.alml{
+	text-align: left;
+	padding-left: 10px;
+}
+.line {
+	border-top: 1px solid #234035;
+}
+.line_design {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5% 0 0 !important;
+    padding-left: 15px;
+}
+.line_head {
+	margin: 5% 0 0 !important;
+}
+.line_text {
+	padding: 10px;
+	background-color: #d5e5b4;
+	color: #032e2e;
+	font-size: 20px !important;
+	border: 1px solid #032e2e;
+}
+.line_h {
+border: 2px solid #3a6e5b;
+}
+.ltext {
+    font-size: 18px !important;
+}
+.form-control-label {
+	color: #222222 !important;
+}
+
+.btn-save {
+    border-top: 5px solid #24b360;
+    border-left: 5px solid #24b360;
+    border-right: 5px solid #1a8748;
+    border-bottom: 5px solid #1a934d;
+}
+.btn-cancel {
+	
+	border-top: 5px solid #bb5046;
+    border-left: 5px solid #bb5046;
+    border-right: 5px solid #7a190d;
+    border-bottom: 5px solid #7a190d;
+	
+}
+.card-footer {
+    position: sticky;
+    bottom: 0;
+}
+label.scrl {
+    max-height: 200px;
+    overflow: auto;
+}
+
+.custom_clg_preview{
+ margin: 10px;
+	
+}
+.custom_clg_pre{
+	
+	 align: right;
+	position: absolute;
+	 right: 0;
+	 margin-top: 9px;
+	 z-index: 1;
+}
+.custom_clg_position{
+	
+	position: relative; 
+	display: inline-block;
+}
+.custom_clg_size{
+	
+	position: absolute;
+	 left: 10px;
+	  cursor: pointer;
+	   font-size: 20px; 
+	   top: 6px; 
+	   color: white;
+}
+
+.custom_inline_block{
+	
+ position: relative;
+  display: inline-block;
+}
+
+.custom_clg_cursor{
+	
+	position: absolute;
+	 left: 10px; 
+	 cursor: pointer;
+	  font-size: 20px;
+	top: 6px; 
+	color: white;
+}
+.custom_clg_demo{
+	
+	position: relative; 
+	display: inline-block;
+}
+
+.custom_clg_pro{
+	
+	position: absolute; 
+	left: -40px;
+	 cursor: pointer;
+	  font-size: 20px;
+	   top:-19px;
+	    padding: 3px 10px; 
+	    color: white;
+}
+.custom_clg_provisional{
+	
+	width: 60px; 
+	margin-top:5px;
+}
+.custom_provi{
+	
+position: relative;
+ display: inline-block;
+}
+.custom_absolute{
+	
+	position: absolute;
+	 left: 3px; 
+	 cursor: pointer;
+	  font-size: 20px;
+	   top:-19px; 
+	   padding: 3px 10px;
+	    color: white;
+}
+
+.custom_color{
+	
+	position: initial; 
+	left: 5px;
+	  font-size: 25px; 
+	  top: -12px;
+	   padding: 10px 0px 0px 0px;
+	    color: #359ade;
+}
+.custom_preview{
+	
+	 position: initial;
+	  left: 5px;
+	    font-size: 25px; 
+	    top: -12px;
+	     padding: 10px 0px 0px 0px;
+	      color: #359ade;
+}
+.custom_nationality{
+	
+	text-transform: uppercase ; 
+}
+
+/*===========================
+		END TANVI- TANVI- PRACTITIONER -clg_provisional_pre_data.jsp	.jsp		
+===========================*/
+
+
+/*===========================
+		START URMIK- PRACTITIONNER - intern_regulation.jsp
+===========================*/
+
+/* //09/12/2022 */
+
+ .custom_inter_rg_attachDoc
+ { 
+  width: 200px; 
+ }
+ .custom_inter_rg_DownloadFile{ 
+  width: 268px !important; 
+ }
+ .custom_inter_rg_NameofAttachDiv
+ {
+   width: 270px !important; 
+  }
+.custom_inter_rg_DynamicTb
+ {
+  width: 270px !important; 
+  }
+ 
+ .custom_inter_rg_DynamicTb2
+ { 
+ width: 200px; 
+ }
+ 
+ .custom_inter_rg_DynamicTbDownloadbtn
+ {
+  width: 268px !important; 
+ }
+.customeNaionality_intern
+{ 
+text-transform: uppercase ;	
+}
+
+
+
+.NCH-theme .accordion-button:focus{
+	    z-index: 3;
+    border-color: #a5433d70;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(165 67 61 / 55%);
+}
+
+.NCH-theme .model-table thead tr:first-child{
+	    background: #a5433d;
+}
+
+.NCH-theme .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.NCH-theme .accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.NCH-theme .form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.NCH-theme .text-heighlight {
+    color: #a5433d;
+}
+
+.NCH-theme .accordion-item  input.secondary-btn {
+    background: #a5433d;
+    color: #fff;
+}
+
+.NCH-theme .accordion-item .input-style-2 input.secondary-btn:focus {
+    border-color: #a5433d;
+    background: #a5433d;
+}
+
+custom-modal-table table th{
+	font-size:14px;
+}
+
+.custom-modal-table .input-style-2{
+	margin-bottom:0px;
+}
+
+.accordion-item .daobtn li {
+	margin-top:5px;
+	
+}
+
+.accordion-item .custom-table table th{
+	font-size:14px;
+}
+
+.accordion-item:first-of-type, .accordion-item  {
+    border-top-left-radius: 0.55rem;
+    border-top-right-radius: 0.55rem;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-item .accordion-button {
+    border-top-left-radius: calc(0.55rem - 1px);
+    border-top-right-radius: calc(0.55rem - 1px);
+}
+
+.auto-input{
+	margin-bottom:4px;
+	background: #f1f1f1; 
+    color: #6e6e6e;
+    border-radius: 0px;
+}
+
+.td_width{
+	padding: 10px 5px 5px 5px;
+}
+
+#chek_confirm{
+text-align:center;}
+
+/*===========================
+	END URMIK- PRACTITIONNER - intern_regulation.jsp	
+===========================*/
+/*===========================
+		END START- TANVI- PRACTITIONER -getView.jsp		
+===========================*/
+.custom_getView1{
+	
+ margin-left: 40px;
+ width :100;
+  height:100;
+}
+.custom_getView{
+	
+margin-bottom: 18px;
+}
+.custom_uppercase{
+	
+text-transform: uppercase;
+}
+
+.custom_right{
+	width:75px; 
+	margin-right: 20px;
+}
+
+.custom_vertical{
+	
+	vertical-align: middle;
+margin: 0px 20px;
+}
+.custom_color{
+	
+	padding-right: 10px;
+    color: #000;
+}
+.cust_size{
+color: #000;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.custom_get{
+	text-transform: uppercase;
+}
+/*===========================
+		END  TANVI- PRACTITIONER -getView.jsp	
+===========================*/
+
+
+/*===========================
+		 START- TANVI- PRACTITIONER -university.jsp		
+===========================*/
+  .auto-fill-form ::-webkit-scrollbar { 
+     width: 5px; 
+     height:5px; 
+ } 
+ .auto-fill-form .und_text { 
+     display: flex; 
+     text-align: justify; 
+ } 
+ .auto-fill-form .upload_image { 
+     height: 120px; 
+     border: 2px solid #efefef; 
+     width: 120px; 
+     max-width: 100%; 
+     margin-bottom:20px; 
+ } 
+ .auto-fill-form .upload_image img{ 
+     max-width:100%; 
+     height:100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign img{ 
+     max-height: 100%; 
+     max-width: 100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign { 
+     height: 100px; 
+     width: 250px; 
+     border: 2px solid #efefef; 
+ } 
+
+ .auto-fill-form .input-with-value .address { 
+     min-height: 72px; 
+     max-height: 72px; 
+     overflow: auto; 
+     display: block; 
+ } 
+   
+ .auto-fill-form .input-with-value{ 
+     position: relative; 
+     margin-bottom: 20px; 
+     z-index: 1; 
+     padding: 10px 10px; 
+     background: #f1f1f1; 
+     overflow:auto; 
+ } 
+ .auto-fill-form .input-with-value label { 
+     font-size: 14px; 
+     font-weight: 500; 
+     color: #262d3f; 
+     display: inline-block;  
+     margin-bottom: 5px;  
+/*      padding-left: 20px;  */
+ } 
+ .auto-fill-form .input-with-value .auto-fill-value { 
+     font-size: 16px; 
+     color: #6e6e6e; 
+     margin-bottom: 0; 
+     font-weight: 400; 
+/*      padding-left: 20px;  */
+ } 
+.auto-fill-form label::before {
+   display: none;
+}
+
+.np_btn{
+width: 37px !important;
+    height: 42px  !important;
+    margin-bottom: 5px  !important;
+    padding: 6px 10px 3px 8px  !important;
+}
+
+.zoom_controls{
+position: absolute;
+ right: 0;
+ margin-top: 9px;
+ z-index: 1;
+ text-align:right;
+}
+
+.zoomin{
+position: relative;
+ display: inline-block;
+ margin-bottom:-15px;
+}
+
+.zoominbtn{
+position: absolute;
+ left: 11px;
+  cursor: pointer;
+   font-size: 20px;
+    top: 12px;
+     color:white;
+}
+
+.go_next{
+display: inline-block;
+}
+.zoomoutbtn{
+position: absolute;
+ left: 12px;
+  cursor: pointer; 
+  font-size: 20px;
+   top: 12px;
+    color: white;}
+    
+    .closebtn{
+    
+    position: absolute;
+ left: 12px;
+  cursor: pointer; 
+  font-size: 20px;
+   top: 12px;
+    color: white;
+    }
+    
+    .pre_btn{
+    position: absolute;
+     left: 1px;
+      cursor: pointer;
+       font-size: 20px;
+        top:6px;
+         padding: 3px 10px;
+          color: white;
+    }
+    .current_page{
+    width: 60px; margin-top:5px; margin-left: 2px;
+    }
+    
+    .next_btn{
+    position: absolute;
+     left: 2px;
+      cursor: pointer;
+       font-size: 20px;
+        top:6px;
+         padding: 3px 10px;
+          color: white;
+    }
+    
+    .downloadbtn{
+    position: initial;
+     left: 15px;
+       font-size: 25px;
+        top: -12px;
+         padding: 10px 0px 0px 0px;
+          color: #359ade;
+    
+    }
+    
+    
+    .downloadbtnview{
+    position: initial;
+     left: 30px;
+       font-size: 25px; 
+       top: -12px;
+        padding: 10px 0px 0px 0px; 
+        color: #359ade;}
+    
+    
+
+/* .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.text-heighlight {
+    color: #a5433d;
+} */
+
+.NCH-theme .accordion-button:focus{
+	    z-index: 3;
+    border-color: #a5433d70;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(165 67 61 / 55%);
+}
+
+.NCH-theme .model-table thead tr:first-child{
+	    background: #a5433d;
+}
+
+.NCH-theme .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.NCH-theme .accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.NCH-theme .form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.NCH-theme .text-heighlight {
+    color: #a5433d;
+}
+
+.NCH-theme .accordion-item  input.secondary-btn {
+    background: #a5433d;
+    color: #fff;
+}
+
+.NCH-theme .accordion-item .input-style-2 input.secondary-btn:focus {
+    border-color: #a5433d;
+    background: #a5433d;
+}
+
+custom-modal-table table th{
+	font-size:14px;
+}
+
+.custom-modal-table .input-style-2{
+	margin-bottom:0px;
+}
+
+.accordion-item .daobtn li {
+	margin-top:5px;
+	
+}
+
+.accordion-item .custom-table table th{
+	font-size:14px;
+}
+
+.accordion-item:first-of-type, .accordion-item  {
+    border-top-left-radius: 0.55rem;
+    border-top-right-radius: 0.55rem;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-item .accordion-button {
+    border-top-left-radius: calc(0.55rem - 1px);
+    border-top-right-radius: calc(0.55rem - 1px);
+}
+
+.auto-input{
+	margin-bottom:4px;
+	background: #f1f1f1; 
+    color: #6e6e6e;
+    border-radius: 0px;
+}
+
+
+/* .secondary-btn {
+    background: #a5433d;
+    color: #fff;
+} */
+
+
+
+#canvas_container {
+	height: 450px;
+	overflow: scroll;
+}
+
+#canvas_container {
+	background: #333;
+	text-align: center;
+	border: solid 3px;
+	position: relative;
+}
+
+/* body {
+	font-family: Arial, Helvetica, sans-serif;
+} */
+.middle_content{
+	background-color: #fff;
+}
+.pdfbtnzoom {
+	width: 80px;
+	/* background-color: #359ade;
+	border-color: #a1c6ff; */
+	font-weight: bold;
+	 width: 37px !important;
+    height: 42px;
+    margin-bottom:5px;
+}
+
+.pdfbtnpage {
+	width: 80px;
+	background-color: #4a6cf7;
+	border-color: #a1c6ff;
+	font-weight: bold;
+	 width: 37px !important;
+    height: 42px;
+    margin-bottom:5px;
+    border-radius: 4px;
+}
+
+/* .pdfbtnpage:hover {
+	background-color: #051836;
+	border: 1px solid #051836;
+}
+ */
+
+
+
+/* .pdfbtnzoom:hover {
+	background-color: #051836;
+	border: 1px solid #051836;
+} */
+
+/* .content {
+	padding: 0% 2% !important;
+}
+
+.content {
+	padding: 0% 1% !important;
+} */
+
+#closebtn, #opnbtn {
+	position: absolute;
+	top: 85px;
+	background-color: rgb(60, 173, 239);
+	color: white;
+	border: none;
+	z-index: 1;
+	left: 9px;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 3px 30px;
+	box-shadow: 3px 3px 8px 0px #0b285a;
+	font-size: 20px;
+}
+
+.card {
+	margin-top: 3.5rem;
+	border: none;
+	box-shadow: 0px 0px 10px 1px grey;
+}
+
+.card label {
+	color: #838383;
+	font-size: 16px;
+    padding: 5px;
+    word-break: break-all;
+    max-width: 100%
+}
+
+
+.searchhover:hover {
+	background-color: #5ca1e1 !important;
+	border: 2px solid #0b285a !important;
+}
+
+.resethover:hover {
+	background-color: #0b285a !important;
+	border: 2px solid #5ca1e1 !important;
+}
+
+.vl {
+    border-left: 2px solid #234035;
+    height: 92.7%;
+    position: absolute;
+     left: 41.6%; 
+    /* margin-left: -3px; */
+    top: 7.4%;
+}
+
+.alml{
+	text-align: left;
+	padding-left: 10px;
+}
+.line {
+	border-top: 1px solid #234035;
+}
+.line_design {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5% 0 0 !important;
+    padding-left: 15px;
+}
+.line_head {
+	margin: 5% 0 0 !important;
+}
+.line_text {
+	padding: 10px;
+	background-color: #d5e5b4;
+	color: #032e2e;
+	font-size: 20px !important;
+	border: 1px solid #032e2e;
+}
+.line_h {
+border: 2px solid #3a6e5b;
+}
+.ltext {
+    font-size: 18px !important;
+}
+.form-control-label {
+	color: #222222 !important;
+}
+
+.btn-save {
+    border-top: 5px solid #24b360;
+    border-left: 5px solid #24b360;
+    border-right: 5px solid #1a8748;
+    border-bottom: 5px solid #1a934d;
+}
+.btn-cancel {
+	
+	border-top: 5px solid #bb5046;
+    border-left: 5px solid #bb5046;
+    border-right: 5px solid #7a190d;
+    border-bottom: 5px solid #7a190d;
+	
+}
+.card-footer {
+    position: sticky;
+    bottom: 0;
+}
+label.scrl {
+    max-height: 200px;
+    overflow: auto;
+}
+
+
+/*===========================
+		END  TANVI- PRACTITIONER -getView.jsp	
+===========================*/
+/*===========================
+		START RIDDHI- PRACTITIONER  - regulation.jsp
+===========================*/
+#chek_confirm{
+text-align:center;}
+/* .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.text-heighlight {
+    color: #a5433d;
+}
+.secondary-btn {
+    background: #a5433d;
+    color: #fff;
+} */
+/* .dropReadonly */
+/* { */
+/* pointer-events: "none";  */
+/* touch-action: "auto";  */
+/* background: "#ede6e6"; */
+/* } */
+
+.NCH-theme .accordion-button:focus{
+	    z-index: 3;
+    border-color: #a5433d70;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(165 67 61 / 55%);
+}
+
+.NCH-theme .model-table thead tr:first-child{
+	    background: #a5433d;
+}
+
+.NCH-theme .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.NCH-theme .accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.NCH-theme .form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.NCH-theme .text-heighlight {
+    color: #a5433d;
+}
+
+.NCH-theme .accordion-item  input.secondary-btn {
+    background: #a5433d;
+    color: #fff;
+}
+
+.NCH-theme .accordion-item .input-style-2 input.secondary-btn:focus {
+    border-color: #a5433d;
+    background: #a5433d;
+}
+
+custom-modal-table table th{
+	font-size:14px;
+}
+
+.custom-modal-table .input-style-2{
+	margin-bottom:0px;
+}
+
+.accordion-item .daobtn li {
+	margin-top:5px;
+	
+}
+
+.accordion-item .custom-table table th{
+	font-size:14px;
+}
+
+.accordion-item:first-of-type, .accordion-item  {
+    border-top-left-radius: 0.55rem;
+    border-top-right-radius: 0.55rem;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-item .accordion-button {
+    border-top-left-radius: calc(0.55rem - 1px);
+    border-top-right-radius: calc(0.55rem - 1px);
+}
+
+.auto-input{
+	margin-bottom:4px;
+	background: #f1f1f1; 
+    color: #6e6e6e;
+    border-radius: 0px;
+}
+
+.regupract{
+	text-transform: uppercase;
+}
+
+.regupractcss{
+	margin: 10px;
+}
+
+.regupractzoomcon{
+	position: absolute;
+	right: 0;
+	margin-top: 9px;
+	z-index: 1;
+}
+.regupractzoomdiv{
+	position: relative;
+	display: inline-block;
+}
+.regupractzoomin{
+	position: absolute;
+	left: 10px;
+	cursor: pointer;
+	font-size: 20px; 
+	top: 6px;
+	color: white;
+}
+.regupractzoomprevidiv{
+	position: relative;
+	display: inline-block;
+}
+.regupractzoomprevi{
+	position: absolute;
+	left: -40px;
+	cursor: pointer;
+	font-size: 20px;
+	top:-19px;
+	padding: 3px 10px;
+	color: white;
+}
+.regupractcurrent{
+	width: 60px;
+	margin-top:5px;
+}
+.regupractgo{
+	position: absolute;
+	left: 3px;
+	cursor: pointer;
+	font-size: 20px;
+	top:-19px;
+	padding: 3px 10px;
+	color: white;
+}
+.regupractdown{
+	position: initial;
+	left: 5px; 
+	font-size: 25px;
+	top: -12px; 
+	padding: 10px 0px 0px 0px;
+	color: #359ade;
+}
+.regupractaddmore{
+	width: 250px;
+}
+.regupractaddmoretd{
+	width: 200px;
+}
+/*===========================
+		END RIDDHI- PRACTITIONER  - regulation.jsp
+===========================*/
+
+/*===========================
+		START HIRAL- INTERN  - intern_Pre_data.jsp
+===========================*/
+.custom_intern_pre_data_downloadbtn
+{
+	position: initial;
+	left: 5px;  
+	font-size: 25px; 
+	top: -12px; 
+	padding: 10px 0px 0px 0px; 
+	color: #359ade;
+}
+
+.custom_intern_pre_data_go_next
+{
+	position: absolute; 
+	left: 3px; 
+	cursor: pointer; 
+	font-size: 20px; 
+	top:-19px; 
+	padding: 3px 10px; 
+	color: white;
+}
+
+.custom_intern_pre_data_current_page
+{
+	width: 60px; 
+	margin-top:5px
+}
+
+.custom_intern_pre_data_next_div_style
+{
+	position: relative; 
+	display: inline-block;
+}
+
+.custom_intern_pre_data_go_previous
+{
+	position: absolute;
+	left: -40px;
+	cursor: pointer;
+	font-size: 20px;
+	top:-19px; 
+	padding: 3px 10px;
+	color: white;
+}
+
+.custom_intern_pre_data_go_previous_div_style
+{
+	position: relative; 
+	display: inline-block;	
+}
+
+.custom_intern_pre_data_zoom_out
+{
+	position: absolute;
+	left: 10px;
+	cursor: pointer; 
+	font-size: 20px; 
+	top: 6px; 
+	color: white;
+}
+
+.custom_intern_pre_data_zoom_out_div_style
+{
+	position: relative;
+	display: inline-block;
+}
+
+.custom_intern_pre_data_zoom_in
+{
+	position: absolute;
+	left: 10px; 
+	cursor: pointer; 
+	font-size: 20px; 
+	top: 6px; 
+	color: white;
+}
+.custom_intern_pre_data_zoom_in_div_style
+{
+	position: relative; 
+	display: inline-block;
+}
+
+.custom_intern_pre_data_zoom_controls
+{
+	position: absolute; 
+	right: 0;
+	margin-top: 9px;
+	z-index: 1;
+}
+
+.custom_intern_pre_data_zoom_controls_div_style
+{
+	text-align: right
+}
+
+.custom_intern_pre_data_my_pdf_viewer_div_style
+{
+	margin: 10px;
+}
+
+.custom_intern_pre_data_nationality
+{
+	text-transform: uppercase;
+}
+
+
+/* .auto-fill-form { 
+   counter-reset: number; 
+ } 
+ .auto-fill-form label { 
+   counter-increment: number; 
+ } 
+ .auto-fill-form label::before { 
+   content: counter(number)" "; 
+   position: absolute; 
+   margin-left: -20px; 
+  
+ }  */
+ .auto-fill-form ::-webkit-scrollbar { 
+     width: 5px; 
+     height:5px; 
+ } 
+ .auto-fill-form .und_text { 
+     display: flex; 
+     text-align: justify; 
+ } 
+ .auto-fill-form .upload_image { 
+     height: 120px; 
+     border: 2px solid #efefef; 
+     width: 120px; 
+     max-width: 100%; 
+     margin-bottom:20px; 
+ } 
+ .auto-fill-form .upload_image img{ 
+     max-width:100%; 
+     height:100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign img{ 
+     max-height: 100%; 
+     max-width: 100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign { 
+     height: 100px; 
+     width: 250px; 
+     border: 2px solid #efefef; 
+ } 
+
+ .auto-fill-form .input-with-value .address { 
+     min-height: 72px; 
+     max-height: 72px; 
+     overflow: auto; 
+     display: block; 
+ } 
+   
+ .auto-fill-form .input-with-value{ 
+     position: relative; 
+     margin-bottom: 30px; 
+     z-index: 1; 
+     padding: 10px 10px; 
+     background: #f1f1f1; 
+    
+ } 
+ .auto-fill-form .input-with-value label { 
+     font-size: 14px; 
+     font-weight: 500; 
+     color: #262d3f; 
+     display: inline-block;  
+     margin-bottom: 5px;  
+/*      padding-left: 20px;  */
+ } 
+ .auto-fill-form .input-with-value .auto-fill-value { 
+     font-size: 16px; 
+     color: #6e6e6e; 
+     margin-bottom: 0; 
+     font-weight: 400; 
+/*      padding-left: 20px;  */
+ } 
+.auto-fill-form label::before {
+   display: none;
+}
+
+* .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.text-heighlight {
+    color: #a5433d;
+} */
+
+.NCH-theme .accordion-button:focus{
+	    z-index: 3;
+    border-color: #a5433d70;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(165 67 61 / 55%);
+}
+
+.NCH-theme .model-table thead tr:first-child{
+	    background: #a5433d;
+}
+
+.NCH-theme .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.NCH-theme .accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.NCH-theme .form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+/* .NCH-theme .text-heighlight {
+    color: #a5433d;
+} */
+
+.NCH-theme .accordion-item  input.secondary-btn {
+    background: #a5433d;
+    color: #fff;
+}
+
+.NCH-theme .accordion-item .input-style-2 input.secondary-btn:focus {
+    border-color: #a5433d;
+    background: #a5433d;
+}
+
+.custom-modal-table table th{
+	font-size:14px;
+}
+
+.custom-modal-table .input-style-2{
+	margin-bottom:0px;
+}
+
+.accordion-item .daobtn li {
+	margin-top:5px;
+	
+}
+
+.accordion-item .custom-table table th{
+	font-size:14px;
+}
+
+.accordion-item:first-of-type, .accordion-item  {
+    border-top-left-radius: 0.55rem;
+    border-top-right-radius: 0.55rem;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-item .accordion-button {
+    border-top-left-radius: calc(0.55rem - 1px);
+    border-top-right-radius: calc(0.55rem - 1px);
+}
+
+.auto-input{
+	margin-bottom:4px;
+	background: #f1f1f1; 
+    color: #6e6e6e;
+    border-radius: 0px;
+}
+
+
+/* .secondary-btn {
+    background: #a5433d;
+    color: #fff;
+} */
+
+/* .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.text-heighlight {
+    color: #a5433d;
+} */
+
+.NCH-theme .accordion-button:focus{
+	    z-index: 3;
+    border-color: #a5433d70;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(165 67 61 / 55%);
+}
+
+.NCH-theme .model-table thead tr:first-child{
+	    background: #a5433d;
+}
+
+.NCH-theme .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.NCH-theme .accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.NCH-theme .form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+/* .NCH-theme .text-heighlight {
+    color: #a5433d;
+} */
+
+.NCH-theme .accordion-item  input.secondary-btn {
+    background: #a5433d;
+    color: #fff;
+}
+
+.NCH-theme .accordion-item .input-style-2 input.secondary-btn:focus {
+    border-color: #a5433d;
+    background: #a5433d;
+}
+
+.custom-modal-table table th{
+	font-size:14px;
+}
+
+.custom-modal-table .input-style-2{
+	margin-bottom:0px;
+}
+
+.accordion-item .daobtn li {
+	margin-top:5px;
+	
+}
+
+.accordion-item .custom-table table th{
+	font-size:14px;
+}
+
+.accordion-item:first-of-type, .accordion-item  {
+    border-top-left-radius: 0.55rem;
+    border-top-right-radius: 0.55rem;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-item .accordion-button {
+    border-top-left-radius: calc(0.55rem - 1px);
+    border-top-right-radius: calc(0.55rem - 1px);
+}
+
+.auto-input{
+	margin-bottom:4px;
+	background: #f1f1f1; 
+    color: #6e6e6e;
+    border-radius: 0px;
+}
+
+
+/* .secondary-btn {
+    background: #a5433d;
+    color: #fff;
+} */
+
+
+
+
+/*===========================
+		END HIRAL- INTERN  - intern_Pre_data.jsp
+===========================*/
+
+
+
+/*===========================
+		Start  PARTH RATHOD 	
+===========================*/
+
+/* ------------------------------------------------PRACTITIONER -university_provisional_pre_data.jsp------------------------------------------- */
+
+.auto-fill-form ::-webkit-scrollbar { 
+     width: 5px; 
+     height:5px; 
+ } 
+ .auto-fill-form .und_text { 
+     display: flex; 
+     text-align: justify; 
+ } 
+ .auto-fill-form .upload_image { 
+     height: 120px; 
+     border: 2px solid #efefef; 
+     width: 120px; 
+     max-width: 100%; 
+     margin-bottom:20px; 
+ } 
+ .auto-fill-form .upload_image img{ 
+     max-width:100%; 
+     height:100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign img{ 
+     max-height: 100%; 
+     max-width: 100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign { 
+     height: 100px; 
+     width: 250px; 
+     border: 2px solid #efefef; 
+ } 
+
+ .auto-fill-form .input-with-value .address { 
+     min-height: 72px; 
+     max-height: 72px; 
+     overflow: auto; 
+     display: block; 
+ } 
+   
+ .auto-fill-form .input-with-value{ 
+     position: relative; 
+     margin-bottom: 20px; 
+     z-index: 1; 
+     padding: 10px 10px; 
+     background: #f1f1f1; 
+     overflow:auto; 
+ } 
+ .auto-fill-form .input-with-value label { 
+     font-size: 14px; 
+     font-weight: 500; 
+     color: #262d3f; 
+     display: inline-block;  
+     margin-bottom: 5px;  
+/*      padding-left: 20px;  */
+ } 
+ .auto-fill-form .input-with-value .auto-fill-value { 
+     font-size: 16px; 
+     color: #6e6e6e; 
+     margin-bottom: 0; 
+     font-weight: 400; 
+/*      padding-left: 20px;  */
+ } 
+.auto-fill-form label::before {
+   display: none;
+}
+
+.np_btn{
+width: 37px !important;
+    height: 42px  !important;
+    margin-bottom: 5px  !important;
+    padding: 6px 10px 3px 8px  !important;
+}
+
+.zoom_controls{
+position: absolute;
+ right: 0;
+ margin-top: 9px;
+ z-index: 1;
+ text-align:right;
+}
+
+.zoomin{
+position: relative;
+ display: inline-block;
+ margin-bottom:-15px;
+}
+
+.zoominbtn{
+position: absolute;
+ left: 11px;
+  cursor: pointer;
+   font-size: 20px;
+    top: 12px;
+     color:white;
+}
+
+.go_next{
+display: inline-block;
+}
+.zoomoutbtn{
+position: absolute;
+ left: 12px;
+  cursor: pointer; 
+  font-size: 20px;
+   top: 12px;
+    color: white;}
+    
+    .closebtn{
+    
+    position: absolute;
+ left: 12px;
+  cursor: pointer; 
+  font-size: 20px;
+   top: 12px;
+    color: white;
+    }
+    
+    .pre_btn{
+    position: absolute;
+     left: 1px;
+      cursor: pointer;
+       font-size: 20px;
+        top:6px;
+         padding: 3px 10px;
+          color: white;
+    }
+    .current_page{
+    width: 60px; margin-top:5px; margin-left: 2px;
+    }
+    
+    .next_btn{
+    position: absolute;
+     left: 2px;
+      cursor: pointer;
+       font-size: 20px;
+        top:6px;
+         padding: 3px 10px;
+          color: white;
+    }
+    
+    .downloadbtn{
+    position: initial;
+     left: 15px;
+       font-size: 25px;
+        top: -12px;
+         padding: 10px 0px 0px 0px;
+          color: #359ade;
+    
+    }
+    
+    
+    .downloadbtnview{
+    position: initial;
+     left: 30px;
+       font-size: 25px; 
+       top: -12px;
+        padding: 10px 0px 0px 0px; 
+        color: #359ade;}
+    
+    .NCH-theme .accordion-button:focus{
+	    z-index: 3;
+    border-color: #a5433d70;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(165 67 61 / 55%);
+}
+
+.NCH-theme .model-table thead tr:first-child{
+	    background: #a5433d;
+}
+
+.NCH-theme .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.NCH-theme .accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.NCH-theme .form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.NCH-theme .text-heighlight {
+    color: #a5433d;
+}
+
+.NCH-theme .accordion-item  input.secondary-btn {
+    background: #a5433d;
+    color: #fff;
+}
+
+.NCH-theme .accordion-item .input-style-2 input.secondary-btn:focus {
+    border-color: #a5433d;
+    background: #a5433d;
+}
+
+custom-modal-table table th{
+	font-size:14px;
+}
+
+.custom-modal-table .input-style-2{
+	margin-bottom:0px;
+}
+
+.accordion-item .daobtn li {
+	margin-top:5px;
+	
+}
+
+.accordion-item .custom-table table th{
+	font-size:14px;
+}
+
+.accordion-item:first-of-type, .accordion-item  {
+    border-top-left-radius: 0.55rem;
+    border-top-right-radius: 0.55rem;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-item .accordion-button {
+    border-top-left-radius: calc(0.55rem - 1px);
+    border-top-right-radius: calc(0.55rem - 1px);
+}
+
+.auto-input{
+	margin-bottom:4px;
+	background: #f1f1f1; 
+    color: #6e6e6e;
+    border-radius: 0px;
+}
+
+
+/* .secondary-btn {
+    background: #a5433d;
+    color: #fff;
+} */
+
+
+
+#canvas_container {
+	height: 450px;
+	overflow: scroll;
+}
+
+#canvas_container {
+	background: #333;
+	text-align: center;
+	border: solid 3px;
+	position: relative;
+}
+
+/* body {
+	font-family: Arial, Helvetica, sans-serif;
+} */
+.middle_content{
+	background-color: #fff;
+}
+.pdfbtnzoom {
+	width: 80px;
+	/* background-color: #359ade;
+	border-color: #a1c6ff; */
+	font-weight: bold;
+	 width: 37px !important;
+    height: 42px;
+    margin-bottom:5px;
+}
+
+.pdfbtnpage {
+	width: 80px;
+	background-color: #4a6cf7;
+	border-color: #a1c6ff;
+	font-weight: bold;
+	 width: 37px !important;
+    height: 42px;
+    margin-bottom:5px;
+    border-radius: 4px;
+}
+
+/* .pdfbtnpage:hover {
+	background-color: #051836;
+	border: 1px solid #051836;
+}
+ */
+
+
+
+/* .pdfbtnzoom:hover {
+	background-color: #051836;
+	border: 1px solid #051836;
+} */
+
+/* .content {
+	padding: 0% 2% !important;
+}
+
+.content {
+	padding: 0% 1% !important;
+} */
+
+#closebtn, #opnbtn {
+	position: absolute;
+	top: 85px;
+	background-color: rgb(60, 173, 239);
+	color: white;
+	border: none;
+	z-index: 1;
+	left: 9px;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 3px 30px;
+	box-shadow: 3px 3px 8px 0px #0b285a;
+	font-size: 20px;
+}
+
+.card {
+	margin-top: 3.5rem;
+	border: none;
+	box-shadow: 0px 0px 10px 1px grey;
+}
+
+.card label {
+	color: #838383;
+	font-size: 16px;
+    padding: 5px;
+    word-break: break-all;
+    max-width: 100%
+}
+
+
+.searchhover:hover {
+	background-color: #5ca1e1 !important;
+	border: 2px solid #0b285a !important;
+}
+
+.resethover:hover {
+	background-color: #0b285a !important;
+	border: 2px solid #5ca1e1 !important;
+}
+
+.vl {
+    border-left: 2px solid #234035;
+    height: 92.7%;
+    position: absolute;
+     left: 41.6%; 
+    /* margin-left: -3px; */
+    top: 7.4%;
+}
+
+.alml{
+	text-align: left;
+	padding-left: 10px;
+}
+.line {
+	border-top: 1px solid #234035;
+}
+.line_design {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5% 0 0 !important;
+    padding-left: 15px;
+}
+.line_head {
+	margin: 5% 0 0 !important;
+}
+.line_text {
+	padding: 10px;
+	background-color: #d5e5b4;
+	color: #032e2e;
+	font-size: 20px !important;
+	border: 1px solid #032e2e;
+}
+.line_h {
+border: 2px solid #3a6e5b;
+}
+.ltext {
+    font-size: 18px !important;
+}
+.form-control-label {
+	color: #222222 !important;
+}
+
+.btn-save {
+    border-top: 5px solid #24b360;
+    border-left: 5px solid #24b360;
+    border-right: 5px solid #1a8748;
+    border-bottom: 5px solid #1a934d;
+}
+.btn-cancel {
+	
+	border-top: 5px solid #bb5046;
+    border-left: 5px solid #bb5046;
+    border-right: 5px solid #7a190d;
+    border-bottom: 5px solid #7a190d;
+	
+}
+.card-footer {
+    position: sticky;
+    bottom: 0;
+}
+label.scrl {
+    max-height: 200px;
+    overflow: auto;
+}
+
+
+/* ------------------------------------------------PRACTITIONER -university_provisional_pre_data.jsp inline applied------------------------------------------- */
+
+.custom_uni_pro_pre_data_divp{
+margin: 10px;
+}
+.custom_uni_pro_pre_data_divc{
+text-align:right;
+position: absolute; 
+right: 0;
+margin-top: 9px;
+z-index: 1;
+}
+.custom_uni_pro_pre_data_divc0{
+position: relative; 
+display: inline-block;
+}
+.custom_uni_pro_pre_data_divci{
+position: absolute; 
+left: 10px; 
+cursor: pointer; 
+font-size: 20px; 
+top: 6px; 
+color: white;
+}
+.custom_uni_pro_pre_data_divc1{
+position: absolute; 
+left: -40px; cursor: pointer; 
+font-size: 20px; 
+top:-19px; 
+padding: 3px 10px; 
+color: white;
+}
+.custom_uni_pro_pre_data_inp{
+width: 60px; 
+margin-top:5px
+}
+.custom_uni_pro_pre_data_i1{
+position: absolute; 
+left: 3px; 
+cursor: pointer; 
+font-size: 20px; 
+top:-19px; 
+padding: 3px 10px; 
+color: white;
+}
+.custom_uni_pro_pre_data_i2{
+position: initial; 
+left: 5px;  
+font-size: 25px; 
+top: -12px; 
+padding: 10px 0px 0px 0px; 
+color: #359ade;
+}
+.custom_uni_pro_pre_data_sel{
+	text-transform: uppercase;
+}
+
+/*===========================
+		End  PARTH RATHOD 	
+===========================*/
+
+/*===========================
+		START CHIRAG- PRACTITIONNER - track_pract_details.jsp ,
+		search_pract_details.jsp
+		
+===========================*/
+.progress-line {
+	background-color: #5d657b;
+}
+
+.progress-lineh2 {
+	color: red;
+}
+/*===========================
+	END CHIRAG- PRACTITIONNER - track_pract_details.jsp ,
+	search_pract_details.jsp
+		
+===========================*/
+
+
+
+/*===========================
+		START CHIRAG- PRACTITIONNER - Degree_Popup.jsp
+		
+===========================*/  
+
+.col_view {
+	margin: 10px;
+}
+
+.zom_con {
+	align: right;
+	position: absolute;
+	right: 0;
+	margin-top: 9px;
+	z-index: 1;
+}
+
+.zom_div {
+	position: relative;
+	display: inline-block;
+}
+
+.pdfbtnzoomi {
+	position: absolute;
+	left: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	top: 6px;
+	color: white;
+}
+
+.go_pre {
+	position: relative;
+	display: inline-block;
+}
+
+.go_prei {
+	position: absolute;
+	left: -40px;
+	cursor: pointer;
+	font-size: 20px;
+	top: -19px;
+	padding: 3px 10px;
+	color: white;
+}
+
+.inpt_i {
+	width: 60px;
+	margin-top: 5px;
+}
+
+.go_nexti {
+	position: absolute;
+	left: 3px;
+	cursor: pointer;
+	font-size: 20px;
+	top: -19px;
+	padding: 3px 10px;
+	color: white;
+}
+
+.downloadbtni {
+	position: initial;
+	left: 5px;
+	font-size: 25px;
+	top: -12px;
+	padding: 10px 0px 0px 0px;
+	color: #359ade;
+}
+
+
+/*===========================
+	END CHIRAG- PRACTITIONNER - Degree_Popup.jsp
+	
+===========================*/
+
+/*===========================
+		START RIDDHI- PRACTITIONER  - Pre_data.jsp
+===========================*/
+
+/* .auto-fill-form { 
+   counter-reset: number; 
+ } 
+ .auto-fill-form label { 
+   counter-increment: number; 
+ } 
+ .auto-fill-form label::before { 
+   content: counter(number)" "; 
+   position: absolute; 
+   margin-left: -20px; 
+  
+ }  */
+ .auto-fill-form ::-webkit-scrollbar { 
+     width: 5px; 
+     height:5px; 
+ } 
+ .auto-fill-form .und_text { 
+     display: flex; 
+     text-align: justify; 
+ } 
+ .auto-fill-form .upload_image { 
+     height: 120px; 
+     border: 2px solid #efefef; 
+     width: 120px; 
+     max-width: 100%; 
+     margin-bottom:20px; 
+ } 
+ .auto-fill-form .upload_image img{ 
+     max-width:100%; 
+     height:100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign img{ 
+     max-height: 100%; 
+     max-width: 100%; 
+     margin: 0 auto; 
+     display: block; 
+ } 
+ .auto-fill-form .upload_sign { 
+     height: 100px; 
+     width: 250px; 
+     border: 2px solid #efefef; 
+ } 
+
+ .auto-fill-form .input-with-value .address { 
+     min-height: 72px; 
+     max-height: 72px; 
+     overflow: auto; 
+     display: block; 
+ } 
+   
+ .auto-fill-form .input-with-value{ 
+     position: relative; 
+     margin-bottom: 30px; 
+     z-index: 1; 
+     padding: 10px 10px; 
+     background: #f1f1f1; 
+    
+ } 
+ .auto-fill-form .input-with-value label { 
+     font-size: 14px; 
+     font-weight: 500; 
+     color: #262d3f; 
+     display: inline-block;  
+     margin-bottom: 5px;  
+/*      padding-left: 20px;  */
+ } 
+ .auto-fill-form .input-with-value .auto-fill-value { 
+     font-size: 16px; 
+     color: #6e6e6e; 
+     margin-bottom: 0; 
+     font-weight: 400; 
+/*      padding-left: 20px;  */
+ } 
+.auto-fill-form label::before {
+   display: none;
+}
+
+/* .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+.text-heighlight {
+    color: #a5433d;
+} */
+
+.NCH-theme .accordion-button:focus{
+	    z-index: 3;
+    border-color: #a5433d70;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgb(165 67 61 / 55%);
+}
+
+.NCH-theme .model-table thead tr:first-child{
+	    background: #a5433d;
+}
+
+.NCH-theme .accordion-primary-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a5433d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.NCH-theme .accordion-itemstylena {
+    background: #a5433d70;
+    color: #a5433d;
+}
+
+.NCH-theme .form-check-input:checked {
+    background-color: #a5433d;
+    border-color: #d50100;
+}
+/* .NCH-theme .text-heighlight {
+    color: #a5433d;
+} */
+
+.NCH-theme .accordion-item  input.secondary-btn {
+    background: #a5433d;
+    color: #fff;
+}
+
+.NCH-theme .accordion-item .input-style-2 input.secondary-btn:focus {
+    border-color: #a5433d;
+    background: #a5433d;
+}
+
+.custom-modal-table table th{
+	font-size:14px;
+}
+
+.custom-modal-table .input-style-2{
+	margin-bottom:0px;
+}
+
+.accordion-item .daobtn li {
+	margin-top:5px;
+	
+}
+
+.accordion-item .custom-table table th{
+	font-size:14px;
+}
+
+.accordion-item:first-of-type, .accordion-item  {
+    border-top-left-radius: 0.55rem;
+    border-top-right-radius: 0.55rem;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-item .accordion-button {
+    border-top-left-radius: calc(0.55rem - 1px);
+    border-top-right-radius: calc(0.55rem - 1px);
+}
+
+.auto-input{
+	margin-bottom:4px;
+	background: #f1f1f1; 
+    color: #6e6e6e;
+    border-radius: 0px;
+}
+.predivrow{
+	margin: 10px;
+}
+.prezoomcon{
+	position: absolute;
+	right: 0;
+	margin-top: 9px;
+	z-index: 1;
+}
+
+.prenationality{
+	text-transform: uppercase ; 
+}
+.predatadiv{
+	position: relative;
+	display: inline-block;
+	 
+}
+.predatazoomin{
+	position: absolute; 
+	left: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	top: 6px;
+	color: white;
+	 
+}
+.predataprevious{
+	position: absolute;
+	left: -40px;
+	cursor: pointer;
+	font-size: 20px;
+	 top:-19px;
+	padding: 3px 10px; color: white;
+	 
+}
+.predatacurrent{
+	width: 60px;
+	margin-top:5px;
+	 
+}
+.predatagonxt{
+	position: absolute;
+    left: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    top:-19px;
+    padding: 3px 10px; 
+	color: white; 
+}
+.predatadown{
+	position: initial;
+    left: 5px;
+    font-size: 25px;
+    top: -12px;
+    padding: 10px 0px 0px 0px;
+    color: #359ade;
+}
+
+/* .secondary-btn {
+    background: #a5433d;
+    color: #fff;
+} */
+
+
+/*===========================
+		END RIDDHI- PRACTITIONER  - Pre_data.jsp
+===========================*/
+
+
+/*===========================
+		START URMIK- PRACTITIONER  - intern.jsp
+===========================*/
+.regulation_intern .input-style-form-check label, .regulation_intern .input-style-form-check_block label{
+	color: #a5433d;
+}
+
+#chek_confirm {
+     text-align: left; 
+}
+
+/*===========================
+		END URMIK- PRACTITIONER  - intern.jsp
+===========================*/
+
+
+/*===========================
+		START KAVITA- RBAC - sub_module_mst.jsp
+===========================*/
+.sub_mod {
+	font-family: 'FontAwesome',Arial;margin-bottom: 5px;width: 50%;
+}
+
+/*===========================
+		END KAVITA- RBAC - sub_module_mst.jsp	
+===========================*/
+
+
+/*===========================
+		START KAVITA- RBAC - edit_user_mst.jsp
+===========================*/
+
+textarea {
+	text-transform: unset;
+}
+.btn-group-sm>.btn, .btn-sm {
+	font-size: 12px;
+	line-height: 1.5;
+}
+.glyphicon-refresh::before {
+	content: "\e031";
+}
+.glyphicon {
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.edit_user{
+	font-family: 'FontAwesome', Arial;
+}
+
+.user_id{
+	color: red;
+}
+.u_name{
+	font-family: 'FontAwesome', Arial;
+}
+.pass{
+	color: red;
+}
+.role_1{
+	width: 100%;
+}
+
+
+/*===========================
+		END KAVITA- RBAC - edit_user_mst.jsp	
+===========================*/
+
+
+
+
+/*===========================
+		START ZARNA-RBAC-status_of_inact.jsp 
+===========================*/
+.custom_status_of_inact_div {
+margin:1.5rem 0;text-transform: uppercase;text-align: center;
+}
+.custom_status_of_inact_divShow {
+display: block;
+}
+.custom_status_of_inact_watermarked {
+display: block;
+}
+.custom_status_of_inact_username {
+font-size: 15px ;width: 200px;
+}
+.custom_status_of_inact_last_login_date {
+font-size: 15px ;width: 200px;
+}
+.custom_status_of_inact_item_username {
+font-size: 15px;;
+}
+.custom_status_of_inact_item_date {
+font-size: 15px;;
+}
+/*===========================
+		END  ZARNA-RBAC-status_of_inact.jsp 
+===========================*/
+/*===========================
+		START ZARNA-RBAC-user_status.jsp 
+===========================*/
+
+ .dataTables_scrollBody.user_status{
+	overflow-x: hidden !important;
+	overflow-y: scroll !important;
+	scrollbar-width: thin;
+}
+.dataTables_scrollHead.user_statusf{
+overflow-y: hidden !important;
+}
+.ui-toolbar.ui-widget-header,
+.dataTables_scrollHead.ui-state-default.user_status{
+   width: calc(100% - 8px) !important;
+}
+.dataTables_scrollHeadInner.user_status{
+    padding-right: 0 !important;
+    width: 100% !important;
+}
+.dataTable.user_status{
+  width: 100% !important;
+
+}  
+.watermarked::before.user_status{
+	color: #3c3838;
+	opacity: 1;
+	width: calc(100% - 8px) !important;
+}
+ .dataTables_wrapper.user_status{
+	opacity: 0.9;
+} 
+.card-body .row.user_status{
+   justify-content: center;
+}
+.custom_user_status.user_status{
+margin:1.5rem 0;text-transform: uppercase;text-align: center;
+}
+.custom_user_status.userid{
+color: red;
+}
+.custom_user_status.username_div{
+color: red;
+}
+.custom_user_status.login_name{
+font-family: 'FontAwesome',Arial;
+}
+.custom_user_status.divPrint{
+display: none;
+}
+.custom_user_status.watermark{
+display: block;
+}
+/*===========================
+		END  ZARNA-RBAC-user_status.jsp 
+===========================*/
+/*===========================
+		START ZARNA-RBAC-search_user_mst.jsp 
+===========================*/
+
+.custom_user_status_divShow {
+display: block;
+}
+.custom_user_status_watermarked {
+display: block;
+}
+
+/*===========================
+		END  ZARNA-RBAC-search_user_mst.jsp 
+===========================*/
+/*===========================
+		START ZARNA-RBAC-gazette_notificatio.jsp 
+===========================*/
+
+.custom_gazette_notificatio_to_date {
+color: rgb(0, 0, 0);
+}
+
+
+/*===========================
+		END  ZARNA-RBAC-gazette_notificatio.jsp 
+===========================*/
+
+
+
+
+
+
+
+
+
+
+
+

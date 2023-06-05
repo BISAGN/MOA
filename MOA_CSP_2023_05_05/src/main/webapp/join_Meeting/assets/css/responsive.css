@@ -1,0 +1,518 @@
+/***************************************** media for all devices start from here *****************************************/
+/* 1600 view*/
+@media only screen and (max-width:1919px){
+
+}
+
+/* 1440 view*/
+@media only screen and (max-width:1599px){
+.header-inner{
+   flex-wrap: wrap;
+}
+header .logo-main {
+    order: 1;
+}
+header .custom-btn {
+    order: 2;
+    margin: 0 0 0 auto;
+}
+header .logo-main1 {
+    order: 3;
+} 
+header .site-logo {
+    order: 3;
+}
+header .navbar-collapse, header .navbar-toggler {
+    order: 4;
+    border-top: 1px solid #d9d9d9;
+}
+
+
+
+}
+
+/* 1366 view*/
+@media only screen and (max-width:1439px){
+/* 	inner pages start */
+	.intro-single .title-single-box {
+    	padding: 1rem 0 1rem 1rem;
+	}
+		
+/* 	inner pages end */
+
+/* Start Minister Info Section Start */
+.img-container{
+	    width: 250px;
+}
+/* Start Minister Info Section End */
+}
+
+/* 1280 view*/
+@media only screen and (max-width:1365px){
+	/* Start Minister Info Section Start */
+	.inner-skew{
+	width:190px;
+	}
+	/* Start Minister Info Section End */
+	
+}
+
+/* iPad 1024 (Landscape) view*/
+@media only screen and (max-width:1279px){
+/* Portal landing page start*/
+	.navbar-default.navbar-trans .nav-item, 
+	.navbar-default.navbar-reduce .nav-item {	
+		padding: 5px 12px;	
+	}
+	.nav-link{
+		padding: 0.2rem 1rem;
+	}
+	.landing-main .intro, .intro {
+		height: 60vh;
+	}	
+	/* .intro .swiper-pagination {	
+		top: -2px;
+		line-height: 0px;
+	} */
+	.about-image-area .shape-1 {
+		top: 30px;	
+		right: 0;	
+		max-width: 55%;
+	}
+	.navbar-default .dropdown .dropdown-menu.max-dropdown{
+		left: -130%;
+	}
+	.navbar-default .dropdown .dropdown-menu{
+		left: -100%;
+	}		
+		
+	.authentication-detail .login-text{
+		font-size: 14px;		
+		margin-right:4px;
+	}
+	.authentication-detail .login-icon{
+		display: inline-block !important;
+	}
+	.authentication-detail .login-icon{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.authentication-detail .btn-bh {
+    	min-width: 40px;
+    	min-height: 40px;
+	}	
+	.head-top .page-fontsize {
+		display: none !important;
+	}
+	/* .head-top {
+		justify-content: end;
+	} */
+	.navbar-default.navbar-trans .nav-link:before, .navbar-default.navbar-reduce .nav-link:before{
+		bottom: -1px;
+	}
+	.animation-btn{
+	    padding: 1rem;
+	}
+	
+/* Portal landing page end */
+	/* Start Minister Info Section Start */
+	.img-container {
+    width: 400px;
+}
+	/* Start Minister Info Section End */
+}
+
+/* iPad 768 (portrait) view*/
+@media only screen and (max-width: 1023px) {
+	/* Search BOX COLAPSE */
+	.box-collapse {
+  width: 100%;
+}
+	/* Start Minister Info Section Start */
+	.img-container {
+		width: 240px;
+	}
+	/* Start Minister Info Section end */
+	/* Portal landing page start */
+    header .custom-btn {
+	    order: 2;	    
+	}
+	header .navbar-collapse, header .navbar-toggler {
+		order: 3;		
+	}
+	header .navbar-toggler {
+		margin-left: 10px;
+		border: none;
+	}
+	header .logo-main1 {
+		order: 2;
+		margin: 0 4px 0 auto;
+	}
+	.logo-main .logo-subtext.d-none{
+		display: block !important;
+	}
+	header .logo-main1{
+		display: none;
+	}
+	.logo-main a{
+		max-width: 140px;
+	}
+	.logo-subtext{
+		font-size: 12px;
+	}
+	.logo-subtext .moa-logo{
+		max-width: 12px;
+	}
+	.authentication-detail .login-text{
+		display: none;
+	}
+	.navbar-default .dropdown .dropdown-menu {
+    	left: 0;
+	}
+	.authentication-detail .login-icon{
+		font-size: 20px;
+    	line-height: 24px; 
+	}
+	
+
+	/* mobile menu style start */
+	.navbar-default.navbar-trans .nav-link::before, .navbar-default.navbar-reduce .nav-link::before{
+		width: 6%;
+    	bottom: -1px;
+	}	
+	.navbar-default.navbar-trans .nav-link, 
+	.navbar-default.navbar-reduce .nav-link,
+	.navbar-default.navbar-trans .show > .nav-link,
+	.navbar-default.navbar-trans .active > .nav-link,
+	.navbar-default.navbar-trans .nav-link.show, 
+	.navbar-default.navbar-trans .nav-link.active{
+		color: #f0f0f0;
+	}
+	.navbar-default.navbar-trans .nav-link:hover{
+		color: #ffffff;
+	}
+	header .navbar-collapse{
+		border-top: 1px solid #ecebeb;	
+		background: #27272E;	
+		padding: 8px 0;	
+		position: absolute;
+		z-index: 999;
+		width: 100%;
+		left: 0;
+		right: 0;
+		top: 100%;	
+		-webkit-box-shadow: 0px 2px 8px 0px rgba(100,100,100,1);
+		-moz-box-shadow: 0px 2px 8px 0px rgba(100,100,100,1);
+		box-shadow: 0px 2px 8px 0px rgba(100,100,100,1);	
+	}	
+	header .navbar-default .dropdown .dropdown-menu{
+	    margin: 10px 0 0 0;		    
+	    padding: 5px 0;
+	    background: #2e2e34;
+	    border-top-width: 1px;	
+	    border-radius: 2px;
+	}
+	.navbar-default .dropdown .dropdown-menu .dropdown-item{
+	    color: #f0f0f0;
+	}	
+	.navbar-default.navbar-trans .nav-item, .navbar-default.navbar-reduce .nav-item {
+    	padding: 8px 5px;
+	}				
+	.navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link{
+		font-size: 1rem;
+	}
+	/* mobile menu style end */
+		
+	.custom-zoombox .card-title-a, .custom-zoombox .card-title-a a {
+	    font-size: 1.1rem;	    
+	}
+	.section-bg-md::before {
+	    width: 138px;
+	    height: 88px;
+	    bottom: -58px;
+	}	
+	.section-bg-sm::before {
+	    width: 69px;
+	    height: 69px;	    
+	    top: -36px;	    
+	}
+	.section-bg-lg::before {
+	    width: 138px;
+	    height: 88px;	    
+	    top: -28px;	    
+	}
+	.title-a{
+		max-width: 80%;
+	}
+	/* menu max dropdown start */
+	.navbar-default .dropdown .dropdown-menu.max-dropdown {
+	    left: 0;
+	    margin-left: 0;
+	}
+	.navbar-default .dropdown .dropdown-menu .multi-col-menu.col-m2:before{
+		display: none; 
+	}
+	.navbar-default .dropdown .dropdown-menu .multi-col-menu.col-m2 .dropdown-item{
+		width: 100%; 
+	}
+	.navbar-default .dropdown .dropdown-menu {		
+		visibility: visible;
+		opacity: 1;		
+		transform: none;
+	}
+	/* menu max dropdown end */
+	
+		
+/* Portal landing page end */
+
+/* 	inner pages start */
+.intro-single .breadcrumb-box {
+    padding: 0.8rem 0 0 0.5rem;
+}
+.about-img-box-sm .about-img-box{
+	height: 360px;
+    background-position: top center !important;	
+    background-size: auto 100% !important;
+}
+.about-img-box-sm .innerpage-imgbox{
+	bottom: 20px;
+}
+.sinse-box .sinse-title {    
+    letter-spacing: normal;
+    font-size: 1.5rem; 
+}
+.sinse-box {  
+    padding: 0.5rem;
+}
+
+
+/* 	inner pages end */
+
+}
+
+/* iPhone-6 plus 736 (Landscape) view */
+@media only screen and (max-width: 767px) {
+	/* Minister Info Section Start*/
+	.img-container {
+    width: 320px;
+}
+/* Minister Info Section End*/
+/* Portal landing page start */
+	.section-tb {
+    	padding: 40px 0;
+	}
+	.section-bg-md::before {
+	    width: 98px;
+	    height: 68px;
+	    bottom: -44px;
+	}
+	.section-bg-sm::before {
+	    width: 50px;
+	    height: 50px;
+	    top: -25px;
+	}
+	.section-bg-lg::before {
+	    width: 98px;
+	    height: 68px;
+	    top: -22px;
+	}
+	.about-image-area .about-image{
+		max-width: 95%;
+	}
+	.about-image-area .shape-1 {
+	    top: 100px;
+	    right: 0;
+	    max-width: 40%;
+	}
+	.icon-box-shape-animation .shape-1.shape-btm{
+		bottom: -10px;
+	}
+	.section-footer{
+		text-align: center;
+	}	
+	.logo-footer-right{
+		margin: 0 auto 30px auto;
+	}
+	.animation-btn{
+	    padding: 0.8rem;
+	}
+	 .wrapper1 {
+    width: auto;
+    height: auto;
+  }
+	
+/* Portal landing page end */
+
+/* Counselling page start */
+	.custom-m-line li, .custom-m-line li p, .custom-m-line li a {
+	    font-size: 14px;
+	}
+	.custom-m-line li::before {
+	    top: 3px;
+	}
+/* Counselling page end */	
+/* Sign Up page start */	
+.select2-container .select2-selection--single{
+	height:50px;
+}
+/* Sign Up page end */	
+}
+
+/* iPhone-6 667 (Landscape) view */
+@media only screen and (max-width: 735px) {
+	/* Minister Info Section Start*/
+	.img-container {
+    width: 350px;
+}
+/* Minister Info Section end*/
+/* Portal landing page start */
+	.card-box-ico{
+		padding: 1rem;
+	}
+	.ayush-iconbox .card-box-ico svg {
+    	max-width: 60px;
+	}
+	.link-icon{
+		font-size: 14px;
+	}		
+	.intro .intro-content{
+		display: none;
+	}
+	.landing-main .intro, .intro {
+    	height: 40vh;
+	}
+	.ayush-btn .btn{
+	padding: 0.5rem 1rem;
+	font-size: 0.9rem;
+	}
+	.head-top .head-top-logo .logo-sidetext{
+	display:none
+}
+/* Portal landing page end */
+
+/* 	inner pages start */
+	.img-intro {
+	    max-width: 120px;	    	    
+	    margin: 15px auto 15px auto;	    
+	}
+	.login-form-main {
+	    padding: 30px 15px;	    
+	}
+/* 	inner pages end */	
+	
+}
+
+/* iPhone-5 568 (Landscape) view */
+@media only screen and (max-width: 666px) {
+
+}
+
+/* iPhone-4 480 (Landscape) view */
+@media only screen and (max-width: 567px) {
+	
+	/* Minister Info Section Start  */
+	.img-container {
+		width: 310px;
+	}
+	.a-box {
+		display: inline-block;
+	}
+	.text-container {
+		border-radius: 10px;
+		margin: -20px 0px 30px 0px;
+	}
+	/* Minister Info Section end  */
+	/* Portal landing page start */
+	.logo-footer-right{
+		max-width: 80px;
+	}
+	
+	.section-bg-sm.bg-pos-lb::before {	    
+	    bottom: -25px;
+	}
+	
+/* Portal landing page end */
+
+/* 	inner pages start */
+.intro-single .title-single-box {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.sinse-box .sinse-title {    
+    font-size: 1rem;
+}
+/* 	inner pages end */
+
+}
+
+/* iPhone-6 plus 414 (portrait) view */
+@media only screen and (max-width: 479px) {
+/* Portal landing page start */
+	header .navbar-toggler{
+		margin-left: 10px;
+	}
+	.site-logo-inner {
+	    margin: 0;
+	    padding-left: 0;
+	}
+	.site-logo-inner .logo-s1 {
+	    max-width: 46px;	    
+	}
+/* Portal landing page end */
+
+}
+
+/* iPhone-6 375 (portrait) view */
+@media only screen and (max-width: 413px) {
+/* Portal landing page start */
+	.section-bg-md::before {
+	    width: 58px;
+	    height: 48px;
+	    bottom: -30px;
+	}
+	.section-bg-sm::before {
+	    width: 30px;
+	    height: 30px;
+	    top: -16px;
+	}
+	.section-bg-lg::before {
+	    width: 68px;
+	    height: 48px;
+	    top: -16px;
+	}
+	
+	header .site-logo {
+	   order: 4;		
+	   position: absolute;
+	   top: -45px;
+	   left: 1px;
+	   background: rgba(255,255,255,0.8);
+	}	
+	
+/* Portal landing page end */
+
+}
+
+/* iPhone-4 320 (portrait) view */
+@media only screen and (max-width: 374px) {
+/* Portal landing page start */
+.logo-main a {
+    max-width: 120px;
+}
+header .navbar-toggler {
+    margin-left: 5px;
+}
+
+/* Portal landing page end */
+}
+
+/*************************************header dropdown menu(on hover/click)start*************************************/
+
+@media (min-width: 992px){	
+	.navbar-default .dropdown .dropdown-menu {    
+    	display: block;
+    	position: absolute;    
+	}
+} 
+
+/*************************************header dropdown menu(on hover/click)start*************************************/
+ 

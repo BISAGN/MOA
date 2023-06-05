@@ -1,0 +1,148 @@
+.db_theme_default .degree_recognition .card-style {
+/*     background: #ffffff; */
+}
+.h-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.h-tab_tab-head {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  border-bottom: 3px solid #222e3c;
+}
+.h-tab_tab-head li {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0px 20px;
+    height: 44px;
+    line-height: 44px;
+    color: #333;
+    border-bottom: 0px;
+    overflow: hidden;
+    position: relative;
+    width: 16.66666667%;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
+.h-tab_tab-head li:hover {
+    background-color: #dde5ed;
+    color: #000;
+    border-radius: 5px 5px 0px 0px;
+}
+.h-tab_tab-head li.active {
+ 
+  background-color: #222e3c;
+  color: var(--bs-white);
+  display: block;
+  border-radius: 5px 5px 0px 0px;
+  display: block;
+}
+.h-tab_tab-head .h-tab_container {
+  width: 500px;
+  min-height: 200px;
+}
+.h-tab_tab-head .h-tab_content {
+  padding: 10px 20px;
+  display: none;
+}
+.h-tab_tab-head .h-tab_content > :first-child {
+  margin-top: 0;
+}
+
+.v-tab {
+  display: flex;
+}
+
+.v-tab_tab-head {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  height: 50px;
+}
+.v-tab_tab-head li {
+  margin: 0 0 1px 0;
+  cursor: pointer;
+  padding: 0px 10%;
+  height: auto;
+  line-height: 36px;
+  color: #333;
+  border-bottom: 0px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.v-tab_tab-head li:hover {
+  background-color: #222e3c17;
+/*   color: #000; */
+}
+.v-tab_tab-head li.active {
+    border-right: 3px solid #222e3c;
+    background-color: #222e3c17;
+    color: #000000;
+    display: block;
+}
+.v-tab_container {
+  border-left: 1px solid #222e3c;
+  min-height: 132px;
+}
+
+.v-tab_content {
+  padding: 20px 00px 10px;
+  display: none;
+}
+.v-tab_content > :first-child {
+  margin-top: 0;
+}
+ul.form_name {
+    font-size: 22px;
+    color: #60925c;
+    margin: 0px 0px 15px;
+    border-bottom: 3px solid #222e3c;
+    width: fit-content;
+    font-style: italic;
+}
+.b-top {
+    border-top: 1px solid #222e3c;
+}
+
+.h-tab_tab-head li a{
+    width:100%;
+    color:inherit;
+}
+ .degree_recognition .upload_sign { 
+     height: 100px; 
+     width: auto; 
+     border: 1px solid #222e3c; 
+ }
+
+@media (max-width: 991px){
+.h-tab .h-tab_tab-head li{
+    width: 25%;
+}
+.v-tab_tab-head li {
+    padding: 0px 5%;
+}
+.h-tab_tab-head li {
+    font-size: 22px;
+    padding: 0px 10px;
+}
+}
+@media (max-width: 767px){
+.h-tab .h-tab_tab-head li{
+    width: 33.33333333%;
+}
+.v-tab_tab-head li {
+    padding: 0px 1%;
+}
+.h-tab_tab-head li {
+    font-size: 18px;
+    padding: 0px 5px;
+}
+}

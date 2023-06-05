@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/* -------------------------------Start  tunnel Design -------------------------------------*/
+.tunnel_design {
+	position: relative;
+	top: 0px;
+	justify-content: center;
+	display: flex;
+    flex-direction: row;
+}
+
+.square {
+	height: 65px;
+    width: 20%;
+    background-color: #8fc4e8;
+    position: relative;
+    display: flex;
+    box-shadow: 0px 1px 6px #9f9f9ffa;
+    padding: 15px 20px;
+    margin: 10px 35px 10px 0;
+    align-items: center;
+}
+
+.square a:hover {
+	 color: #ffffff;
+}
+
+.square:before {
+	content: '';
+    width: 0;
+    height: 0;
+    border-top: 33px solid #8fc4e8;
+    border-left: 14px solid transparent;
+    border-bottom: 32px solid #8fc4e8;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: -14px;
+    margin-top: -32.5px;
+}
+
+.square:after {
+	border-bottom: 28px solid #8fc4e8;
+    border-left: 33px solid transparent;
+    border-right: 33px solid transparent;
+    content: "";
+    height: 0;
+    right: -46px;
+    position: absolute;
+    top: 19px;
+    width: 0;
+    transform: rotate(90deg);
+}
+
+.tunnel_text {
+    font-size: 15px;
+    color: #212529;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.square.tunnel_visited {
+	background-color: #90C8AC;
+}
+
+.square.tunnel_visited a {
+	color: #212529;
+}
+
+.square.tunnel_visited:before {
+	border-bottom-color: #90C8AC;
+	border-top-color: #90C8AC;
+}
+
+.square.tunnel_visited:after {
+	border-bottom-color: #90C8AC;
+}
+
+.square.tunnel_active {
+	/* background-image: linear-gradient(to right,rgb(255 238 160),rgb(255 217 51) ); */
+	background-color: #2b506a;
+	box-shadow: 0px 1px 7px #577991;
+}
+
+.square.tunnel_active:before {
+	/* background-image: linear-gradient(to right,rgb(255 238 160),rgb(255 217 51) ); */
+	border-bottom-color: #2b506a;
+	border-top-color: #2b506a;
+}
+
+.square.tunnel_active:after {
+	/* background-image: linear-gradient(to right,rgb(255 238 160),rgb(255 217 51) ); */
+	border-bottom-color: #2b506a;
+}
+
+.tunnel_active h5 {
+	color: #fff;
+}
+
+label.radio-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #262d3f;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.table-experience-width .simple-table .table thead th {
+    min-width: 220px !important;
+    padding: 10px 18px !important;
+}
+
+.table-experience-width .simple-table .table thead th:first-child, .simple-table .table tbody td:first-child {
+    width: 85px !important;
+    min-width: 230px !important;
+    max-width: 85px !important;
+    text-align: center !important;
+}
+
+.upload-imageright{
+    float: right;
+}
+
+.table-edu-width .simple-table .table thead th:first-child, .simple-table .table tbody td:first-child {
+    width: 85px !important;
+    min-width: 175px !important;
+    max-width: 85px !important;
+    text-align: center !important;
+
+}
+
+.doc_upload {
+	height: 126px;
+    width: 126px;
+}
+
+.std_img {
+	position: absolute;
+    right: 2%;
+}
+
+.und_text {
+	display: flex;
+}
+
+/* ----------------------------------END  tunnel Design --------------------------------------*/
+
+
+/* ---------------------------------- Responsive tunnel Design------------------------------------ */
+
+
+@media only screen and (max-width: 768px) {
+  .tunnel_design {
+	display: block;
+  }
+  .square {
+  	height: auto;
+	width: 100%;
+    margin-top: 35px;
+    background: #8fc4e8;
+    padding: 10px 15px;
+}
+.tunnel_text {  
+    top: 20% !important;
+    line-height: 1.1;
+}
+.square:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 33px solid #8fc4e8;
+    border-left: 14px solid transparent;
+    border-bottom: 32px solid #8fc4e8;
+    left: 50%;
+    transform: rotate(90deg);
+    margin-left: -8px;
+    top: -10%;
+}
+.square:after {
+    border-bottom: 28px solid #8fc4e8;
+    border-left: 33px solid transparent;
+    border-right: 33px solid transparent;
+    content: "";
+    height: 0;
+    right: auto;
+    position: absolute;
+    top: 100%;
+    width: 0;
+    transform: rotate(180deg);
+    left: 50%;
+    margin-left: -33px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+  .tunnel_text {  
+    top: 0;
+    padding: 12px 0;  
+    line-height: 1.1;
+}
+}
+
+
+
+
+

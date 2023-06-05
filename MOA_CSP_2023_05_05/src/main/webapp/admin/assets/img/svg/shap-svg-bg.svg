@@ -1,0 +1,40 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 639" width="1080" height="639">
+	<title>Mediamodifier-Design-svg</title>
+	<style>
+		.s0 { opacity: .3;fill: #ffffff } 
+		.s1 { opacity: .1;fill: #ffffff } 
+		.s2 { opacity: .6;fill: #ffffff } 
+	</style>
+	<g id="32b4b7dc-8bd4-44f8-a902-c2bc70bc571d">
+	</g>
+	<g id="ed5e7109-818f-4bc6-85ab-5ceb3ca61479">
+	</g>
+	<g id="Layer">
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="s0" d="m896.4 639c0-50.6 41-91.6 91.6-91.6v91.6z"/>
+			</g>
+			<g id="Layer">
+				<path id="Layer" class="s1" d="m804.9 547.4h91.5v91.6h-91.5z"/>
+			</g>
+			<g id="Layer">
+				<path id="Layer" class="s0" d="m988 547.4c0-50.5 41-91.5 91.5-91.5v91.5z"/>
+			</g>
+			<g id="Layer">
+				<path id="Layer" class="s0" d="m804.9 547.4c0-50.5 41-91.5 91.5-91.5v91.5z"/>
+			</g>
+			<g id="Layer">
+				<path id="Layer" class="s2" d="m896.4 455.9c50.6 0 91.6 41 91.6 91.5h-91.6z"/>
+			</g>
+			<g id="Layer">
+				<path id="Layer" class="s1" d="m38.1 341.4c-180 0-325.4-145.4-325.4-325.3 0-180 145.4-325.4 325.4-325.4 179.9 0 325.3 145.4 325.3 325.4 0 179.9-145.4 325.3-325.3 325.3z"/>
+			</g>
+			<g id="Layer">
+				<path id="Layer" class="s1" d="m38.1 240.1c-123.9 0-224-100.2-224-224 0-123.9 100.1-224 224-224 123.8 0 224 100.1 224 224 0 123.8-100.2 224-224 224z"/>
+			</g>
+			<g id="Layer">
+				<path id="Layer" class="s1" d="m38.1 132.1c-64.2 0-116.1-51.8-116.1-116 0-64.2 51.9-116.1 116.1-116.1 64.2 0 116 51.9 116 116.1 0 64.2-51.8 116-116 116z"/>
+			</g>
+		</g>
+	</g>
+</svg>

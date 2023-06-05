@@ -1,0 +1,77 @@
+﻿
+body{
+background-color: white; 
+color: white;
+}
+.no_permission code,.no_permission kbd,.no_permission pre,.no_permission samp{font-family:monospace,monospace;font-size:1em}
+.no_permission hr{box-sizing:content-box;height:0;overflow:visible}
+.no_permission hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.no_permission h1, .no_permission h2, .no_permission h3, .no_permission h4, .no_permission h5, .no_permission h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-jumbo{font-size:64px!important}
+.w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.w3-center{text-align:center!important}
+.w3-border-red,.w3-hover-border-red:hover{border-color:#f44336!important}
+.w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.w3-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.w3-code,.w3-codespan{font-family:Consolas,"courier new";font-size:16px}
+.w3-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
+.w3-border-white, .w3-hover-border-white:hover {
+    border-color: #fff!important;
+}
+.no_permission h1 {
+color: red;
+}
+
+.no_permission h6{
+color: red;
+text-decoration: underline;
+}
+.no_permission code {
+    color: red;
+}
+
+.no_permission .sub-title-icon {
+    display: flex;
+    justify-content: center;
+}
+.no_permission .sub-title-icon i {
+    color: #303030;
+}
+.no_permission .buttons-group li {
+    margin: 0;
+}
+
+@media(max-width: 991px){
+.w3-display-middle {
+    width: 100%;
+}
+.no_permission code {
+    font-size: 0.6em;
+}
+.no_permission h3, .no_permission .h3 {
+    font-size: 16px;
+}
+.no_permission h6, .no_permission .h6 {
+    font-size: 14px;
+}
+}
+
+ @media(max-width: 575px){
+
+.no_permission code {
+    font-size: 0.5em;
+}
+.no_permission h3, .no_permission .h3 {
+    font-size: 14px;
+}
+.no_permission h6, .no_permission .h6 {
+    font-size: 14px;
+}
+} 

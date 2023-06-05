@@ -1,0 +1,454 @@
+
+
+@media only screen and (min-width: 1400px),
+only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .overlay {
+        display: none;
+    } 
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .icon-card .icon {
+        margin-right: 10px;
+    }
+
+    .icon-card h3 {
+        font-size: 20px;
+    }
+
+    .icon-card h6 {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .headtitle-center {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    .sidebar-nav-wrapper {
+        -webkit-transform: translateX(-260px);
+        -moz-transform: translateX(-260px);
+        -ms-transform: translateX(-260px);
+        -o-transform: translateX(-260px);
+        transform: translateX(-260px);
+    }
+
+    .sidebar-nav-wrapper.active {
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+     .overlay.active {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    } 
+  
+    .main-wrapper {
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .signup-wrapper {
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .signup-wrapper .singup-option button {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .signup-wrapper .singup-option button {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .signup-wrapper .singup-option button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+    .signup-wrapper .singup-option button {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .signin-wrapper .singin-option button {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .signin-wrapper .singin-option button {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+    .signin-wrapper .singin-option button {
+        width: auto;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .db-title .db-headtitle {
+        text-align: center;
+        color: #222;
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        color: #367b31;
+        position: relative;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        border-top: 1px solid #ccc;
+        margin-top: 30px;
+    }
+    .col-two .form-check {
+		width: 100%;
+		margin-bottom: 3px;
+	  }
+	  .modal.image-modal .content-title {
+        font-size: 14px;
+      }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+    .referrals-table-card .title .right {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container {
+        padding: 0 30px;
+    }
+
+    .card-style-1 .card-meta {
+        padding: 0 20px;
+    }
+
+    .card-style-1 .card-content {
+        padding: 0px 20px;
+    }
+
+    .card-style-2 .card-content {
+        padding: 0px;
+    }
+
+    .table td.min-width {
+        min-width: 150px;
+    }
+
+    .referrals-table-card .title .right {
+        width: 100%;
+    }
+
+    .button-group .main-btn {
+        width: 100%;
+    }
+
+    .single-notification .checkbox {
+        display: none;
+    }
+
+    .single-notification .notification {
+        flex-direction: column;
+    }
+
+    .single-notification .notification .image {
+        margin-bottom: 15px;
+    }
+
+    .single-notification .action {
+        display: none;
+    }
+
+    #doughnutChart1 {
+        height: 250px !important;
+    }
+
+    .todo-list-wrapper ul li.todo-list-item {
+        display: block;
+    }
+
+    .todo-list-wrapper ul li.todo-list-item .todo-status {
+        margin-top: 20px;
+    }
+
+    .auth-cover-wrapper {
+        padding: 30px 20px;
+    }
+
+    .auth-cover-wrapper .auth-cover .title h1 {
+        font-size: 24px;
+    }
+
+    .signin-wrapper {
+        padding: 30px;
+    }
+
+    .signin-wrapper .singin-option button {
+        width: 100%;
+    }
+
+    .auth-cover-wrapper {
+        padding: 30px 20px;
+    }
+
+    .auth-cover-wrapper .auth-cover .title h1 {
+        font-size: 24px;
+    }
+
+    .signup-wrapper {
+        padding: 30px;
+    }
+
+    .invoice-card .invoice-header {
+        flex-direction: column;
+    }
+
+    .invoice-card .invoice-header .invoice-logo {
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    .invoice-card .invoice-header .invoice-date {
+        margin-top: 30px;
+    }
+
+    .invoice-card .invoice-address {
+        display: block;
+    }
+
+    .invoice-card .invoice-action ul li a {
+        width: 100%;
+    }
+
+    .main-wrapper {
+        padding-bottom: 110px;
+    }
+
+    .main-wrapper .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-wrapper .footer .terms {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .alert-box .alert {
+        padding: 20px;
+    }
+
+    .alert-box .left {
+        display: none;
+    }
+
+    .alert-box {
+        padding-left: 0px !important;
+    }
+
+    .breadcrumb-wrapper {
+        justify-content: flex-start;
+    }
+    
+     
+
+}
+
+@media only screen and (max-width: 667px) {
+    .db-title .db-headtitle {
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    
+    .custom-swiper .swiper-horizontal>.swiper-pagination-bullets,
+    .custom-swiper .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .custom-swiper .swiper-pagination-custom, .swiper-pagination-fraction{
+    display:none;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .icons-wrapper .icons>div,
+    .icons-wrapper .icons li,
+    .icons-wrapper ul>div,
+    .icons-wrapper ul li {
+        flex-basis: 100%;
+    }
+    
+    .icon-card .icon{
+    max-width: 60px;
+    height: 60px;
+    }
+    
+}
+
+@media (min-width: 767px){
+	.custom-table .table td.min-width {
+	    min-width: 170px;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {	
+	.cbox-title-with-value,
+	.cardbox-footer div div:last-child .cbox-title-with-value{
+		text-align: left;
+	}
+	
+	.header-search{
+	display:none !important;
+	}
+	
+	
+}
+
+@media (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 575px){
+.wizard .content>.body {
+    padding: 14px 6px;
+}
+}
+
+
+
+
+
+
+
+
+
+/*===========================
+ Counclelling templete start
+===========================*/
+@media (max-width: 1199px){
+.Seat_Allocation .col {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+}
+@media (max-width: 991px){
+.Seat_Allocation .col {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+
+@media (max-width: 575px){
+.Seat_Allocation .col {
+    flex: 0 0 auto;
+    width: 100%;
+}
+}
+/*===========================
+ Counclelling templete end
+===========================*/
+
+/* 768 */
+@media only screen and (max-width: 1023px) {
+	
+	/* preview page start */
+	.custom-data-value {
+    flex-wrap: wrap;  
+}
+
+.preview-form .upload_image {
+    margin: 0 auto;
+}
+/* preview page end */
+
+/* step-form-horizontal start */
+
+
+.db_theme_default .wizard>.steps>ul>li a:after {
+	
+border-width: 0;
+
+
+}
+
+.db_theme_default .wizard>.steps>ul>li {
+    margin: 2px 0px;
+    
+}
+
+.db_theme_default .wizard>.steps li.current a:after {
+   border-width: 0;
+}
+
+.db_theme_default .wizard>.steps>ul>li a:hover:after {
+	border-width: 0;
+
+	}
+	
+	.db_theme_default .wizard>.steps li.disabled a, .db_theme_3 .wizard>.steps li.done a {
+    background-color: #222e3c;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.db_theme_default .wizard>.steps li.current a{
+	 border-radius: 4px;
+}
+
+.db_theme_default  .wizard>.steps>ul>li {
+    width: 100%;
+    /* padding-left: 0; */
+}
+/* step-form-horizontal end */
+}
+
+	
+/* 568 */
+@media only screen and (max-width: 666px) {
+	/* preview page start */
+.custom-data-value{
+    display: block;
+    }
+    
+	.value-bind{
+	min-width:100%
+	}
+	
+	.custom-data-value label{
+	min-width:100%
+	}
+	
+	/* preview page end */
+}
+

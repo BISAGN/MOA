@@ -1,0 +1,323 @@
+:root{
+	/* --primary-color-dark: #2f3546; */
+	--primary-color-dark: #212121;	
+	--secondary-color-dark: #262d3f;	
+	--body-fonts-dark: #f0f0f0;
+	--theme-fonts-light: #7A7A7A;
+	--theme-fonts-white: #ffffff;
+	--theme-font-hover-dark: rgba(255, 255, 255, 0.7);
+	--theme-bg-hover-dark:rgba(74, 108, 247, 0.05);
+	--theme-bg-lightcolor-dark: #6a6969;
+	--theme-bg-darkcolor-dark: #2b2b2b;
+	--theme-bg-rgba: rgba(38,45,63,0.6);
+	--theme-whitebg-rgba: rgba(255,255,255,0.6);
+	--theme-border-color: #6a6969;
+}
+
+body.dark-mode{
+	color: var(--body-fonts-dark);
+    background-color: var(--primary-color-dark);    
+}
+
+
+/* header */
+.dark-mode header{
+    border-bottom-color: #2f2f2f;
+}
+.dark-mode .breadcrumb-item.active {
+    color: var(--body-fonts-dark);
+}
+
+/* navbar */
+.dark-mode .navbar-default,
+.dark-mode .accordion-item,
+.dark-mode .custom-accord-menu nav>ul>li>a:hover{
+	background-color: var(--secondary-color-dark);
+}
+
+.dark-mode .navbar-default .dropdown-menu,
+.dark-mode .dropdown-menu{
+	background-color: var(--primary-color-dark);
+}
+.dark-mode .navbar-toggler span{
+	background-color:var(--body-fonts-dark);
+}
+.dark-mode .card-style,
+.dark-mode .card-style-2,
+.dark-mode .custom-pill-tablist,
+.dark-mode .border-card .border-button{
+	background: var(--secondary-color-dark); 
+	box-shadow: 0px 10px 20px rgb(0 38 76 / 30%);
+}
+.dark-mode .card-style,
+.dark-mode .dataTables_wrapper.no-footer .dataTables_scrollBody,
+.dark-mode .custom-datatable-v2 table.dataTable thead th, 
+.dark-mode table.dataTable thead td,
+.dark-mode table.dataTable thead th,
+.dark-mode .custom-accord-menu .navi-tabs__container
+{
+	border-color: var(--theme-border-color) !important;
+}
+.dark-mode table.dataTable tbody tr{
+	background: var(--primary-color-dark); 
+}
+.dark-mode .custom-datatable-v2 table.dataTable tbody tr:hover{
+	background-color: var(--theme-fonts-light) !important; 
+}
+
+/* bootstrap class over-right */
+.dark-mode .bg-light,
+.dark-mode .search-block,
+.dark-mode .field-addon{
+	background-color: var(--secondary-color-dark) !important;
+	
+}
+
+/* read more button */
+.dark-mode .detail-button,
+.dark-mode.theme-color-v3 .detail-button,
+.dark-mode.theme-color-v3 .text-dark{
+	color: var(--body-fonts-dark) !important;
+}
+.dark-mode .text-container{
+	background: var(--primary-color-dark);
+}
+
+.dark-mode .topic-block,
+.dark-mode .page-link,
+.dark-mode .search-inner-block .btn.btn-a,
+.dark-mode .form-toggle-inner{
+	border-color: var(--theme-bg-lightcolor-dark) !important;
+}
+/* footer logo */
+.dark-mode .logo-footer-right{
+	background: var(--theme-bg-lightcolor-dark);
+}
+
+/* form controls input */
+.dark-mode .form-control,
+.dark-mode .select2-container .select2-selection--single .select2-selection__rendered,
+.dark-mode .form-select,
+.dark-mode .select2-dropdown--below,
+.dark-mode .select2-dropdown--above,
+.dark-mode .select2-container--default .select2-search--dropdown .select2-search__field,
+.dark-mode .page-item.disabled .page-link,
+.dark-mode .form-check-input
+{
+	background-color: var(--theme-bg-darkcolor-dark) !important;
+	color: var(--body-fonts-dark) !important;
+	border-color: var(--theme-bg-lightcolor-dark) !important;
+}
+
+.dark-mode .form-select{
+	background: var(--theme-bg-darkcolor-dark) url('../img/select-down-hover-svg.png');	
+	background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 12px 12px;
+}
+
+.dark-mode .btn.btn-a{
+	background-color: var(--secondary-color-dark);
+}
+.dark-mode .link-color {
+    color: #bbbbbb;
+}
+
+/* all text color */
+.dark-mode .navbar-default.navbar-trans .nav-link, 
+.dark-mode .navbar-default.navbar-reduce .nav-link,
+.dark-mode .navbar-default.navbar-trans .nav-link.active,
+.dark-mode .navbar-default .dropdown-menu,
+.dark-mode .navbar-default .dropdown-menu .dropdown-item,
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode .link-icon,
+.dark-mode .dropdown-menu,
+.dark-mode .dropdown-item,
+.dark-mode.theme-color-v3 a:hover,
+.dark-mode a:hover,
+.dark-mode .logo-subtext,
+.dark-mode label,
+.dark-mode .custom-accord-menu .custom-link,
+.dark-mode .custom-accord-menu .custom-link:hover,
+.dark-mode .card-style-2 .card-content a.read-more, .dark-mode .custom-link,
+.dark-mode .custom-table td, .dark-mode .custom-table th, .dark-mode .simple-table table, .dark-mode .simple-table td, .dark-mode .simple-table th,
+.dark-mode a.custom-link:hover,
+.dark-mode .custom-accord-menu ::marker,
+.dark-mode .custom-accord-menu .uvp-list .video-list>li:before,
+.dark-mode .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable,
+.dark-mode .input-style-1 input,
+.dark-mode .input-style-1 textarea,
+.dark-mode .input-style-2 input,
+.dark-mode .input-style-2 textarea,
+.dark-mode .input-style-3 input,
+.dark-mode .input-style-3 textarea,
+.dark-mode .input-style-1 input::placeholder,
+.dark-mode .input-style-2 input::placeholder,
+.dark-mode .input-style-3 input::placeholder,
+.dark-mode .input-style-1 textarea::placeholder,
+.dark-mode .input-style-2 textarea::placeholder,
+.dark-mode .input-style-3 textarea::placeholder, 
+.dark-mode .form-group textarea::placeholder, 
+.dark-mode .select-style-1 .select-position select option,
+.dark-mode .select-style-1 .select-position select,
+.dark-mode .select-style-2 .select-position select,
+.dark-mode .input-style-1 input[type="file"],
+.dark-mode .input-style-2 input[type="file"],
+.dark-mode select,
+.dark-mode .form-group input::placeholder,
+.dark-mode .select2-container--default .select2-selection--single .select2-selection__rendered,
+.dark-mode .select2-container--default.select2-container--below .select2-selection--single .select2-selection__rendered,
+.dark-mode .select2-container--default.select2-container--above .select2-selection--single .select2-selection__rendered,
+.dark-mode .select2-container--default .select2-search--dropdown .select2-search__field,
+.dark-mode .multiselect,
+.dark-mode input::placeholder,
+.dark-mode .select2-dropdown--below ul li,
+.dark-mode .topic-title a,
+.dark-mode .field-tab,
+.dark-mode .border-card .border-card-content span{
+	color: var(--body-fonts-dark) !important;
+}
+
+
+.dark-mode .select-style-1 .select-position::after,
+.dark-mode .select2:after{
+	border-color: var(--body-fonts-dark) !important;
+}
+
+.dark-mode .color-text-a,
+.dark-mode .uvp-list ul > li,
+.dark-mode ul li,
+.dark-mode .color-a{
+	color: var(--theme-fonts-light) !important;
+}
+
+.dark-mode .intro .intro-body {
+	background: rgba(0,0,0,0.4);
+}
+
+.dark-mode .navbar-default.navbar-trans .nav-link:hover,
+.dark-mode .navbar-default.navbar-reduce .nav-link:hover,
+.dark-mode.theme-color-v3 .custom-m-line li::before, 
+.dark-mode.theme-color-v3 .custom-zoombox .card-title-a, 
+.dark-mode.theme-color-v3 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover, 
+.dark-mode.theme-color-v3 .theme-color-v3 .detail-button, 
+.dark-mode.theme-color-v3 .theme-color-v3 a:hover, 
+.dark-mode.theme-color-v3 .theme-color-v3 .card-header-c:hover .link-icon {
+	color: var(--theme-font-hover-dark);
+}
+
+.dark-mode .navbar-default .dropdown .dropdown-menu .dropdown-item:hover,
+.dark-mode .dropdown-item:focus, 
+.dark-mode .dropdown-item:hover{
+	background-color: var(--theme-bg-hover-dark);
+}
+
+.dark-mode .box,
+.dark-mode .socials-a ul li a:hover{
+	background: var(--primary-color-dark);
+}
+
+.dark-mode .ayush-system:before,
+.dark-mode .section-bg-repeat:before{
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.dark-mode .section-bg-repeat:before{	
+    background: rgba(0,0,0,0.6);
+    z-index: inherit;   
+}
+
+.dark-mode .section-logo{
+	border-top-color: var(--primary-color-dark);
+}
+
+/* header logo color */
+.dark-mode .logo-main a,
+.dark-mode .logo-main1 a,
+.site-logo-inner .logo-s1{
+	padding: 2px;
+	background: var(--theme-whitebg-rgba);
+	border-radius: 4px;
+}
+
+.dark-mode .logo-main .logo-subtext{
+	background:transparent;
+}
+
+.dark-mode.landing-main .intro .swiper-pagination .swiper-pagination-bullet,
+.dark-mode.theme-color-v3 .intro .swiper-pagination .swiper-pagination-bullet{
+	background-color: var(--theme-bg-lightcolor-dark);
+}
+
+.dark-mode.theme-color-v3 .card-info .detail-button:hover {    
+    background-color: var(--theme-fonts-white);
+}
+
+.dark-mode .navbar-default .dropdown .dropdown-menu .dropdown-item.menu-title,
+.dark-mode .page-link {
+    background: var(--secondary-color-dark);    
+    color: var(--theme-fonts-white);
+}
+
+/* Datatable style start */
+.dark-mode .dataTables_wrapper .dataTables_length, 
+.dark-mode .dataTables_wrapper .dataTables_filter, 
+.dark-mode .dataTables_wrapper .dataTables_info, 
+.dark-mode .dataTables_wrapper .dataTables_processing, 
+.dark-mode .dataTables_wrapper .dataTables_paginate{
+	color: var(--theme-fonts-light);
+}
+.dark-mode table.dataTable{
+	border-bottom-color: var(--theme-fonts-light);
+}
+/* Datatable style end */
+
+
+/* model style start */
+.dark-mode .custom-modal .modal-content{
+	background-color: var(--primary-color-dark);
+}
+.dark-mode .custom-model-icon .modal-header {
+    border-bottom-color: var(--primary-color-dark);
+}
+.dark-mode .custom-model-icon .custom-model-img,
+.dark-mode .custom-img{
+	background: var(--theme-bg-rgba);
+	border-radius: 50px 200px;
+}
+.dark-mode .btn--bolt:hover{
+	background: var(--secondary-color-dark);
+}
+.dark-mode .custom-modal .btn-close{
+	background-color: var(--theme-whitebg-rgba);	
+}
+/* model style end */
+
+
+/************************* media query start *************************/
+/* iPhone-6 667 (Landscape) view */
+@media only screen and (max-width: 735px) {
+
+	.switch-btn .sbtn{
+		  font-size: 18px;
+		  height: 26px;
+		  width: 26px;
+		  line-height: 22px;
+	}
+}
+
+
+
+
+
+
+

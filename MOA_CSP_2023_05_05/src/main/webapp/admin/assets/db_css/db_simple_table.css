@@ -1,0 +1,397 @@
+/*===========================
+		custom-table start
+===========================*/
+.custom-table table th {
+	text-align: center;
+	padding-right: 2px;
+	padding-left: 2px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #262d3f;
+}
+
+.custom-table{
+	border-radius: 6px;
+}
+
+.custom-table.custom-table-v2{
+	border-radius: 6px;
+}
+
+.custom-table table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.custom-table th, .custom-table .table td.min-width {
+	padding: 10px 15px;
+}
+
+.custom-table thead th {
+	background-color: #222e3c;
+}
+
+.custom-table .table>:not(:first-child) {
+	border-top: 0px solid #222e3c;
+}
+
+.custom-table .table th h6 {
+	color: #fff;
+}
+
+/* .custom-table .table td p,
+.simple-table .table td p {
+	text-align: center;
+	margin-bottom: 0px;
+} */
+
+.custom-table td {
+	padding: 10px 15px;
+}
+
+.custom-table td, .custom-table th, .simple-table table,
+	.simple-table td, .simple-table th {
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #262d3f;
+}
+
+.custom-table th {
+    border-top: none;
+}
+
+.custom-table table, .simple-table table {
+    border-collapse: collapse;
+    width: 100%;
+    /* margin: -1px -1px; */
+     margin-bottom: 0px;
+}
+
+.custom-table th, .custom-table .table td.min-width
+.simple-table table th, .simple-table table .table td.min-width {
+	padding: 10px 15px;
+}
+
+.custom-table thead th, .simple-table thead th {
+	background-color: #465b76;
+}
+
+.custom-table .table>:not(:first-child), .simple-table .table>:not(:first-child)
+	{
+	border-top: 0px solid #1a2e29;
+}
+
+.custom-table .table th h6, .simple-table .table th h6, .custom-table .table th,
+	.simple-table .table th {
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 500;
+	vertical-align: middle;
+}
+
+.custom-table .table td p, .simple-table .table td p {
+	/* text-align: center; */ 
+	font-size: 13px;
+	line-height: normal;
+	margin: 10px 0px;
+}
+
+.custom-table .table td a:hover,
+.simple-table .table td a:hover{
+	color: #262d3f;
+}
+
+/* .custom-table tbody, .simple-table tbody{
+	height:400px;
+	overflow:auto;
+	display:block;
+} */
+
+.custom-table td, .simple-table td {
+	    padding: 5px 15px;
+}
+
+.custom-table .table ul.buttons-group li a.btn-sm, .simple-table .table ul.buttons-group li a.btn-sm
+	{
+	padding: 4px 10px;
+}
+
+.custom-table .input-style-2, .custom-table .input-style-1, .custom-table .select-style-1,
+	.simple-table .input-style-2, .simple-table .input-style-1, .simple-table .select-style-1, .custom-table .input-style-form-check ,
+	.simple-table  .input-style-form-check_block, .custom-table  .input-style-form-check_block {
+	margin-top: 20px;
+}
+
+.custom-table .radio-style,
+.custom-table .checkbox-style{
+	text-align:left;
+}
+
+.custom-table .input-style-form-check_block label{
+	font-weight: 500;
+	font-size: 14px;
+}
+.custom-table .table ul.buttons-group li, .simple-table .table ul.buttons-group li
+	{
+	margin: 6px 0;
+	padding: 0 5px;
+}
+
+.custom-table td {
+	text-align: center;
+}
+
+.custom-table .table thead th, .simple-table .table tbody td {
+	min-width: 150px !important;
+	padding: 12px 16px !important;
+}
+
+.custom-table .table thead th.width-sm,
+.custom-table .table tbody td.width-sm, 
+.simple-table .table thead th.width-sm, 
+.simple-table .table tbody td.width-sm{
+    min-width: 50px !important;
+    width: 50px;
+}
+
+.custom-table table th {
+	text-align: center;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.custom-table .table td.min-width {
+	padding: 5px 5px 5px 5px;
+	vertical-align: middle;
+}
+
+.table tbody tr {
+	vertical-align: middle;
+}
+
+.custom-table .table thead>tr:first-child>th:first-child, .custom-table .table tbody>tr:first-child>td:first-child
+	{
+	width: 85px !important;
+	min-width: 85px !important;
+	max-width: 85px !important;
+	text-align: center !important;
+}
+
+.custom-table.custom-auto-width .table thead>tr:first-child>th:first-child, .custom-table.custom-auto-width .table tbody>tr:first-child>td:first-child {
+    width: auto !important;
+    min-width: auto !important;
+    max-width: auto !important;
+
+}
+
+
+.custom-table{
+	counter-reset: Serial;
+}
+
+.custom-table tr td.sr-no p:first-child:before {
+	counter-increment: Serial;
+	content: counter(Serial);
+}
+
+.custom-table-search{	
+        padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+        background: #efeeee;
+            color: #465b76;  
+}
+
+.custom-table-search label{
+	 color: #465b76 !important;
+	     margin-bottom: 0px;
+}
+
+.custom-table-filter{
+	 display: flex;
+        justify-content: end;
+}
+
+.page-content .custom-table{
+	margin-bottom:10px;
+}
+
+/* .page-content .simple-table a, */
+/* .page-content .custom-table a{ */
+/* 	color: #262d3f; */
+/* } */
+
+.page-content .simple-table .buttons-group a,
+.page-content .custom-table .buttons-group a{
+	color: #fff;
+}
+
+
+.simple-table ul,
+.custom-table ul{
+	    margin: 4px 0px;
+}
+
+.custom-table-textalign,
+.custom-table.custom-table-textalign,
+.simple-table.custom-table-textalign,
+.simple-table.custom-table-textalign .custom-table-listings,
+.custom-table.custom-table-textalign .custom-table-listings,
+.custom-table.custom-table-textalign .custom-table-listingsings{
+	text-align: left;
+}
+
+.custom-table .buttons-group, .simple-table .buttons-group {
+	list-style: none;
+	justify-content: center;
+	padding-left: 0rem;
+}
+
+.custom-table,
+.simple-table{ 
+  max-height: 350px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.custom-modal .custom-table, .custom-modal .simple-table{
+	 border-bottom: none;
+}
+
+ .custom-table thead,
+  .simple-table thead{
+     position: sticky;
+     z-index: 100;
+     top: 0;
+}
+
+.custom-modal-table .custom-table{
+	margin-bottom:0px;
+}
+/*===========================
+		custom-table end
+===========================*/
+
+
+.custom-table-v2 thead th{
+	background-color: #0d427e;
+}
+
+.custom-table-v2 .table-striped>tbody>tr:nth-of-type(even)>*{
+    background-color: #fff;
+}
+
+
+/* hybrid-table start */
+.table-label,
+.input-style-1 label.table-label, 
+.input-style-2 label.table-label, 
+.input-style-3 label.table-label, 
+.select-style-1 label.table-label, 
+.buttonmerge label.table-label{	
+	font-weight: 600;
+    margin-right: 2px;
+    font-size: 13px;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.custom-table.hybrid-table .table thead th, .custom-table.hybrid-table .table tbody td{    
+    padding: 10px !important;
+}
+.custom-table.hybrid-table .input-style-2,
+.custom-table.hybrid-table .input-style-1,
+.custom-table.hybrid-table .select-style-1,
+.simple-table.hybrid-table .input-style-2,
+.simple-table.hybrid-table .input-style-1,
+.simple-table.hybrid-table .select-style-1,
+.custom-table.hybrid-table .input-style-form-check,
+.simple-table.hybrid-table .input-style-form-check_block,
+.custom-table.hybrid-table .input-style-form-check_block{
+	margin: 5px 0;
+}
+.hybrid-table .table tbody tr,
+.custom-table.hybrid-table .table td.min-width {
+    vertical-align: top;
+}
+.custom-table.hybrid-table .table thead tr> th:first-child,
+.custom-table.hybrid-table .table tbody tr> td:first-child{
+    width: 46px !important;
+    min-width: 46px !important;
+    max-width: 46px !important;    
+}
+.custom-table.hybrid-table td, .simple-table.hybrid-table td {
+    padding: 5px;
+}
+.hybrid-table .table .row{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.hybrid-table .table .row>*{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.hybrid-table .input-style-1 input, 
+.hybrid-table .input-style-1 textarea,
+.hybrid-table .select-style-1 .select-position select,
+.hybrid-table .input-style-2 input, .input-style-2 textarea{
+	font-size: 13px;
+	line-height: 13px;
+}
+.hybrid-table .input-style-1 input, 
+.hybrid-table .input-style-1 textarea{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.hybrid-table .select-style-1 .select-position select,
+.hybrid-table .input-style-2 input{
+    padding-left: 5px;
+    padding-right: 28px;
+    height: 42px;
+}
+.hybrid-table .input-style-2 .ui-datepicker-trigger{
+	min-height: 40px;
+}
+.hybrid-table .input-style-2 .ui-datepicker-trigger .icon{
+	padding: 8px 13px;
+    font-size: 16px;
+}
+.custom-table.hybrid-table .table tbody td,
+.custom-table.hybrid-table .table thead th {
+	min-width: 240px !important;
+}
+.custom-table.hybrid-table tr td.last-sticky, 
+.custom-table.hybrid-table tr th.last-sticky,
+.custom-table tr th.last-sticky,
+.custom-table tr td.last-sticky{
+	width: 65px !important;
+    min-width: 65px !important;
+    max-width: 65px !important;
+    background-color: rgba(13,66,126,0.8);
+    right: 0 !important;
+    position: sticky !important;
+    z-index: 2 !important;
+    top: 0;
+    border-top: 1px solid #f0f0f0 !important;
+}
+
+.custom-table.hybrid-table tr:first-child td.last-sticky, 
+.custom-table.hybrid-table tr:first-child th.last-sticky,
+.custom-table tr:first-child th.last-sticky,
+.custom-table tr:first-child td.last-sticky{
+	border-top: none;
+}
+/* hybrid-table end */
+
+/* temp sr. number remove */
+.custom-table.custom-sr-none .table thead>tr:first-child>th:first-child, .custom-table.custom-sr-none .table tbody>tr:first-child>td:first-child {
+    width: 150px !important;
+    min-width: 150px !important;
+    max-width: 150px !important;
+    text-align: center !important;
+}
+
+
+
+

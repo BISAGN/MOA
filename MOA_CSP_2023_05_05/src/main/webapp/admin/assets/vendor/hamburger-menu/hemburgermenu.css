@@ -1,0 +1,209 @@
+/*---------------------
+HAMBURGER MENU
+----------------------*/
+
+.hamburger-menu {
+  position: relative; 
+  top: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;  
+  z-index: 102;
+  background:#c0d9f5;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  margin-bottom: 14px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 2px 2px 0px rgb(155 155 155 / 60%);
+    -moz-box-shadow: 0px 2px 2px 0px rgb(155 155 155 / 60%);
+    box-shadow: 0px 2px 2px 0px rgb(155 155 155 / 60%);
+}
+
+.bar,
+.bar:after,
+.bar:before {
+  width: 30px;
+  height: 3px;
+}
+
+.bar {
+  position: relative;
+  transform: translateY(10px);  
+  transition: all 0ms 300ms;
+  cursor: pointer;
+}
+
+.bar.animate {
+  background: rgba(255, 255, 255, 0);
+}
+
+.bar:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;  
+  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;  
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar.animate:after {
+  top: 0;
+  transform: rotate(45deg);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar.animate:before {
+  bottom: 0;
+  transform: rotate(-45deg);
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/*---------------------
+Mobiles Menu 
+----------------------*/
+	/*---------------------
+	Mobiles Menu - Design 
+	----------------------*/
+
+.mobile-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-menu li {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+    text-transform: initial;
+    padding-left: 15px;
+}
+
+
+.mobile-menu li:hover {
+  background: #c0d9f5;
+}
+
+.mobile-menu li a {
+  text-decoration: none;
+  color: #262d3f;
+}
+
+	/*---------------------
+	Mobiles Menu - Slide IN 
+	----------------------*/
+
+.mobile-menu {
+  top: 65px;
+  max-width: 250px;
+  left: -100%;
+  width: 100%;
+  background: #f0f7ff;
+  color: #262d3f;
+  height: 100%;
+  position: absolute;
+  z-index: 101;
+  overflow-y: auto;
+  -webkit-transform: translate3d(0, 0, 205px);
+  -moz-transform: translate3d(0, 0, 205px);
+  transform: translate3d(0, 0, 205px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+   border-radius: 0 0 4px 4px;
+   -webkit-box-shadow: 0px 2px 4px 0px rgb(155 155 155 / 60%);
+    -moz-box-shadow: 0px 2px 4px 0px rgb(155 155 155 / 60%);
+    box-shadow: 0px 2px 4px 0px rgb(155 155 155 / 60%);
+}
+
+.mobile-menu.active {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+	/*---------------------
+	Mobiles Menu - Dropdown Submenu
+	----------------------*/
+
+.has-children:hover{
+	cursor:hand;
+}
+
+.children {
+	display:none;	
+}
+
+.mobile-menu .children li:first-child {
+  margin-top: 0px;
+}
+
+.icon-arrow {
+	position: absolute;
+	display: block;
+	font-size: 0.7em;
+	color: #262d3f;
+	top: 8px;
+	right: 10px;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg); 
+	transition: .6s;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;	 
+}
+  
+.icon-arrow:after {
+    content: "\ea5e";
+    font: normal normal normal 1em/1 "LineIcons";
+}
+
+.icon-arrow.open {
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg); 
+  transition: .6s;
+  -webkit-transition: .6s;
+  -moz-transition: .6s; 		
+}
+
+.custom-mobile-menu{
+   position: relative;
+}
+.bar,
+.bar:before,
+.bar:after{
+	background: #717171;
+}
+
+.hamburger-menu .hm-title{
+	text-align: center;
+	padding-left: 32px;
+}
+
+.hamburger-menu .hm-title-text {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.hm-menu-title {
+    padding: 8px 15px;
+    background: #e2e2e2;
+    color: #7d7d7d;
+}
+
+

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.hide{
+display:none;
+}
+.auto-fill-count input{ 
+     background: #ebebeb;
+} 
+.auto-Count-div .input-with-value{ 
+     position: relative; 
+     margin-bottom: 20px; 
+     z-index: 1; 
+     background: #f1f1f1; 
+     overflow:auto; 
+} 
+.simple-table .table tbody td {
+    font-size: 14px;
+}
+
+.dataTables_scroll table.dataTable .buttons-group {
+    padding: 0;
+}
+
+.dataTables_scroll table.dataTable ul.buttons-group li a.btn-sm{
+    margin: 0;
+}
+
+.mainbtn {
+    margin: 0;
+}
+.sidebar-nav-wrapper .sidebar-nav ul .nav-item.nav-item-has-children>a::after {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+@media (max-width: 1199px){
+.Seat_Allocation .col {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+}
+@media (max-width: 991px){
+.Seat_Allocation .col {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+
+@media (max-width: 575px){
+.Seat_Allocation .col {
+    flex: 0 0 auto;
+    width: 100%;
+}
+}
